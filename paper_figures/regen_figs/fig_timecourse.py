@@ -12,13 +12,13 @@ _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from paper_fig_style import apply_style, save, panel, RES, IOP_FULL, C, INK, GREY
 
 apply_style()
-NET = "#882255"
+NET = C["net"]
 D = os.path.join(RES, "reflex", "s20_timecourse")
 ARMS = [("now_ridge", "ridge, state now", C["lin"]), ("snap_ridge", "ridge, one spectrum", C["lin"]),
-        ("snap_mlp", "perceptron, one spectrum", NET), ("snap_kc", "sparse code, one spectrum", C["conn"]),
+        ("snap_mlp", "perceptron, one spectrum", NET), ("snap_kc", "connectome model,\none spectrum", C["conn"]),
         ("seq_ridge", "ridge, last 8 spectra", C["lin"]), ("lstm_tuned", "LSTM, last 8 spectra", NET),
-        ("seq_kc", "sparse code, now + 14 s ago", C["conn"]), ("trend_rule", "rate rule from estimates", C["phys"]),
-        ("oracle_k", "known rate (bound)", INK)]
+        ("seq_kc", "connectome model,\nnow + 14 s ago", C["conn"]), ("trend_rule", "rate rule from estimates", C["phys"]),
+        ("oracle_k", "known rate (bound)", C["gp"])]
 
 
 def lost(nc):
@@ -51,8 +51,8 @@ for f in glob.glob(f"{R}/s19_online_nets/s19_s1b_s*_*.json"):
 for f in glob.glob(f"{R}/s19_online_nets/tuned/s19_s1b_s*.json"):
     j = json.load(open(f)); det = list(j["det"])[0]; tag = os.path.basename(f).split(f"_{det}")[1][:-5]
     new.setdefault(det + tag, []).append(j["det"][det]["auroc"])
-nets = [("ae16", "ae16_t_rp0", "autoencoder 16"), ("ae46", "ae46_t_rp0", "autoencoder 46"),
-        ("lstmae16", "lstmae16_t_rp0", "LSTM, reconstructing"), (None, "ae16_t_rp59", "autoencoder 16\n+ replay")]
+nets = [("ae16", "ae16_t_rp0", "autoencoder,\n16 hidden units"), ("ae46", "ae46_t_rp0", "autoencoder,\n46 hidden units"),
+        ("lstmae16", "lstmae16_t_rp0", "LSTM,\nreconstructing"), (None, "ae16_t_rp59", "autoencoder, 16\nunits + replay")]
 fly = np.mean([s1[s]["fly"]["auroc"] for s in s1 if s <= 20])
 b.axvline(fly, color=C["conn"], lw=1.0, label="connectome model")
 yy = np.arange(len(nets))[::-1]

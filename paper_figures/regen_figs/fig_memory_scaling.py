@@ -24,9 +24,9 @@ A = [s_ for s_ in A if "fly_rec" in s_["det"]] or A
 B = [json.load(open(f)) for f in sorted(glob.glob(os.path.join(D, "b", "s22b_s*.json")))]
 Q = json.load(open(os.path.join(D, "llm.json")))["Qwen3.5-9B"]
 ARMS = [("fly", "connectome model", C["conn"], "-"), ("fly_rec", "connectome model, slow recovery", C["conn"], "--"), ("zscore", "per-band z-score", C["z"], "-"),
-        ("knn_budget", "nearest nbr., equal memory", C["knn"], "-"), ("knn_full", "nearest nbr., every reading", C["knn"], "--"),
-        ("ae_res", "autoencoder, fixed replay", C["lin"], "-"), ("ae_full", "autoencoder, full replay", C["lin"], "--")]
-fig, (a, b, c) = plt.subplots(1, 3, figsize=(IOP_FULL, 3.1), gridspec_kw=dict(wspace=0.5))
+        ("knn_budget", "nearest neighbour, equal memory", C["knn"], "-"), ("knn_full", "nearest neighbour, every reading", C["knn"], "--"),
+        ("ae_res", "autoencoder, fixed replay buffer", C["net"], "-"), ("ae_full", "autoencoder, replays every reading", C["net"], "--")]
+fig, (a, b, c) = plt.subplots(1, 3, figsize=(IOP_FULL, 3.4), gridspec_kw=dict(wspace=0.72))
 
 N = np.array([r["N"] for r in A[0]["det"]["fly"]])
 for k, lab, col, ls in ARMS:
@@ -34,11 +34,17 @@ for k, lab, col, ls in ARMS:
     a.plot(N, np.median([[r["bytes"] for r in s["det"][k]] for s in A], 0), color=col, ls=ls, marker="o", ms=2.5, label=lab)
 n = np.logspace(2, 5, 30); a.plot(n, 16 * n ** 2 + 448 * n, color=C["gp"], ls=":", label="Gaussian process")
 nl = np.logspace(2, np.log10(Q["max_context"] / Q["tokens_per_reading"]), 20)
-a.plot(nl, Q["linear_state_bytes"] + Q["kv_bytes_per_token"] * Q["tokens_per_reading"] * nl, color=C["phys"], ls="-.",
-       label="9B language model, in context")
-a.plot([nl[-1]], [Q["linear_state_bytes"] + Q["kv_bytes_per_token"] * Q["max_context"]], marker="x", color=C["phys"], ms=4)
-for y, t in ((264e3, "Pico 264 kB"), (8e9, "Pi 5 8 GB"), (128e9, "DGX 128 GB")):
-    a.axhline(y, color=GREY, lw=0.5); a.text(9.5e4, y * 1.5, t, fontsize=6, color=GREY, ha="right")
+a.plot(nl, Q["linear_state_bytes"] + Q["kv_bytes_per_token"] * Q["tokens_per_reading"] * nl, color=C["gp"], ls="-.",
+       label="9-billion-parameter language model,\nreadings kept in its prompt")
+a.plot([nl[-1]], [Q["linear_state_bytes"] + Q["kv_bytes_per_token"] * Q["max_context"]], marker="x", color=C["gp"], ms=4)
+RAM = ((264e3, "Pico"), (8e9, "Pi 5"), (128e9, "DGX"))
+for y, t in RAM:
+    a.axhline(y, color=C["dev"], lw=0.6, ls=(0, (4, 2)))
+ram_ax = a.twinx()
+ram_ax.set_yscale("log"); ram_ax.set_ylim(100, 1e12)
+ram_ax.set_yticks([y for y, _ in RAM], [t for _, t in RAM])
+ram_ax.minorticks_off(); ram_ax.tick_params(axis="y", length=2, pad=1, labelsize=6.3)
+ram_ax.spines["right"].set_visible(False)
 a.set_xscale("log"); a.set_yscale("log"); a.set_xlim(100, 1e5); a.set_ylim(100, 1e12)
 a.set_xlabel("readings seen"); a.set_ylabel("memory held (bytes)"); panel(a, "a")
 
@@ -55,15 +61,18 @@ def med_iqr(k):
     return by, np.median(au), np.percentile(au, 25), np.percentile(au, 75)
 
 
-for keys, lab, col, mk in (([f"kc_x{s:g}" for s in (0.25, 0.5, 1, 2, 4, 8)], "connectome-shaped, 0.25-8x KCs", C["conn"], "o"),
-                           ([f"knn_eq{s:g}" for s in (0.25, 0.5, 1, 2, 4, 8)], "nearest nbr., same plastic memory", C["knn"], "s"),
-                           ([f"ae{h}" for h in (16, 64, 256, 1024)], "autoencoder, 16-1,024 wide", C["lin"], "^")):
+for keys, lab, col, mk in (([f"kc_x{s:g}" for s in (0.25, 0.5, 1, 2, 4, 8)], "connectome model resized,\n0.25 to 8 times the Kenyon cells", C["conn"], "o"),
+                           ([f"knn_eq{s:g}" for s in (0.25, 0.5, 1, 2, 4, 8)], "nearest neighbour,\nsame plastic memory", C["knn"], "s"),
+                           ([f"ae{h}" for h in (16, 64, 256, 1024)], "autoencoder, 16 to\n1,024 hidden units", C["net"], "^")):
     v = np.array([med_iqr(k) for k in keys])
     c.errorbar(v[:, 0], v[:, 1], yerr=[v[:, 1] - v[:, 2], v[:, 3] - v[:, 1]], color=col, marker=mk, ms=3, lw=0.9, capsize=1.5, label=lab)
 v = med_iqr("knn_full"); c.errorbar([v[0]], [v[1]], yerr=[[v[1] - v[2]], [v[3] - v[1]]], color=C["knn"], marker="D", mfc="white", ms=3.5,
-                                     capsize=1.5, ls="none", label="nearest nbr., every reading")
+                                     capsize=1.5, ls="none", label="nearest neighbour,\nevery reading")
 c.set_xscale("log"); c.set_xlabel("memory held (bytes)"); c.set_ylabel("AUROC"); c.set_ylim(0.7, 1.0); panel(c, "c")
 h1, l1 = a.get_legend_handles_labels(); h3, l3 = c.get_legend_handles_labels()
-fig.legend(h1 + h3, l1 + l3, loc="lower center", ncol=3, fontsize=6.3, columnspacing=1.0, handlelength=2.2)
-fig.subplots_adjust(left=0.09, right=0.99, bottom=0.39, top=0.94)
+fig.legend(h1, l1, loc="lower left", bbox_to_anchor=(0.04, 0.0), ncol=2, fontsize=6.3, columnspacing=1.2, handlelength=2.4,
+           title="(a) and (b)", title_fontsize=6.5, alignment="left")
+fig.legend(h3, l3, loc="lower left", bbox_to_anchor=(0.69, 0.035), ncol=1, fontsize=6.3, handlelength=2.0,
+           title="(c)", title_fontsize=6.5, alignment="left")
+fig.subplots_adjust(left=0.09, right=0.99, bottom=0.44, top=0.93, wspace=0.72)
 save(fig, "fig_memory_scaling")

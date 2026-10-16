@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os as _os, sys as _sys
 _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
-from paper_fig_style import apply_style, save, RES, IOP_FULL, C, INK
+from paper_fig_style import apply_style, save, RES, IOP_FULL, C, INK, GREY
 
 apply_style()
 
@@ -23,33 +23,43 @@ s16m = load("s16_device/s16_multi_s*.json")
 fig, axs = plt.subplots(1, 3, figsize=(IOP_FULL, 2.3), gridspec_kw=dict(wspace=0.45))
 
 
-def band(ax, x, V, col, lab, ls="-", mk="o"):
+def band(ax, x, V, col, lab, ls="-", mk="o", show_band=True, mfc=None):
     V = np.array(V, float); q1, m, q3 = np.percentile(V, [25, 50, 75], axis=0)
-    ax.fill_between(x, q1, q3, color=col, alpha=0.18, lw=0)
-    ax.plot(x, m, ls, color=col, marker=mk, ms=2.5, label=lab)
+    if show_band:
+        ax.fill_between(x, q1, q3, color=col, alpha=0.18, lw=0)
+    ax.plot(x, m, ls=ls, color=col, marker=mk, ms=2.8, mfc=mfc or col, mew=0.7, label=lab)
 
 
 ax = axs[0]; NS = [int(n) for n in s15[0]["task_a"]["arms"]["fly"]["auroc_by_n"]]
-for k, col, lab, ls in (("fly", C["conn"], "measured", "-"), ("shuf", C["shuf"], "shuffled", "-"), ("rand", C["rand"], "random sparse", "-"),
-                        ("dense", C["lin"], "dense random", "--"), ("logreg", C["gp"], "logistic regression", ":"), ("knn", C["knn"], "nearest neighbour", ":")):
-    band(ax, NS, [[d["task_a"]["arms"][k]["auroc_by_n"][str(n)] for n in NS] for d in s15], col, lab, ls)
+for k, col, lab, ls, mk, bnd in (("fly", C["conn"], "measured", "-", "o", True), ("shuf", C["shuf"], "shuffled", "-", "s", False),
+                                 ("rand", C["rand"], "random sparse", "-", "^", False), ("dense", C["rand"], "dense random", "--", "v", False),
+                                 ("logreg", C["lin"], "logistic regression", ":", "D", False),
+                                 ("knn", C["knn"], "nearest neighbour", ":", "o", True)):
+    band(ax, NS, [[d["task_a"]["arms"][k]["auroc_by_n"][str(n)] for n in NS] for d in s15], col, lab, ls, mk, bnd)
 ax.set_xscale("log"); ax.set_xticks(NS); ax.set_xticklabels([str(n) for n in NS]); ax.minorticks_off()
-ax.set_xlabel("training probes (Mo)"); ax.set_ylabel("held-out AUROC"); ax.set_ylim(0.75, 1.0)
-ax.legend(loc="lower right", fontsize=6, handlelength=1.6, borderaxespad=0.2)
+ax.set_xlabel("MoS$_2$ training probes"); ax.set_ylabel("held-out AUROC"); ax.set_ylim(0.75, 1.0)
+ax.legend(loc="lower right", fontsize=6.2, handlelength=1.8, borderaxespad=0.2)
 
 ax = axs[1]
 ideal = [d["stream"]["ideal"]["auroc"] for d in s16]
-for key, levels, col, lab in (("o_levels", [2, 4, 8, 16, 32, 64], C["conn"], "output synapses"), ("w_levels", [1, 2, 4, 8, 16], C["shuf"], "PN$\\to$KC crossbar")):
-    band(ax, levels, [[d["stream"][f"{key}={L}"]["auroc"] for L in levels] for d in s16], col, lab)
-ax.axhline(np.median(ideal), color=INK, lw=0.6, ls="--"); ax.text(64, np.median(ideal) + 0.003, "floating point", fontsize=6, color=INK, ha="right")
-ax.axhline(np.median([d["stream"]["knn_budget"]["auroc"] for d in s16]), color=C["knn"], lw=0.6, ls=":")
-ax.set_xscale("log", base=2); ax.set_xticks([1, 2, 4, 8, 16, 64]); ax.set_xticklabels(["1", "2", "4", "8", "16", "64"]); ax.minorticks_off()
-ax.set_xlabel("conductance levels"); ax.set_ylabel("AUROC, Janus line"); ax.legend(loc="lower right", fontsize=6, handlelength=1.6)
+for key, levels, ls, mk, lab in (("o_levels", [2, 4, 8, 16, 32, 64], "-", "o", "output synapses"),
+                                 ("w_levels", [1, 2, 4, 8, 16], "--", "s", "fixed crossbar")):
+    band(ax, levels, [[d["stream"][f"{key}={L}"]["auroc"] for L in levels] for d in s16], C["dev"], lab, ls, mk,
+         mfc="white" if ls == "--" else None)
+ax.axhline(np.median(ideal), color=GREY, lw=0.7, ls="-")
+ax.text(64, np.median(ideal) + 0.002, "floating point", fontsize=6.2, color=INK, ha="right", va="bottom")
+knn = np.median([d["stream"]["knn_budget"]["auroc"] for d in s16])
+ax.axhline(knn, color=C["knn"], lw=0.8, ls=":")
+ax.text(0.95, knn - 0.002, "nearest\nneighbour", fontsize=6.2, color=C["knn"], ha="left", va="top")
+ax.set_xscale("log", base=2); ax.set_xticks([1, 2, 4, 8, 16, 32, 64]); ax.set_xticklabels(["1", "2", "4", "8", "16", "32", "64"]); ax.minorticks_off()
+ax.set_xlabel("conductance levels"); ax.set_ylabel("AUROC, Janus line"); ax.legend(loc="lower right", fontsize=6.2, handlelength=2.2)
 
 ax = axs[2]
-for key, vals, col, lab in (("spread", [0.05, 0.1, 0.2, 0.3, 0.5], C["phys"], "device-to-device spread"), ("read", [0.02, 0.05, 0.1, 0.2], C["z"], "read noise")):
-    band(ax, [0] + vals, [[d["stream"]["ideal"]["auroc"]] + [d["stream"][f"{key}={v}"]["auroc"] for v in vals] for d in s16m], col, lab)
-ax.set_xlabel("relative standard deviation"); ax.set_ylabel("AUROC, four-family facility"); ax.legend(loc="lower right", fontsize=6, handlelength=1.6)
+for key, vals, ls, mk, lab in (("spread", [0.05, 0.1, 0.2, 0.3, 0.5], "-", "o", "device-to-device spread"),
+                               ("read", [0.02, 0.05, 0.1, 0.2], "--", "s", "read noise")):
+    band(ax, [0] + vals, [[d["stream"]["ideal"]["auroc"]] + [d["stream"][f"{key}={v}"]["auroc"] for v in vals] for d in s16m],
+         C["dev"], lab, ls, mk, mfc="white" if ls == "--" else None)
+ax.set_xlabel("relative standard deviation"); ax.set_ylabel("AUROC, four-family facility"); ax.legend(loc="upper right", fontsize=6.2, handlelength=2.2, borderaxespad=0.1)
 
 for a_, L in zip(axs, "abc"):
     a_.text(-0.32, 1.04, f"({L})", transform=a_.transAxes, fontsize=9, fontweight="bold", va="bottom")

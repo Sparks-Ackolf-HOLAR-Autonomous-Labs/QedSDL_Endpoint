@@ -4,29 +4,35 @@ path	role	bytes
 CITATION.cff	repository file	763
 LICENSE	repository file	1093
 LICENSE-CC-BY-4.0.txt	repository file	18657
-README.md	repository file	3981
-paper_figures/figures/fig_concept.pdf	figure (CC BY 4.0)	1178162
-paper_figures/figures/fig_concept.png	figure (CC BY 4.0)	828236
-paper_figures/figures/fig_memory_scaling.pdf	figure (CC BY 4.0)	35606
-paper_figures/figures/fig_memory_scaling.png	figure (CC BY 4.0)	260165
-paper_figures/figures/fig_one_shot.pdf	figure (CC BY 4.0)	32965
-paper_figures/figures/fig_one_shot.png	figure (CC BY 4.0)	178214
-paper_figures/figures/fig_s5b.pdf	figure (CC BY 4.0)	28948
-paper_figures/figures/fig_s5b.png	figure (CC BY 4.0)	241363
-paper_figures/figures/fig_timecourse.pdf	figure (CC BY 4.0)	25540
-paper_figures/figures/fig_timecourse.png	figure (CC BY 4.0)	137624
-paper_figures/figures/fig_trained_device.pdf	figure (CC BY 4.0)	29805
-paper_figures/figures/fig_trained_device.png	figure (CC BY 4.0)	217553
-paper_figures/figures/fig_wiring.pdf	figure (CC BY 4.0)	30345
-paper_figures/figures/fig_wiring.png	figure (CC BY 4.0)	267782
-paper_figures/regen_figs/fig_concept.py	code (MIT)	7707
-paper_figures/regen_figs/fig_memory_scaling.py	code (MIT)	4910
-paper_figures/regen_figs/fig_one_shot.py	code (MIT)	2840
-paper_figures/regen_figs/fig_s5b.py	code (MIT)	3758
-paper_figures/regen_figs/fig_timecourse.py	code (MIT)	4366
-paper_figures/regen_figs/fig_trained_device.py	code (MIT)	3797
-paper_figures/regen_figs/fig_wiring.py	code (MIT)	2419
-paper_figures/regen_figs/paper_fig_style.py	code (MIT)	1808
+README.md	repository file	4302
+paper_figures/figures/fig_concept.pdf	figure (CC BY 4.0)	1226624
+paper_figures/figures/fig_concept.png	figure (CC BY 4.0)	866784
+paper_figures/figures/fig_facility.pdf	figure (CC BY 4.0)	30756
+paper_figures/figures/fig_facility.png	figure (CC BY 4.0)	138317
+paper_figures/figures/fig_memory_scaling.pdf	figure (CC BY 4.0)	34062
+paper_figures/figures/fig_memory_scaling.png	figure (CC BY 4.0)	279109
+paper_figures/figures/fig_one_shot.pdf	figure (CC BY 4.0)	38202
+paper_figures/figures/fig_one_shot.png	figure (CC BY 4.0)	257078
+paper_figures/figures/fig_s5b.pdf	figure (CC BY 4.0)	27424
+paper_figures/figures/fig_s5b.png	figure (CC BY 4.0)	204701
+paper_figures/figures/fig_spectra.pdf	figure (CC BY 4.0)	38301
+paper_figures/figures/fig_spectra.png	figure (CC BY 4.0)	175752
+paper_figures/figures/fig_timecourse.pdf	figure (CC BY 4.0)	24318
+paper_figures/figures/fig_timecourse.png	figure (CC BY 4.0)	155421
+paper_figures/figures/fig_trained_device.pdf	figure (CC BY 4.0)	26377
+paper_figures/figures/fig_trained_device.png	figure (CC BY 4.0)	210111
+paper_figures/figures/fig_wiring.pdf	figure (CC BY 4.0)	29684
+paper_figures/figures/fig_wiring.png	figure (CC BY 4.0)	253513
+paper_figures/regen_figs/fig_concept.py	code (MIT)	9245
+paper_figures/regen_figs/fig_facility.py	code (MIT)	2863
+paper_figures/regen_figs/fig_memory_scaling.py	code (MIT)	5498
+paper_figures/regen_figs/fig_one_shot.py	code (MIT)	4000
+paper_figures/regen_figs/fig_s5b.py	code (MIT)	4009
+paper_figures/regen_figs/fig_spectra.py	code (MIT)	4499
+paper_figures/regen_figs/fig_timecourse.py	code (MIT)	4419
+paper_figures/regen_figs/fig_trained_device.py	code (MIT)	4390
+paper_figures/regen_figs/fig_wiring.py	code (MIT)	3764
+paper_figures/regen_figs/paper_fig_style.py	code (MIT)	2666
 requirements.txt	repository file	57
 results/anatomy/fig1_anatomy.npz	result file (CC BY 4.0)	3616878
 results/digitise_daniel2026/README.md	result file (CC BY 4.0)	3802

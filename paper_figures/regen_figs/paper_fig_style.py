@@ -16,9 +16,21 @@ RES = os.path.normpath(os.path.join(HERE, "..", "..", "results"))
 OUT = os.path.normpath(os.path.join(HERE, "..", "figures"))
 
 INK, GREY = "#333333", "#8C8C8C"
-# One colour per method family, the same in every figure (Okabe-Ito, colour-vision-deficiency safe).
+# One colour per method family, the same meaning in every figure (Okabe-Ito based,
+# colour-vision-deficiency safe):
+#   conn  green          connectome model, measured wiring ("connectome model, Kenyon-cell code")
+#   shuf  sky blue       degree-preserving shuffled wiring (used for nothing else)
+#   rand  reddish purple random sparse wiring (dashed: dense random expansion); used for nothing else
+#   knn   blue           nearest neighbour
+#   z     dark orange    per-band z-score
+#   lin   grey           linear models (ridge, logistic regression), ion counter
+#   net   brown          networks trained by gradient (perceptrons, autoencoders, LSTMs)
+#   gp    near black     planners (Gaussian process, language model) and known-rate bound
+#   phys  vermillion     physics-based rules (band ratio, rate rule)
+#   dev   black          device non-idealities (line styles distinguish them)
 C = {"conn": "#009E73", "shuf": "#56B4E9", "rand": "#CC79A7", "knn": "#0072B2", "z": "#C17D00",
-     "lin": "#7F7F7F", "gp": "#333333", "phys": "#D55E00"}
+     "lin": "#7F7F7F", "net": "#8C510A", "gp": "#333333", "phys": "#D55E00", "dev": "#000000"}
+NAME_CONN = "connectome model"
 
 
 def apply_style():

@@ -20,12 +20,14 @@ The tests read the FlyWire connectome (release v783, Zenodo 10.5281/zenodo.10676
 | Figure | File | Script | Data |
 |---|---|---|---|
 | Fig. 1 | `paper_figures/figures/fig_concept.png` | `paper_figures/regen_figs/fig_concept.py` | none (schematic) |
-| Fig. 2 | `paper_figures/figures/fig_one_shot.png` | `paper_figures/regen_figs/fig_one_shot.py` | results/reflex/s4_insitu, s4_lit, s11_irradiation (20 seeds each) |
-| Fig. 3 | `paper_figures/figures/fig_s5b.png` | `paper_figures/regen_figs/fig_s5b.py` | results/reflex/s5b_return (30 seeds) |
-| Fig. 4 | `paper_figures/figures/fig_memory_scaling.png` | `paper_figures/regen_figs/fig_memory_scaling.py` | results/reflex/s22_memory_scaling (10 seeds; llm.json) |
-| Fig. 5 | `paper_figures/figures/fig_timecourse.png` | `paper_figures/regen_figs/fig_timecourse.py` | results/reflex/s20_timecourse (20 seeds), s1b_multi, s19_online_nets (20 seeds) |
-| Fig. 6 | `paper_figures/figures/fig_wiring.png` | `paper_figures/regen_figs/fig_wiring.py` | results/reflex/s1_spectra, s1b_multi, s4_lit, s11_irradiation (20 seeds each) |
-| Fig. 7 | `paper_figures/figures/fig_trained_device.png` | `paper_figures/regen_figs/fig_trained_device.py` | results/reflex/s15_trained, s16_device (20 seeds each) |
+| Fig. 2 | `paper_figures/figures/fig_spectra.png` | `paper_figures/regen_figs/fig_spectra.py` | line set in src/reflex/s1_spectra.py; results/digitise_daniel2026/fig3a_spectra.csv |
+| Fig. 3 | `paper_figures/figures/fig_one_shot.png` | `paper_figures/regen_figs/fig_one_shot.py` | results/reflex/s4_insitu, s4_lit, s11_irradiation (20 seeds each) |
+| Fig. 4 | `paper_figures/figures/fig_facility.png` | `paper_figures/regen_figs/fig_facility.py` | results/reflex/s8_context (20 seeds) |
+| Fig. 5 | `paper_figures/figures/fig_s5b.png` | `paper_figures/regen_figs/fig_s5b.py` | results/reflex/s5b_return (30 seeds) |
+| Fig. 6 | `paper_figures/figures/fig_memory_scaling.png` | `paper_figures/regen_figs/fig_memory_scaling.py` | results/reflex/s22_memory_scaling (10 seeds; llm.json) |
+| Fig. 7 | `paper_figures/figures/fig_timecourse.png` | `paper_figures/regen_figs/fig_timecourse.py` | results/reflex/s20_timecourse (20 seeds), s1b_multi, s19_online_nets (20 seeds) |
+| Fig. 8 | `paper_figures/figures/fig_wiring.png` | `paper_figures/regen_figs/fig_wiring.py` | results/reflex/s1_spectra, s1b_multi, s4_lit, s11_irradiation (20 seeds each) |
+| Fig. 9 | `paper_figures/figures/fig_trained_device.png` | `paper_figures/regen_figs/fig_trained_device.py` | results/reflex/s15_trained, s16_device (20 seeds each) |
 
 ## Tables
 

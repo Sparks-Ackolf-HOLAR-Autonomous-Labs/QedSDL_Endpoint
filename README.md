@@ -1,5 +1,7 @@
 # How the fruit fly connectome can help autonomous materials discovery
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23413469.svg)](https://doi.org/10.5281/zenodo.23413469)
+
 Pre-release code and data for a paper in preparation (Neuromorphic Computing and Engineering, IOP). This folder runs on its own: copy it out, run `git init` inside it, and every figure script runs from the folder root with numpy and matplotlib. The test scripts additionally need the FlyWire v783 release (S13-S14 and S18 also BANC v888 and MaleCNS v1.0; S15-S16, S19 and S20 PyTorch).
 
 | Folder | Contents |

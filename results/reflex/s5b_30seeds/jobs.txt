@@ -1,0 +1,1194 @@
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s1_fly_r3e-4.json 1 fly_r3e-4 > work/p4_s5b30/log/ret_1_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s1_knn_budget.json 1 knn_budget > work/p4_s5b30/log/ret_1_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s1_zscore.json 1 zscore > work/p4_s5b30/log/ret_1_zscore.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s2_fly_r3e-4.json 2 fly_r3e-4 > work/p4_s5b30/log/ret_2_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s2_knn_budget.json 2 knn_budget > work/p4_s5b30/log/ret_2_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s2_zscore.json 2 zscore > work/p4_s5b30/log/ret_2_zscore.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s3_fly_r3e-4.json 3 fly_r3e-4 > work/p4_s5b30/log/ret_3_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s3_knn_budget.json 3 knn_budget > work/p4_s5b30/log/ret_3_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s3_zscore.json 3 zscore > work/p4_s5b30/log/ret_3_zscore.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s4_fly_r3e-4.json 4 fly_r3e-4 > work/p4_s5b30/log/ret_4_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s4_knn_budget.json 4 knn_budget > work/p4_s5b30/log/ret_4_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s4_zscore.json 4 zscore > work/p4_s5b30/log/ret_4_zscore.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s5_fly_r3e-4.json 5 fly_r3e-4 > work/p4_s5b30/log/ret_5_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s5_knn_budget.json 5 knn_budget > work/p4_s5b30/log/ret_5_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s5_zscore.json 5 zscore > work/p4_s5b30/log/ret_5_zscore.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s6_fly_r3e-4.json 6 fly_r3e-4 > work/p4_s5b30/log/ret_6_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s6_knn_budget.json 6 knn_budget > work/p4_s5b30/log/ret_6_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s6_zscore.json 6 zscore > work/p4_s5b30/log/ret_6_zscore.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s7_fly_r0.json 7 fly_r0 > work/p4_s5b30/log/ret_7_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s7_fly_r1e-5.json 7 fly_r1e-5 > work/p4_s5b30/log/ret_7_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s7_fly_r3e-5.json 7 fly_r3e-5 > work/p4_s5b30/log/ret_7_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s7_fly_r1e-4.json 7 fly_r1e-4 > work/p4_s5b30/log/ret_7_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s7_fly_r3e-4.json 7 fly_r3e-4 > work/p4_s5b30/log/ret_7_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s7_fly_r1e-3.json 7 fly_r1e-3 > work/p4_s5b30/log/ret_7_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s7_knn_budget.json 7 knn_budget > work/p4_s5b30/log/ret_7_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s7_zscore.json 7 zscore > work/p4_s5b30/log/ret_7_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 7 ae16 > work/p4_s5b30/log/s19_7_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 7 ae46 > work/p4_s5b30/log/s19_7_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 7 lstmae16 > work/p4_s5b30/log/s19_7_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 7 ae16 > work/p4_s5b30/log/s19_7_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 7 ae16 > work/p4_s5b30/log/s19_7_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 ae16 none > work/p4_s5b30/log/s21_7_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 lstm none > work/p4_s5b30/log/s21_7_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 gru none > work/p4_s5b30/log/s21_7_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 peep none > work/p4_s5b30/log/s21_7_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 mog none > work/p4_s5b30/log/s21_7_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 tfm none > work/p4_s5b30/log/s21_7_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 memae none > work/p4_s5b30/log/s21_7_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 memfast none > work/p4_s5b30/log/s21_7_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 fastw none > work/p4_s5b30/log/s21_7_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 ae16 prio > work/p4_s5b30/log/s21_7_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 lstm prio > work/p4_s5b30/log/s21_7_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 gru prio > work/p4_s5b30/log/s21_7_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 peep prio > work/p4_s5b30/log/s21_7_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 mog prio > work/p4_s5b30/log/s21_7_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 tfm prio > work/p4_s5b30/log/s21_7_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 memae prio > work/p4_s5b30/log/s21_7_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 memfast prio > work/p4_s5b30/log/s21_7_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 fastw prio > work/p4_s5b30/log/s21_7_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 ae16 res > work/p4_s5b30/log/s21_7_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 lstm res > work/p4_s5b30/log/s21_7_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 gru res > work/p4_s5b30/log/s21_7_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 peep res > work/p4_s5b30/log/s21_7_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 mog res > work/p4_s5b30/log/s21_7_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 tfm res > work/p4_s5b30/log/s21_7_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 memae res > work/p4_s5b30/log/s21_7_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 memfast res > work/p4_s5b30/log/s21_7_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 fastw res > work/p4_s5b30/log/s21_7_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 ae16 fifo > work/p4_s5b30/log/s21_7_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 lstm fifo > work/p4_s5b30/log/s21_7_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 gru fifo > work/p4_s5b30/log/s21_7_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 peep fifo > work/p4_s5b30/log/s21_7_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 mog fifo > work/p4_s5b30/log/s21_7_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 tfm fifo > work/p4_s5b30/log/s21_7_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 memae fifo > work/p4_s5b30/log/s21_7_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 memfast fifo > work/p4_s5b30/log/s21_7_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 7 fastw fifo > work/p4_s5b30/log/s21_7_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s8_fly_r0.json 8 fly_r0 > work/p4_s5b30/log/ret_8_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s8_fly_r1e-5.json 8 fly_r1e-5 > work/p4_s5b30/log/ret_8_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s8_fly_r3e-5.json 8 fly_r3e-5 > work/p4_s5b30/log/ret_8_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s8_fly_r1e-4.json 8 fly_r1e-4 > work/p4_s5b30/log/ret_8_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s8_fly_r3e-4.json 8 fly_r3e-4 > work/p4_s5b30/log/ret_8_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s8_fly_r1e-3.json 8 fly_r1e-3 > work/p4_s5b30/log/ret_8_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s8_knn_budget.json 8 knn_budget > work/p4_s5b30/log/ret_8_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s8_zscore.json 8 zscore > work/p4_s5b30/log/ret_8_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 8 ae16 > work/p4_s5b30/log/s19_8_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 8 ae46 > work/p4_s5b30/log/s19_8_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 8 lstmae16 > work/p4_s5b30/log/s19_8_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 8 ae16 > work/p4_s5b30/log/s19_8_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 8 ae16 > work/p4_s5b30/log/s19_8_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 ae16 none > work/p4_s5b30/log/s21_8_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 lstm none > work/p4_s5b30/log/s21_8_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 gru none > work/p4_s5b30/log/s21_8_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 peep none > work/p4_s5b30/log/s21_8_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 mog none > work/p4_s5b30/log/s21_8_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 tfm none > work/p4_s5b30/log/s21_8_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 memae none > work/p4_s5b30/log/s21_8_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 memfast none > work/p4_s5b30/log/s21_8_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 fastw none > work/p4_s5b30/log/s21_8_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 ae16 prio > work/p4_s5b30/log/s21_8_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 lstm prio > work/p4_s5b30/log/s21_8_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 gru prio > work/p4_s5b30/log/s21_8_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 peep prio > work/p4_s5b30/log/s21_8_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 mog prio > work/p4_s5b30/log/s21_8_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 tfm prio > work/p4_s5b30/log/s21_8_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 memae prio > work/p4_s5b30/log/s21_8_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 memfast prio > work/p4_s5b30/log/s21_8_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 fastw prio > work/p4_s5b30/log/s21_8_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 ae16 res > work/p4_s5b30/log/s21_8_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 lstm res > work/p4_s5b30/log/s21_8_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 gru res > work/p4_s5b30/log/s21_8_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 peep res > work/p4_s5b30/log/s21_8_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 mog res > work/p4_s5b30/log/s21_8_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 tfm res > work/p4_s5b30/log/s21_8_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 memae res > work/p4_s5b30/log/s21_8_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 memfast res > work/p4_s5b30/log/s21_8_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 fastw res > work/p4_s5b30/log/s21_8_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 ae16 fifo > work/p4_s5b30/log/s21_8_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 lstm fifo > work/p4_s5b30/log/s21_8_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 gru fifo > work/p4_s5b30/log/s21_8_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 peep fifo > work/p4_s5b30/log/s21_8_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 mog fifo > work/p4_s5b30/log/s21_8_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 tfm fifo > work/p4_s5b30/log/s21_8_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 memae fifo > work/p4_s5b30/log/s21_8_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 memfast fifo > work/p4_s5b30/log/s21_8_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 8 fastw fifo > work/p4_s5b30/log/s21_8_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s9_fly_r0.json 9 fly_r0 > work/p4_s5b30/log/ret_9_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s9_fly_r1e-5.json 9 fly_r1e-5 > work/p4_s5b30/log/ret_9_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s9_fly_r3e-5.json 9 fly_r3e-5 > work/p4_s5b30/log/ret_9_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s9_fly_r1e-4.json 9 fly_r1e-4 > work/p4_s5b30/log/ret_9_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s9_fly_r3e-4.json 9 fly_r3e-4 > work/p4_s5b30/log/ret_9_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s9_fly_r1e-3.json 9 fly_r1e-3 > work/p4_s5b30/log/ret_9_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s9_knn_budget.json 9 knn_budget > work/p4_s5b30/log/ret_9_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s9_zscore.json 9 zscore > work/p4_s5b30/log/ret_9_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 9 ae16 > work/p4_s5b30/log/s19_9_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 9 ae46 > work/p4_s5b30/log/s19_9_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 9 lstmae16 > work/p4_s5b30/log/s19_9_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 9 ae16 > work/p4_s5b30/log/s19_9_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 9 ae16 > work/p4_s5b30/log/s19_9_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 ae16 none > work/p4_s5b30/log/s21_9_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 lstm none > work/p4_s5b30/log/s21_9_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 gru none > work/p4_s5b30/log/s21_9_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 peep none > work/p4_s5b30/log/s21_9_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 mog none > work/p4_s5b30/log/s21_9_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 tfm none > work/p4_s5b30/log/s21_9_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 memae none > work/p4_s5b30/log/s21_9_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 memfast none > work/p4_s5b30/log/s21_9_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 fastw none > work/p4_s5b30/log/s21_9_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 ae16 prio > work/p4_s5b30/log/s21_9_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 lstm prio > work/p4_s5b30/log/s21_9_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 gru prio > work/p4_s5b30/log/s21_9_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 peep prio > work/p4_s5b30/log/s21_9_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 mog prio > work/p4_s5b30/log/s21_9_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 tfm prio > work/p4_s5b30/log/s21_9_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 memae prio > work/p4_s5b30/log/s21_9_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 memfast prio > work/p4_s5b30/log/s21_9_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 fastw prio > work/p4_s5b30/log/s21_9_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 ae16 res > work/p4_s5b30/log/s21_9_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 lstm res > work/p4_s5b30/log/s21_9_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 gru res > work/p4_s5b30/log/s21_9_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 peep res > work/p4_s5b30/log/s21_9_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 mog res > work/p4_s5b30/log/s21_9_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 tfm res > work/p4_s5b30/log/s21_9_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 memae res > work/p4_s5b30/log/s21_9_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 memfast res > work/p4_s5b30/log/s21_9_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 fastw res > work/p4_s5b30/log/s21_9_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 ae16 fifo > work/p4_s5b30/log/s21_9_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 lstm fifo > work/p4_s5b30/log/s21_9_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 gru fifo > work/p4_s5b30/log/s21_9_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 peep fifo > work/p4_s5b30/log/s21_9_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 mog fifo > work/p4_s5b30/log/s21_9_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 tfm fifo > work/p4_s5b30/log/s21_9_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 memae fifo > work/p4_s5b30/log/s21_9_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 memfast fifo > work/p4_s5b30/log/s21_9_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 9 fastw fifo > work/p4_s5b30/log/s21_9_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s10_fly_r0.json 10 fly_r0 > work/p4_s5b30/log/ret_10_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s10_fly_r1e-5.json 10 fly_r1e-5 > work/p4_s5b30/log/ret_10_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s10_fly_r3e-5.json 10 fly_r3e-5 > work/p4_s5b30/log/ret_10_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s10_fly_r1e-4.json 10 fly_r1e-4 > work/p4_s5b30/log/ret_10_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s10_fly_r3e-4.json 10 fly_r3e-4 > work/p4_s5b30/log/ret_10_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s10_fly_r1e-3.json 10 fly_r1e-3 > work/p4_s5b30/log/ret_10_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s10_knn_budget.json 10 knn_budget > work/p4_s5b30/log/ret_10_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s10_zscore.json 10 zscore > work/p4_s5b30/log/ret_10_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 10 ae16 > work/p4_s5b30/log/s19_10_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 10 ae46 > work/p4_s5b30/log/s19_10_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 10 lstmae16 > work/p4_s5b30/log/s19_10_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 10 ae16 > work/p4_s5b30/log/s19_10_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 10 ae16 > work/p4_s5b30/log/s19_10_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 ae16 none > work/p4_s5b30/log/s21_10_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 lstm none > work/p4_s5b30/log/s21_10_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 gru none > work/p4_s5b30/log/s21_10_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 peep none > work/p4_s5b30/log/s21_10_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 mog none > work/p4_s5b30/log/s21_10_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 tfm none > work/p4_s5b30/log/s21_10_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 memae none > work/p4_s5b30/log/s21_10_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 memfast none > work/p4_s5b30/log/s21_10_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 fastw none > work/p4_s5b30/log/s21_10_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 ae16 prio > work/p4_s5b30/log/s21_10_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 lstm prio > work/p4_s5b30/log/s21_10_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 gru prio > work/p4_s5b30/log/s21_10_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 peep prio > work/p4_s5b30/log/s21_10_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 mog prio > work/p4_s5b30/log/s21_10_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 tfm prio > work/p4_s5b30/log/s21_10_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 memae prio > work/p4_s5b30/log/s21_10_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 memfast prio > work/p4_s5b30/log/s21_10_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 fastw prio > work/p4_s5b30/log/s21_10_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 ae16 res > work/p4_s5b30/log/s21_10_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 lstm res > work/p4_s5b30/log/s21_10_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 gru res > work/p4_s5b30/log/s21_10_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 peep res > work/p4_s5b30/log/s21_10_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 mog res > work/p4_s5b30/log/s21_10_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 tfm res > work/p4_s5b30/log/s21_10_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 memae res > work/p4_s5b30/log/s21_10_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 memfast res > work/p4_s5b30/log/s21_10_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 fastw res > work/p4_s5b30/log/s21_10_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 ae16 fifo > work/p4_s5b30/log/s21_10_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 lstm fifo > work/p4_s5b30/log/s21_10_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 gru fifo > work/p4_s5b30/log/s21_10_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 peep fifo > work/p4_s5b30/log/s21_10_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 mog fifo > work/p4_s5b30/log/s21_10_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 tfm fifo > work/p4_s5b30/log/s21_10_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 memae fifo > work/p4_s5b30/log/s21_10_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 memfast fifo > work/p4_s5b30/log/s21_10_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 10 fastw fifo > work/p4_s5b30/log/s21_10_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s11_fly_r0.json 11 fly_r0 > work/p4_s5b30/log/ret_11_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s11_fly_r1e-5.json 11 fly_r1e-5 > work/p4_s5b30/log/ret_11_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s11_fly_r3e-5.json 11 fly_r3e-5 > work/p4_s5b30/log/ret_11_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s11_fly_r1e-4.json 11 fly_r1e-4 > work/p4_s5b30/log/ret_11_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s11_fly_r3e-4.json 11 fly_r3e-4 > work/p4_s5b30/log/ret_11_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s11_fly_r1e-3.json 11 fly_r1e-3 > work/p4_s5b30/log/ret_11_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s11_knn_budget.json 11 knn_budget > work/p4_s5b30/log/ret_11_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s11_zscore.json 11 zscore > work/p4_s5b30/log/ret_11_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 11 ae16 > work/p4_s5b30/log/s19_11_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 11 ae46 > work/p4_s5b30/log/s19_11_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 11 lstmae16 > work/p4_s5b30/log/s19_11_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 11 ae16 > work/p4_s5b30/log/s19_11_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 11 ae16 > work/p4_s5b30/log/s19_11_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 ae16 none > work/p4_s5b30/log/s21_11_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 lstm none > work/p4_s5b30/log/s21_11_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 gru none > work/p4_s5b30/log/s21_11_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 peep none > work/p4_s5b30/log/s21_11_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 mog none > work/p4_s5b30/log/s21_11_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 tfm none > work/p4_s5b30/log/s21_11_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 memae none > work/p4_s5b30/log/s21_11_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 memfast none > work/p4_s5b30/log/s21_11_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 fastw none > work/p4_s5b30/log/s21_11_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 ae16 prio > work/p4_s5b30/log/s21_11_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 lstm prio > work/p4_s5b30/log/s21_11_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 gru prio > work/p4_s5b30/log/s21_11_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 peep prio > work/p4_s5b30/log/s21_11_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 mog prio > work/p4_s5b30/log/s21_11_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 tfm prio > work/p4_s5b30/log/s21_11_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 memae prio > work/p4_s5b30/log/s21_11_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 memfast prio > work/p4_s5b30/log/s21_11_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 fastw prio > work/p4_s5b30/log/s21_11_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 ae16 res > work/p4_s5b30/log/s21_11_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 lstm res > work/p4_s5b30/log/s21_11_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 gru res > work/p4_s5b30/log/s21_11_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 peep res > work/p4_s5b30/log/s21_11_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 mog res > work/p4_s5b30/log/s21_11_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 tfm res > work/p4_s5b30/log/s21_11_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 memae res > work/p4_s5b30/log/s21_11_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 memfast res > work/p4_s5b30/log/s21_11_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 fastw res > work/p4_s5b30/log/s21_11_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 ae16 fifo > work/p4_s5b30/log/s21_11_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 lstm fifo > work/p4_s5b30/log/s21_11_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 gru fifo > work/p4_s5b30/log/s21_11_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 peep fifo > work/p4_s5b30/log/s21_11_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 mog fifo > work/p4_s5b30/log/s21_11_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 tfm fifo > work/p4_s5b30/log/s21_11_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 memae fifo > work/p4_s5b30/log/s21_11_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 memfast fifo > work/p4_s5b30/log/s21_11_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 11 fastw fifo > work/p4_s5b30/log/s21_11_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s12_fly_r0.json 12 fly_r0 > work/p4_s5b30/log/ret_12_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s12_fly_r1e-5.json 12 fly_r1e-5 > work/p4_s5b30/log/ret_12_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s12_fly_r3e-5.json 12 fly_r3e-5 > work/p4_s5b30/log/ret_12_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s12_fly_r1e-4.json 12 fly_r1e-4 > work/p4_s5b30/log/ret_12_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s12_fly_r3e-4.json 12 fly_r3e-4 > work/p4_s5b30/log/ret_12_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s12_fly_r1e-3.json 12 fly_r1e-3 > work/p4_s5b30/log/ret_12_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s12_knn_budget.json 12 knn_budget > work/p4_s5b30/log/ret_12_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s12_zscore.json 12 zscore > work/p4_s5b30/log/ret_12_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 12 ae16 > work/p4_s5b30/log/s19_12_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 12 ae46 > work/p4_s5b30/log/s19_12_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 12 lstmae16 > work/p4_s5b30/log/s19_12_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 12 ae16 > work/p4_s5b30/log/s19_12_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 12 ae16 > work/p4_s5b30/log/s19_12_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 ae16 none > work/p4_s5b30/log/s21_12_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 lstm none > work/p4_s5b30/log/s21_12_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 gru none > work/p4_s5b30/log/s21_12_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 peep none > work/p4_s5b30/log/s21_12_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 mog none > work/p4_s5b30/log/s21_12_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 tfm none > work/p4_s5b30/log/s21_12_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 memae none > work/p4_s5b30/log/s21_12_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 memfast none > work/p4_s5b30/log/s21_12_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 fastw none > work/p4_s5b30/log/s21_12_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 ae16 prio > work/p4_s5b30/log/s21_12_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 lstm prio > work/p4_s5b30/log/s21_12_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 gru prio > work/p4_s5b30/log/s21_12_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 peep prio > work/p4_s5b30/log/s21_12_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 mog prio > work/p4_s5b30/log/s21_12_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 tfm prio > work/p4_s5b30/log/s21_12_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 memae prio > work/p4_s5b30/log/s21_12_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 memfast prio > work/p4_s5b30/log/s21_12_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 fastw prio > work/p4_s5b30/log/s21_12_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 ae16 res > work/p4_s5b30/log/s21_12_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 lstm res > work/p4_s5b30/log/s21_12_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 gru res > work/p4_s5b30/log/s21_12_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 peep res > work/p4_s5b30/log/s21_12_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 mog res > work/p4_s5b30/log/s21_12_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 tfm res > work/p4_s5b30/log/s21_12_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 memae res > work/p4_s5b30/log/s21_12_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 memfast res > work/p4_s5b30/log/s21_12_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 fastw res > work/p4_s5b30/log/s21_12_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 ae16 fifo > work/p4_s5b30/log/s21_12_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 lstm fifo > work/p4_s5b30/log/s21_12_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 gru fifo > work/p4_s5b30/log/s21_12_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 peep fifo > work/p4_s5b30/log/s21_12_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 mog fifo > work/p4_s5b30/log/s21_12_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 tfm fifo > work/p4_s5b30/log/s21_12_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 memae fifo > work/p4_s5b30/log/s21_12_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 memfast fifo > work/p4_s5b30/log/s21_12_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 12 fastw fifo > work/p4_s5b30/log/s21_12_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s13_fly_r0.json 13 fly_r0 > work/p4_s5b30/log/ret_13_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s13_fly_r1e-5.json 13 fly_r1e-5 > work/p4_s5b30/log/ret_13_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s13_fly_r3e-5.json 13 fly_r3e-5 > work/p4_s5b30/log/ret_13_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s13_fly_r1e-4.json 13 fly_r1e-4 > work/p4_s5b30/log/ret_13_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s13_fly_r3e-4.json 13 fly_r3e-4 > work/p4_s5b30/log/ret_13_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s13_fly_r1e-3.json 13 fly_r1e-3 > work/p4_s5b30/log/ret_13_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s13_knn_budget.json 13 knn_budget > work/p4_s5b30/log/ret_13_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s13_zscore.json 13 zscore > work/p4_s5b30/log/ret_13_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 13 ae16 > work/p4_s5b30/log/s19_13_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 13 ae46 > work/p4_s5b30/log/s19_13_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 13 lstmae16 > work/p4_s5b30/log/s19_13_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 13 ae16 > work/p4_s5b30/log/s19_13_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 13 ae16 > work/p4_s5b30/log/s19_13_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 ae16 none > work/p4_s5b30/log/s21_13_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 lstm none > work/p4_s5b30/log/s21_13_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 gru none > work/p4_s5b30/log/s21_13_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 peep none > work/p4_s5b30/log/s21_13_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 mog none > work/p4_s5b30/log/s21_13_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 tfm none > work/p4_s5b30/log/s21_13_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 memae none > work/p4_s5b30/log/s21_13_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 memfast none > work/p4_s5b30/log/s21_13_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 fastw none > work/p4_s5b30/log/s21_13_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 ae16 prio > work/p4_s5b30/log/s21_13_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 lstm prio > work/p4_s5b30/log/s21_13_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 gru prio > work/p4_s5b30/log/s21_13_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 peep prio > work/p4_s5b30/log/s21_13_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 mog prio > work/p4_s5b30/log/s21_13_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 tfm prio > work/p4_s5b30/log/s21_13_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 memae prio > work/p4_s5b30/log/s21_13_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 memfast prio > work/p4_s5b30/log/s21_13_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 fastw prio > work/p4_s5b30/log/s21_13_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 ae16 res > work/p4_s5b30/log/s21_13_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 lstm res > work/p4_s5b30/log/s21_13_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 gru res > work/p4_s5b30/log/s21_13_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 peep res > work/p4_s5b30/log/s21_13_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 mog res > work/p4_s5b30/log/s21_13_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 tfm res > work/p4_s5b30/log/s21_13_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 memae res > work/p4_s5b30/log/s21_13_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 memfast res > work/p4_s5b30/log/s21_13_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 fastw res > work/p4_s5b30/log/s21_13_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 ae16 fifo > work/p4_s5b30/log/s21_13_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 lstm fifo > work/p4_s5b30/log/s21_13_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 gru fifo > work/p4_s5b30/log/s21_13_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 peep fifo > work/p4_s5b30/log/s21_13_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 mog fifo > work/p4_s5b30/log/s21_13_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 tfm fifo > work/p4_s5b30/log/s21_13_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 memae fifo > work/p4_s5b30/log/s21_13_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 memfast fifo > work/p4_s5b30/log/s21_13_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 13 fastw fifo > work/p4_s5b30/log/s21_13_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s14_fly_r0.json 14 fly_r0 > work/p4_s5b30/log/ret_14_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s14_fly_r1e-5.json 14 fly_r1e-5 > work/p4_s5b30/log/ret_14_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s14_fly_r3e-5.json 14 fly_r3e-5 > work/p4_s5b30/log/ret_14_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s14_fly_r1e-4.json 14 fly_r1e-4 > work/p4_s5b30/log/ret_14_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s14_fly_r3e-4.json 14 fly_r3e-4 > work/p4_s5b30/log/ret_14_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s14_fly_r1e-3.json 14 fly_r1e-3 > work/p4_s5b30/log/ret_14_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s14_knn_budget.json 14 knn_budget > work/p4_s5b30/log/ret_14_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s14_zscore.json 14 zscore > work/p4_s5b30/log/ret_14_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 14 ae16 > work/p4_s5b30/log/s19_14_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 14 ae46 > work/p4_s5b30/log/s19_14_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 14 lstmae16 > work/p4_s5b30/log/s19_14_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 14 ae16 > work/p4_s5b30/log/s19_14_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 14 ae16 > work/p4_s5b30/log/s19_14_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 ae16 none > work/p4_s5b30/log/s21_14_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 lstm none > work/p4_s5b30/log/s21_14_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 gru none > work/p4_s5b30/log/s21_14_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 peep none > work/p4_s5b30/log/s21_14_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 mog none > work/p4_s5b30/log/s21_14_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 tfm none > work/p4_s5b30/log/s21_14_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 memae none > work/p4_s5b30/log/s21_14_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 memfast none > work/p4_s5b30/log/s21_14_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 fastw none > work/p4_s5b30/log/s21_14_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 ae16 prio > work/p4_s5b30/log/s21_14_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 lstm prio > work/p4_s5b30/log/s21_14_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 gru prio > work/p4_s5b30/log/s21_14_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 peep prio > work/p4_s5b30/log/s21_14_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 mog prio > work/p4_s5b30/log/s21_14_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 tfm prio > work/p4_s5b30/log/s21_14_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 memae prio > work/p4_s5b30/log/s21_14_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 memfast prio > work/p4_s5b30/log/s21_14_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 fastw prio > work/p4_s5b30/log/s21_14_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 ae16 res > work/p4_s5b30/log/s21_14_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 lstm res > work/p4_s5b30/log/s21_14_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 gru res > work/p4_s5b30/log/s21_14_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 peep res > work/p4_s5b30/log/s21_14_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 mog res > work/p4_s5b30/log/s21_14_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 tfm res > work/p4_s5b30/log/s21_14_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 memae res > work/p4_s5b30/log/s21_14_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 memfast res > work/p4_s5b30/log/s21_14_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 fastw res > work/p4_s5b30/log/s21_14_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 ae16 fifo > work/p4_s5b30/log/s21_14_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 lstm fifo > work/p4_s5b30/log/s21_14_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 gru fifo > work/p4_s5b30/log/s21_14_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 peep fifo > work/p4_s5b30/log/s21_14_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 mog fifo > work/p4_s5b30/log/s21_14_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 tfm fifo > work/p4_s5b30/log/s21_14_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 memae fifo > work/p4_s5b30/log/s21_14_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 memfast fifo > work/p4_s5b30/log/s21_14_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 14 fastw fifo > work/p4_s5b30/log/s21_14_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s15_fly_r0.json 15 fly_r0 > work/p4_s5b30/log/ret_15_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s15_fly_r1e-5.json 15 fly_r1e-5 > work/p4_s5b30/log/ret_15_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s15_fly_r3e-5.json 15 fly_r3e-5 > work/p4_s5b30/log/ret_15_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s15_fly_r1e-4.json 15 fly_r1e-4 > work/p4_s5b30/log/ret_15_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s15_fly_r3e-4.json 15 fly_r3e-4 > work/p4_s5b30/log/ret_15_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s15_fly_r1e-3.json 15 fly_r1e-3 > work/p4_s5b30/log/ret_15_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s15_knn_budget.json 15 knn_budget > work/p4_s5b30/log/ret_15_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s15_zscore.json 15 zscore > work/p4_s5b30/log/ret_15_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 15 ae16 > work/p4_s5b30/log/s19_15_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 15 ae46 > work/p4_s5b30/log/s19_15_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 15 lstmae16 > work/p4_s5b30/log/s19_15_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 15 ae16 > work/p4_s5b30/log/s19_15_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 15 ae16 > work/p4_s5b30/log/s19_15_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 ae16 none > work/p4_s5b30/log/s21_15_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 lstm none > work/p4_s5b30/log/s21_15_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 gru none > work/p4_s5b30/log/s21_15_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 peep none > work/p4_s5b30/log/s21_15_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 mog none > work/p4_s5b30/log/s21_15_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 tfm none > work/p4_s5b30/log/s21_15_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 memae none > work/p4_s5b30/log/s21_15_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 memfast none > work/p4_s5b30/log/s21_15_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 fastw none > work/p4_s5b30/log/s21_15_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 ae16 prio > work/p4_s5b30/log/s21_15_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 lstm prio > work/p4_s5b30/log/s21_15_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 gru prio > work/p4_s5b30/log/s21_15_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 peep prio > work/p4_s5b30/log/s21_15_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 mog prio > work/p4_s5b30/log/s21_15_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 tfm prio > work/p4_s5b30/log/s21_15_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 memae prio > work/p4_s5b30/log/s21_15_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 memfast prio > work/p4_s5b30/log/s21_15_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 fastw prio > work/p4_s5b30/log/s21_15_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 ae16 res > work/p4_s5b30/log/s21_15_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 lstm res > work/p4_s5b30/log/s21_15_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 gru res > work/p4_s5b30/log/s21_15_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 peep res > work/p4_s5b30/log/s21_15_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 mog res > work/p4_s5b30/log/s21_15_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 tfm res > work/p4_s5b30/log/s21_15_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 memae res > work/p4_s5b30/log/s21_15_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 memfast res > work/p4_s5b30/log/s21_15_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 fastw res > work/p4_s5b30/log/s21_15_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 ae16 fifo > work/p4_s5b30/log/s21_15_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 lstm fifo > work/p4_s5b30/log/s21_15_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 gru fifo > work/p4_s5b30/log/s21_15_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 peep fifo > work/p4_s5b30/log/s21_15_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 mog fifo > work/p4_s5b30/log/s21_15_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 tfm fifo > work/p4_s5b30/log/s21_15_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 memae fifo > work/p4_s5b30/log/s21_15_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 memfast fifo > work/p4_s5b30/log/s21_15_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 15 fastw fifo > work/p4_s5b30/log/s21_15_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s16_fly_r0.json 16 fly_r0 > work/p4_s5b30/log/ret_16_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s16_fly_r1e-5.json 16 fly_r1e-5 > work/p4_s5b30/log/ret_16_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s16_fly_r3e-5.json 16 fly_r3e-5 > work/p4_s5b30/log/ret_16_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s16_fly_r1e-4.json 16 fly_r1e-4 > work/p4_s5b30/log/ret_16_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s16_fly_r3e-4.json 16 fly_r3e-4 > work/p4_s5b30/log/ret_16_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s16_fly_r1e-3.json 16 fly_r1e-3 > work/p4_s5b30/log/ret_16_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s16_knn_budget.json 16 knn_budget > work/p4_s5b30/log/ret_16_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s16_zscore.json 16 zscore > work/p4_s5b30/log/ret_16_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 16 ae16 > work/p4_s5b30/log/s19_16_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 16 ae46 > work/p4_s5b30/log/s19_16_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 16 lstmae16 > work/p4_s5b30/log/s19_16_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 16 ae16 > work/p4_s5b30/log/s19_16_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 16 ae16 > work/p4_s5b30/log/s19_16_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 ae16 none > work/p4_s5b30/log/s21_16_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 lstm none > work/p4_s5b30/log/s21_16_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 gru none > work/p4_s5b30/log/s21_16_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 peep none > work/p4_s5b30/log/s21_16_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 mog none > work/p4_s5b30/log/s21_16_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 tfm none > work/p4_s5b30/log/s21_16_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 memae none > work/p4_s5b30/log/s21_16_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 memfast none > work/p4_s5b30/log/s21_16_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 fastw none > work/p4_s5b30/log/s21_16_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 ae16 prio > work/p4_s5b30/log/s21_16_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 lstm prio > work/p4_s5b30/log/s21_16_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 gru prio > work/p4_s5b30/log/s21_16_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 peep prio > work/p4_s5b30/log/s21_16_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 mog prio > work/p4_s5b30/log/s21_16_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 tfm prio > work/p4_s5b30/log/s21_16_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 memae prio > work/p4_s5b30/log/s21_16_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 memfast prio > work/p4_s5b30/log/s21_16_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 fastw prio > work/p4_s5b30/log/s21_16_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 ae16 res > work/p4_s5b30/log/s21_16_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 lstm res > work/p4_s5b30/log/s21_16_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 gru res > work/p4_s5b30/log/s21_16_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 peep res > work/p4_s5b30/log/s21_16_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 mog res > work/p4_s5b30/log/s21_16_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 tfm res > work/p4_s5b30/log/s21_16_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 memae res > work/p4_s5b30/log/s21_16_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 memfast res > work/p4_s5b30/log/s21_16_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 fastw res > work/p4_s5b30/log/s21_16_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 ae16 fifo > work/p4_s5b30/log/s21_16_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 lstm fifo > work/p4_s5b30/log/s21_16_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 gru fifo > work/p4_s5b30/log/s21_16_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 peep fifo > work/p4_s5b30/log/s21_16_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 mog fifo > work/p4_s5b30/log/s21_16_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 tfm fifo > work/p4_s5b30/log/s21_16_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 memae fifo > work/p4_s5b30/log/s21_16_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 memfast fifo > work/p4_s5b30/log/s21_16_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 16 fastw fifo > work/p4_s5b30/log/s21_16_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s17_fly_r0.json 17 fly_r0 > work/p4_s5b30/log/ret_17_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s17_fly_r1e-5.json 17 fly_r1e-5 > work/p4_s5b30/log/ret_17_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s17_fly_r3e-5.json 17 fly_r3e-5 > work/p4_s5b30/log/ret_17_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s17_fly_r1e-4.json 17 fly_r1e-4 > work/p4_s5b30/log/ret_17_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s17_fly_r3e-4.json 17 fly_r3e-4 > work/p4_s5b30/log/ret_17_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s17_fly_r1e-3.json 17 fly_r1e-3 > work/p4_s5b30/log/ret_17_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s17_knn_budget.json 17 knn_budget > work/p4_s5b30/log/ret_17_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s17_zscore.json 17 zscore > work/p4_s5b30/log/ret_17_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 17 ae16 > work/p4_s5b30/log/s19_17_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 17 ae46 > work/p4_s5b30/log/s19_17_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 17 lstmae16 > work/p4_s5b30/log/s19_17_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 17 ae16 > work/p4_s5b30/log/s19_17_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 17 ae16 > work/p4_s5b30/log/s19_17_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 ae16 none > work/p4_s5b30/log/s21_17_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 lstm none > work/p4_s5b30/log/s21_17_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 gru none > work/p4_s5b30/log/s21_17_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 peep none > work/p4_s5b30/log/s21_17_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 mog none > work/p4_s5b30/log/s21_17_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 tfm none > work/p4_s5b30/log/s21_17_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 memae none > work/p4_s5b30/log/s21_17_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 memfast none > work/p4_s5b30/log/s21_17_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 fastw none > work/p4_s5b30/log/s21_17_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 ae16 prio > work/p4_s5b30/log/s21_17_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 lstm prio > work/p4_s5b30/log/s21_17_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 gru prio > work/p4_s5b30/log/s21_17_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 peep prio > work/p4_s5b30/log/s21_17_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 mog prio > work/p4_s5b30/log/s21_17_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 tfm prio > work/p4_s5b30/log/s21_17_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 memae prio > work/p4_s5b30/log/s21_17_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 memfast prio > work/p4_s5b30/log/s21_17_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 fastw prio > work/p4_s5b30/log/s21_17_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 ae16 res > work/p4_s5b30/log/s21_17_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 lstm res > work/p4_s5b30/log/s21_17_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 gru res > work/p4_s5b30/log/s21_17_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 peep res > work/p4_s5b30/log/s21_17_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 mog res > work/p4_s5b30/log/s21_17_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 tfm res > work/p4_s5b30/log/s21_17_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 memae res > work/p4_s5b30/log/s21_17_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 memfast res > work/p4_s5b30/log/s21_17_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 fastw res > work/p4_s5b30/log/s21_17_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 ae16 fifo > work/p4_s5b30/log/s21_17_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 lstm fifo > work/p4_s5b30/log/s21_17_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 gru fifo > work/p4_s5b30/log/s21_17_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 peep fifo > work/p4_s5b30/log/s21_17_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 mog fifo > work/p4_s5b30/log/s21_17_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 tfm fifo > work/p4_s5b30/log/s21_17_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 memae fifo > work/p4_s5b30/log/s21_17_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 memfast fifo > work/p4_s5b30/log/s21_17_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 17 fastw fifo > work/p4_s5b30/log/s21_17_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s18_fly_r0.json 18 fly_r0 > work/p4_s5b30/log/ret_18_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s18_fly_r1e-5.json 18 fly_r1e-5 > work/p4_s5b30/log/ret_18_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s18_fly_r3e-5.json 18 fly_r3e-5 > work/p4_s5b30/log/ret_18_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s18_fly_r1e-4.json 18 fly_r1e-4 > work/p4_s5b30/log/ret_18_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s18_fly_r3e-4.json 18 fly_r3e-4 > work/p4_s5b30/log/ret_18_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s18_fly_r1e-3.json 18 fly_r1e-3 > work/p4_s5b30/log/ret_18_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s18_knn_budget.json 18 knn_budget > work/p4_s5b30/log/ret_18_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s18_zscore.json 18 zscore > work/p4_s5b30/log/ret_18_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 18 ae16 > work/p4_s5b30/log/s19_18_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 18 ae46 > work/p4_s5b30/log/s19_18_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 18 lstmae16 > work/p4_s5b30/log/s19_18_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 18 ae16 > work/p4_s5b30/log/s19_18_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 18 ae16 > work/p4_s5b30/log/s19_18_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 ae16 none > work/p4_s5b30/log/s21_18_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 lstm none > work/p4_s5b30/log/s21_18_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 gru none > work/p4_s5b30/log/s21_18_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 peep none > work/p4_s5b30/log/s21_18_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 mog none > work/p4_s5b30/log/s21_18_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 tfm none > work/p4_s5b30/log/s21_18_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 memae none > work/p4_s5b30/log/s21_18_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 memfast none > work/p4_s5b30/log/s21_18_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 fastw none > work/p4_s5b30/log/s21_18_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 ae16 prio > work/p4_s5b30/log/s21_18_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 lstm prio > work/p4_s5b30/log/s21_18_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 gru prio > work/p4_s5b30/log/s21_18_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 peep prio > work/p4_s5b30/log/s21_18_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 mog prio > work/p4_s5b30/log/s21_18_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 tfm prio > work/p4_s5b30/log/s21_18_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 memae prio > work/p4_s5b30/log/s21_18_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 memfast prio > work/p4_s5b30/log/s21_18_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 fastw prio > work/p4_s5b30/log/s21_18_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 ae16 res > work/p4_s5b30/log/s21_18_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 lstm res > work/p4_s5b30/log/s21_18_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 gru res > work/p4_s5b30/log/s21_18_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 peep res > work/p4_s5b30/log/s21_18_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 mog res > work/p4_s5b30/log/s21_18_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 tfm res > work/p4_s5b30/log/s21_18_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 memae res > work/p4_s5b30/log/s21_18_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 memfast res > work/p4_s5b30/log/s21_18_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 fastw res > work/p4_s5b30/log/s21_18_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 ae16 fifo > work/p4_s5b30/log/s21_18_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 lstm fifo > work/p4_s5b30/log/s21_18_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 gru fifo > work/p4_s5b30/log/s21_18_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 peep fifo > work/p4_s5b30/log/s21_18_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 mog fifo > work/p4_s5b30/log/s21_18_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 tfm fifo > work/p4_s5b30/log/s21_18_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 memae fifo > work/p4_s5b30/log/s21_18_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 memfast fifo > work/p4_s5b30/log/s21_18_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 18 fastw fifo > work/p4_s5b30/log/s21_18_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s19_fly_r0.json 19 fly_r0 > work/p4_s5b30/log/ret_19_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s19_fly_r1e-5.json 19 fly_r1e-5 > work/p4_s5b30/log/ret_19_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s19_fly_r3e-5.json 19 fly_r3e-5 > work/p4_s5b30/log/ret_19_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s19_fly_r1e-4.json 19 fly_r1e-4 > work/p4_s5b30/log/ret_19_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s19_fly_r3e-4.json 19 fly_r3e-4 > work/p4_s5b30/log/ret_19_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s19_fly_r1e-3.json 19 fly_r1e-3 > work/p4_s5b30/log/ret_19_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s19_knn_budget.json 19 knn_budget > work/p4_s5b30/log/ret_19_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s19_zscore.json 19 zscore > work/p4_s5b30/log/ret_19_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 19 ae16 > work/p4_s5b30/log/s19_19_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 19 ae46 > work/p4_s5b30/log/s19_19_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 19 lstmae16 > work/p4_s5b30/log/s19_19_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 19 ae16 > work/p4_s5b30/log/s19_19_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 19 ae16 > work/p4_s5b30/log/s19_19_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 ae16 none > work/p4_s5b30/log/s21_19_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 lstm none > work/p4_s5b30/log/s21_19_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 gru none > work/p4_s5b30/log/s21_19_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 peep none > work/p4_s5b30/log/s21_19_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 mog none > work/p4_s5b30/log/s21_19_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 tfm none > work/p4_s5b30/log/s21_19_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 memae none > work/p4_s5b30/log/s21_19_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 memfast none > work/p4_s5b30/log/s21_19_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 fastw none > work/p4_s5b30/log/s21_19_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 ae16 prio > work/p4_s5b30/log/s21_19_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 lstm prio > work/p4_s5b30/log/s21_19_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 gru prio > work/p4_s5b30/log/s21_19_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 peep prio > work/p4_s5b30/log/s21_19_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 mog prio > work/p4_s5b30/log/s21_19_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 tfm prio > work/p4_s5b30/log/s21_19_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 memae prio > work/p4_s5b30/log/s21_19_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 memfast prio > work/p4_s5b30/log/s21_19_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 fastw prio > work/p4_s5b30/log/s21_19_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 ae16 res > work/p4_s5b30/log/s21_19_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 lstm res > work/p4_s5b30/log/s21_19_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 gru res > work/p4_s5b30/log/s21_19_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 peep res > work/p4_s5b30/log/s21_19_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 mog res > work/p4_s5b30/log/s21_19_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 tfm res > work/p4_s5b30/log/s21_19_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 memae res > work/p4_s5b30/log/s21_19_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 memfast res > work/p4_s5b30/log/s21_19_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 fastw res > work/p4_s5b30/log/s21_19_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 ae16 fifo > work/p4_s5b30/log/s21_19_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 lstm fifo > work/p4_s5b30/log/s21_19_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 gru fifo > work/p4_s5b30/log/s21_19_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 peep fifo > work/p4_s5b30/log/s21_19_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 mog fifo > work/p4_s5b30/log/s21_19_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 tfm fifo > work/p4_s5b30/log/s21_19_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 memae fifo > work/p4_s5b30/log/s21_19_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 memfast fifo > work/p4_s5b30/log/s21_19_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 19 fastw fifo > work/p4_s5b30/log/s21_19_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s20_fly_r0.json 20 fly_r0 > work/p4_s5b30/log/ret_20_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s20_fly_r1e-5.json 20 fly_r1e-5 > work/p4_s5b30/log/ret_20_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s20_fly_r3e-5.json 20 fly_r3e-5 > work/p4_s5b30/log/ret_20_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s20_fly_r1e-4.json 20 fly_r1e-4 > work/p4_s5b30/log/ret_20_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s20_fly_r3e-4.json 20 fly_r3e-4 > work/p4_s5b30/log/ret_20_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s20_fly_r1e-3.json 20 fly_r1e-3 > work/p4_s5b30/log/ret_20_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s20_knn_budget.json 20 knn_budget > work/p4_s5b30/log/ret_20_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s20_zscore.json 20 zscore > work/p4_s5b30/log/ret_20_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 20 ae16 > work/p4_s5b30/log/s19_20_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 20 ae46 > work/p4_s5b30/log/s19_20_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 20 lstmae16 > work/p4_s5b30/log/s19_20_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 20 ae16 > work/p4_s5b30/log/s19_20_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 20 ae16 > work/p4_s5b30/log/s19_20_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 ae16 none > work/p4_s5b30/log/s21_20_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 lstm none > work/p4_s5b30/log/s21_20_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 gru none > work/p4_s5b30/log/s21_20_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 peep none > work/p4_s5b30/log/s21_20_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 mog none > work/p4_s5b30/log/s21_20_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 tfm none > work/p4_s5b30/log/s21_20_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 memae none > work/p4_s5b30/log/s21_20_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 memfast none > work/p4_s5b30/log/s21_20_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 fastw none > work/p4_s5b30/log/s21_20_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 ae16 prio > work/p4_s5b30/log/s21_20_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 lstm prio > work/p4_s5b30/log/s21_20_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 gru prio > work/p4_s5b30/log/s21_20_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 peep prio > work/p4_s5b30/log/s21_20_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 mog prio > work/p4_s5b30/log/s21_20_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 tfm prio > work/p4_s5b30/log/s21_20_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 memae prio > work/p4_s5b30/log/s21_20_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 memfast prio > work/p4_s5b30/log/s21_20_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 fastw prio > work/p4_s5b30/log/s21_20_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 ae16 res > work/p4_s5b30/log/s21_20_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 lstm res > work/p4_s5b30/log/s21_20_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 gru res > work/p4_s5b30/log/s21_20_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 peep res > work/p4_s5b30/log/s21_20_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 mog res > work/p4_s5b30/log/s21_20_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 tfm res > work/p4_s5b30/log/s21_20_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 memae res > work/p4_s5b30/log/s21_20_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 memfast res > work/p4_s5b30/log/s21_20_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 fastw res > work/p4_s5b30/log/s21_20_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 ae16 fifo > work/p4_s5b30/log/s21_20_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 lstm fifo > work/p4_s5b30/log/s21_20_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 gru fifo > work/p4_s5b30/log/s21_20_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 peep fifo > work/p4_s5b30/log/s21_20_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 mog fifo > work/p4_s5b30/log/s21_20_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 tfm fifo > work/p4_s5b30/log/s21_20_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 memae fifo > work/p4_s5b30/log/s21_20_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 memfast fifo > work/p4_s5b30/log/s21_20_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 20 fastw fifo > work/p4_s5b30/log/s21_20_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s21_fly_r0.json 21 fly_r0 > work/p4_s5b30/log/ret_21_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s21_fly_r1e-5.json 21 fly_r1e-5 > work/p4_s5b30/log/ret_21_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s21_fly_r3e-5.json 21 fly_r3e-5 > work/p4_s5b30/log/ret_21_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s21_fly_r1e-4.json 21 fly_r1e-4 > work/p4_s5b30/log/ret_21_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s21_fly_r3e-4.json 21 fly_r3e-4 > work/p4_s5b30/log/ret_21_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s21_fly_r1e-3.json 21 fly_r1e-3 > work/p4_s5b30/log/ret_21_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s21_knn_budget.json 21 knn_budget > work/p4_s5b30/log/ret_21_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s21_zscore.json 21 zscore > work/p4_s5b30/log/ret_21_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 21 ae16 > work/p4_s5b30/log/s19_21_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 21 ae46 > work/p4_s5b30/log/s19_21_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 21 lstmae16 > work/p4_s5b30/log/s19_21_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 21 ae16 > work/p4_s5b30/log/s19_21_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 21 ae16 > work/p4_s5b30/log/s19_21_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 ae16 none > work/p4_s5b30/log/s21_21_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 lstm none > work/p4_s5b30/log/s21_21_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 gru none > work/p4_s5b30/log/s21_21_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 peep none > work/p4_s5b30/log/s21_21_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 mog none > work/p4_s5b30/log/s21_21_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 tfm none > work/p4_s5b30/log/s21_21_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 memae none > work/p4_s5b30/log/s21_21_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 memfast none > work/p4_s5b30/log/s21_21_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 fastw none > work/p4_s5b30/log/s21_21_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 ae16 prio > work/p4_s5b30/log/s21_21_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 lstm prio > work/p4_s5b30/log/s21_21_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 gru prio > work/p4_s5b30/log/s21_21_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 peep prio > work/p4_s5b30/log/s21_21_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 mog prio > work/p4_s5b30/log/s21_21_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 tfm prio > work/p4_s5b30/log/s21_21_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 memae prio > work/p4_s5b30/log/s21_21_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 memfast prio > work/p4_s5b30/log/s21_21_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 fastw prio > work/p4_s5b30/log/s21_21_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 ae16 res > work/p4_s5b30/log/s21_21_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 lstm res > work/p4_s5b30/log/s21_21_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 gru res > work/p4_s5b30/log/s21_21_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 peep res > work/p4_s5b30/log/s21_21_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 mog res > work/p4_s5b30/log/s21_21_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 tfm res > work/p4_s5b30/log/s21_21_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 memae res > work/p4_s5b30/log/s21_21_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 memfast res > work/p4_s5b30/log/s21_21_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 fastw res > work/p4_s5b30/log/s21_21_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 ae16 fifo > work/p4_s5b30/log/s21_21_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 lstm fifo > work/p4_s5b30/log/s21_21_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 gru fifo > work/p4_s5b30/log/s21_21_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 peep fifo > work/p4_s5b30/log/s21_21_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 mog fifo > work/p4_s5b30/log/s21_21_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 tfm fifo > work/p4_s5b30/log/s21_21_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 memae fifo > work/p4_s5b30/log/s21_21_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 memfast fifo > work/p4_s5b30/log/s21_21_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 21 fastw fifo > work/p4_s5b30/log/s21_21_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s22_fly_r0.json 22 fly_r0 > work/p4_s5b30/log/ret_22_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s22_fly_r1e-5.json 22 fly_r1e-5 > work/p4_s5b30/log/ret_22_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s22_fly_r3e-5.json 22 fly_r3e-5 > work/p4_s5b30/log/ret_22_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s22_fly_r1e-4.json 22 fly_r1e-4 > work/p4_s5b30/log/ret_22_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s22_fly_r3e-4.json 22 fly_r3e-4 > work/p4_s5b30/log/ret_22_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s22_fly_r1e-3.json 22 fly_r1e-3 > work/p4_s5b30/log/ret_22_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s22_knn_budget.json 22 knn_budget > work/p4_s5b30/log/ret_22_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s22_zscore.json 22 zscore > work/p4_s5b30/log/ret_22_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 22 ae16 > work/p4_s5b30/log/s19_22_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 22 ae46 > work/p4_s5b30/log/s19_22_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 22 lstmae16 > work/p4_s5b30/log/s19_22_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 22 ae16 > work/p4_s5b30/log/s19_22_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 22 ae16 > work/p4_s5b30/log/s19_22_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 ae16 none > work/p4_s5b30/log/s21_22_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 lstm none > work/p4_s5b30/log/s21_22_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 gru none > work/p4_s5b30/log/s21_22_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 peep none > work/p4_s5b30/log/s21_22_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 mog none > work/p4_s5b30/log/s21_22_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 tfm none > work/p4_s5b30/log/s21_22_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 memae none > work/p4_s5b30/log/s21_22_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 memfast none > work/p4_s5b30/log/s21_22_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 fastw none > work/p4_s5b30/log/s21_22_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 ae16 prio > work/p4_s5b30/log/s21_22_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 lstm prio > work/p4_s5b30/log/s21_22_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 gru prio > work/p4_s5b30/log/s21_22_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 peep prio > work/p4_s5b30/log/s21_22_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 mog prio > work/p4_s5b30/log/s21_22_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 tfm prio > work/p4_s5b30/log/s21_22_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 memae prio > work/p4_s5b30/log/s21_22_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 memfast prio > work/p4_s5b30/log/s21_22_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 fastw prio > work/p4_s5b30/log/s21_22_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 ae16 res > work/p4_s5b30/log/s21_22_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 lstm res > work/p4_s5b30/log/s21_22_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 gru res > work/p4_s5b30/log/s21_22_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 peep res > work/p4_s5b30/log/s21_22_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 mog res > work/p4_s5b30/log/s21_22_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 tfm res > work/p4_s5b30/log/s21_22_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 memae res > work/p4_s5b30/log/s21_22_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 memfast res > work/p4_s5b30/log/s21_22_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 fastw res > work/p4_s5b30/log/s21_22_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 ae16 fifo > work/p4_s5b30/log/s21_22_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 lstm fifo > work/p4_s5b30/log/s21_22_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 gru fifo > work/p4_s5b30/log/s21_22_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 peep fifo > work/p4_s5b30/log/s21_22_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 mog fifo > work/p4_s5b30/log/s21_22_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 tfm fifo > work/p4_s5b30/log/s21_22_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 memae fifo > work/p4_s5b30/log/s21_22_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 memfast fifo > work/p4_s5b30/log/s21_22_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 22 fastw fifo > work/p4_s5b30/log/s21_22_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s23_fly_r0.json 23 fly_r0 > work/p4_s5b30/log/ret_23_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s23_fly_r1e-5.json 23 fly_r1e-5 > work/p4_s5b30/log/ret_23_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s23_fly_r3e-5.json 23 fly_r3e-5 > work/p4_s5b30/log/ret_23_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s23_fly_r1e-4.json 23 fly_r1e-4 > work/p4_s5b30/log/ret_23_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s23_fly_r3e-4.json 23 fly_r3e-4 > work/p4_s5b30/log/ret_23_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s23_fly_r1e-3.json 23 fly_r1e-3 > work/p4_s5b30/log/ret_23_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s23_knn_budget.json 23 knn_budget > work/p4_s5b30/log/ret_23_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s23_zscore.json 23 zscore > work/p4_s5b30/log/ret_23_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 23 ae16 > work/p4_s5b30/log/s19_23_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 23 ae46 > work/p4_s5b30/log/s19_23_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 23 lstmae16 > work/p4_s5b30/log/s19_23_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 23 ae16 > work/p4_s5b30/log/s19_23_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 23 ae16 > work/p4_s5b30/log/s19_23_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 ae16 none > work/p4_s5b30/log/s21_23_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 lstm none > work/p4_s5b30/log/s21_23_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 gru none > work/p4_s5b30/log/s21_23_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 peep none > work/p4_s5b30/log/s21_23_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 mog none > work/p4_s5b30/log/s21_23_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 tfm none > work/p4_s5b30/log/s21_23_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 memae none > work/p4_s5b30/log/s21_23_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 memfast none > work/p4_s5b30/log/s21_23_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 fastw none > work/p4_s5b30/log/s21_23_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 ae16 prio > work/p4_s5b30/log/s21_23_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 lstm prio > work/p4_s5b30/log/s21_23_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 gru prio > work/p4_s5b30/log/s21_23_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 peep prio > work/p4_s5b30/log/s21_23_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 mog prio > work/p4_s5b30/log/s21_23_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 tfm prio > work/p4_s5b30/log/s21_23_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 memae prio > work/p4_s5b30/log/s21_23_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 memfast prio > work/p4_s5b30/log/s21_23_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 fastw prio > work/p4_s5b30/log/s21_23_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 ae16 res > work/p4_s5b30/log/s21_23_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 lstm res > work/p4_s5b30/log/s21_23_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 gru res > work/p4_s5b30/log/s21_23_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 peep res > work/p4_s5b30/log/s21_23_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 mog res > work/p4_s5b30/log/s21_23_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 tfm res > work/p4_s5b30/log/s21_23_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 memae res > work/p4_s5b30/log/s21_23_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 memfast res > work/p4_s5b30/log/s21_23_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 fastw res > work/p4_s5b30/log/s21_23_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 ae16 fifo > work/p4_s5b30/log/s21_23_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 lstm fifo > work/p4_s5b30/log/s21_23_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 gru fifo > work/p4_s5b30/log/s21_23_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 peep fifo > work/p4_s5b30/log/s21_23_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 mog fifo > work/p4_s5b30/log/s21_23_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 tfm fifo > work/p4_s5b30/log/s21_23_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 memae fifo > work/p4_s5b30/log/s21_23_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 memfast fifo > work/p4_s5b30/log/s21_23_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 23 fastw fifo > work/p4_s5b30/log/s21_23_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s24_fly_r0.json 24 fly_r0 > work/p4_s5b30/log/ret_24_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s24_fly_r1e-5.json 24 fly_r1e-5 > work/p4_s5b30/log/ret_24_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s24_fly_r3e-5.json 24 fly_r3e-5 > work/p4_s5b30/log/ret_24_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s24_fly_r1e-4.json 24 fly_r1e-4 > work/p4_s5b30/log/ret_24_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s24_fly_r3e-4.json 24 fly_r3e-4 > work/p4_s5b30/log/ret_24_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s24_fly_r1e-3.json 24 fly_r1e-3 > work/p4_s5b30/log/ret_24_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s24_knn_budget.json 24 knn_budget > work/p4_s5b30/log/ret_24_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s24_zscore.json 24 zscore > work/p4_s5b30/log/ret_24_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 24 ae16 > work/p4_s5b30/log/s19_24_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 24 ae46 > work/p4_s5b30/log/s19_24_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 24 lstmae16 > work/p4_s5b30/log/s19_24_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 24 ae16 > work/p4_s5b30/log/s19_24_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 24 ae16 > work/p4_s5b30/log/s19_24_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 ae16 none > work/p4_s5b30/log/s21_24_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 lstm none > work/p4_s5b30/log/s21_24_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 gru none > work/p4_s5b30/log/s21_24_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 peep none > work/p4_s5b30/log/s21_24_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 mog none > work/p4_s5b30/log/s21_24_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 tfm none > work/p4_s5b30/log/s21_24_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 memae none > work/p4_s5b30/log/s21_24_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 memfast none > work/p4_s5b30/log/s21_24_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 fastw none > work/p4_s5b30/log/s21_24_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 ae16 prio > work/p4_s5b30/log/s21_24_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 lstm prio > work/p4_s5b30/log/s21_24_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 gru prio > work/p4_s5b30/log/s21_24_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 peep prio > work/p4_s5b30/log/s21_24_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 mog prio > work/p4_s5b30/log/s21_24_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 tfm prio > work/p4_s5b30/log/s21_24_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 memae prio > work/p4_s5b30/log/s21_24_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 memfast prio > work/p4_s5b30/log/s21_24_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 fastw prio > work/p4_s5b30/log/s21_24_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 ae16 res > work/p4_s5b30/log/s21_24_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 lstm res > work/p4_s5b30/log/s21_24_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 gru res > work/p4_s5b30/log/s21_24_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 peep res > work/p4_s5b30/log/s21_24_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 mog res > work/p4_s5b30/log/s21_24_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 tfm res > work/p4_s5b30/log/s21_24_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 memae res > work/p4_s5b30/log/s21_24_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 memfast res > work/p4_s5b30/log/s21_24_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 fastw res > work/p4_s5b30/log/s21_24_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 ae16 fifo > work/p4_s5b30/log/s21_24_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 lstm fifo > work/p4_s5b30/log/s21_24_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 gru fifo > work/p4_s5b30/log/s21_24_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 peep fifo > work/p4_s5b30/log/s21_24_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 mog fifo > work/p4_s5b30/log/s21_24_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 tfm fifo > work/p4_s5b30/log/s21_24_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 memae fifo > work/p4_s5b30/log/s21_24_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 memfast fifo > work/p4_s5b30/log/s21_24_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 24 fastw fifo > work/p4_s5b30/log/s21_24_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s25_fly_r0.json 25 fly_r0 > work/p4_s5b30/log/ret_25_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s25_fly_r1e-5.json 25 fly_r1e-5 > work/p4_s5b30/log/ret_25_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s25_fly_r3e-5.json 25 fly_r3e-5 > work/p4_s5b30/log/ret_25_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s25_fly_r1e-4.json 25 fly_r1e-4 > work/p4_s5b30/log/ret_25_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s25_fly_r3e-4.json 25 fly_r3e-4 > work/p4_s5b30/log/ret_25_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s25_fly_r1e-3.json 25 fly_r1e-3 > work/p4_s5b30/log/ret_25_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s25_knn_budget.json 25 knn_budget > work/p4_s5b30/log/ret_25_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s25_zscore.json 25 zscore > work/p4_s5b30/log/ret_25_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 25 ae16 > work/p4_s5b30/log/s19_25_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 25 ae46 > work/p4_s5b30/log/s19_25_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 25 lstmae16 > work/p4_s5b30/log/s19_25_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 25 ae16 > work/p4_s5b30/log/s19_25_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 25 ae16 > work/p4_s5b30/log/s19_25_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 ae16 none > work/p4_s5b30/log/s21_25_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 lstm none > work/p4_s5b30/log/s21_25_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 gru none > work/p4_s5b30/log/s21_25_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 peep none > work/p4_s5b30/log/s21_25_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 mog none > work/p4_s5b30/log/s21_25_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 tfm none > work/p4_s5b30/log/s21_25_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 memae none > work/p4_s5b30/log/s21_25_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 memfast none > work/p4_s5b30/log/s21_25_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 fastw none > work/p4_s5b30/log/s21_25_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 ae16 prio > work/p4_s5b30/log/s21_25_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 lstm prio > work/p4_s5b30/log/s21_25_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 gru prio > work/p4_s5b30/log/s21_25_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 peep prio > work/p4_s5b30/log/s21_25_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 mog prio > work/p4_s5b30/log/s21_25_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 tfm prio > work/p4_s5b30/log/s21_25_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 memae prio > work/p4_s5b30/log/s21_25_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 memfast prio > work/p4_s5b30/log/s21_25_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 fastw prio > work/p4_s5b30/log/s21_25_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 ae16 res > work/p4_s5b30/log/s21_25_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 lstm res > work/p4_s5b30/log/s21_25_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 gru res > work/p4_s5b30/log/s21_25_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 peep res > work/p4_s5b30/log/s21_25_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 mog res > work/p4_s5b30/log/s21_25_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 tfm res > work/p4_s5b30/log/s21_25_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 memae res > work/p4_s5b30/log/s21_25_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 memfast res > work/p4_s5b30/log/s21_25_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 fastw res > work/p4_s5b30/log/s21_25_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 ae16 fifo > work/p4_s5b30/log/s21_25_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 lstm fifo > work/p4_s5b30/log/s21_25_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 gru fifo > work/p4_s5b30/log/s21_25_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 peep fifo > work/p4_s5b30/log/s21_25_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 mog fifo > work/p4_s5b30/log/s21_25_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 tfm fifo > work/p4_s5b30/log/s21_25_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 memae fifo > work/p4_s5b30/log/s21_25_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 memfast fifo > work/p4_s5b30/log/s21_25_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 25 fastw fifo > work/p4_s5b30/log/s21_25_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s26_fly_r0.json 26 fly_r0 > work/p4_s5b30/log/ret_26_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s26_fly_r1e-5.json 26 fly_r1e-5 > work/p4_s5b30/log/ret_26_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s26_fly_r3e-5.json 26 fly_r3e-5 > work/p4_s5b30/log/ret_26_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s26_fly_r1e-4.json 26 fly_r1e-4 > work/p4_s5b30/log/ret_26_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s26_fly_r3e-4.json 26 fly_r3e-4 > work/p4_s5b30/log/ret_26_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s26_fly_r1e-3.json 26 fly_r1e-3 > work/p4_s5b30/log/ret_26_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s26_knn_budget.json 26 knn_budget > work/p4_s5b30/log/ret_26_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s26_zscore.json 26 zscore > work/p4_s5b30/log/ret_26_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 26 ae16 > work/p4_s5b30/log/s19_26_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 26 ae46 > work/p4_s5b30/log/s19_26_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 26 lstmae16 > work/p4_s5b30/log/s19_26_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 26 ae16 > work/p4_s5b30/log/s19_26_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 26 ae16 > work/p4_s5b30/log/s19_26_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 ae16 none > work/p4_s5b30/log/s21_26_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 lstm none > work/p4_s5b30/log/s21_26_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 gru none > work/p4_s5b30/log/s21_26_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 peep none > work/p4_s5b30/log/s21_26_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 mog none > work/p4_s5b30/log/s21_26_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 tfm none > work/p4_s5b30/log/s21_26_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 memae none > work/p4_s5b30/log/s21_26_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 memfast none > work/p4_s5b30/log/s21_26_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 fastw none > work/p4_s5b30/log/s21_26_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 ae16 prio > work/p4_s5b30/log/s21_26_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 lstm prio > work/p4_s5b30/log/s21_26_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 gru prio > work/p4_s5b30/log/s21_26_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 peep prio > work/p4_s5b30/log/s21_26_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 mog prio > work/p4_s5b30/log/s21_26_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 tfm prio > work/p4_s5b30/log/s21_26_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 memae prio > work/p4_s5b30/log/s21_26_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 memfast prio > work/p4_s5b30/log/s21_26_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 fastw prio > work/p4_s5b30/log/s21_26_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 ae16 res > work/p4_s5b30/log/s21_26_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 lstm res > work/p4_s5b30/log/s21_26_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 gru res > work/p4_s5b30/log/s21_26_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 peep res > work/p4_s5b30/log/s21_26_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 mog res > work/p4_s5b30/log/s21_26_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 tfm res > work/p4_s5b30/log/s21_26_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 memae res > work/p4_s5b30/log/s21_26_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 memfast res > work/p4_s5b30/log/s21_26_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 fastw res > work/p4_s5b30/log/s21_26_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 ae16 fifo > work/p4_s5b30/log/s21_26_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 lstm fifo > work/p4_s5b30/log/s21_26_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 gru fifo > work/p4_s5b30/log/s21_26_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 peep fifo > work/p4_s5b30/log/s21_26_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 mog fifo > work/p4_s5b30/log/s21_26_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 tfm fifo > work/p4_s5b30/log/s21_26_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 memae fifo > work/p4_s5b30/log/s21_26_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 memfast fifo > work/p4_s5b30/log/s21_26_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 26 fastw fifo > work/p4_s5b30/log/s21_26_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s27_fly_r0.json 27 fly_r0 > work/p4_s5b30/log/ret_27_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s27_fly_r1e-5.json 27 fly_r1e-5 > work/p4_s5b30/log/ret_27_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s27_fly_r3e-5.json 27 fly_r3e-5 > work/p4_s5b30/log/ret_27_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s27_fly_r1e-4.json 27 fly_r1e-4 > work/p4_s5b30/log/ret_27_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s27_fly_r3e-4.json 27 fly_r3e-4 > work/p4_s5b30/log/ret_27_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s27_fly_r1e-3.json 27 fly_r1e-3 > work/p4_s5b30/log/ret_27_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s27_knn_budget.json 27 knn_budget > work/p4_s5b30/log/ret_27_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s27_zscore.json 27 zscore > work/p4_s5b30/log/ret_27_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 27 ae16 > work/p4_s5b30/log/s19_27_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 27 ae46 > work/p4_s5b30/log/s19_27_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 27 lstmae16 > work/p4_s5b30/log/s19_27_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 27 ae16 > work/p4_s5b30/log/s19_27_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 27 ae16 > work/p4_s5b30/log/s19_27_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 ae16 none > work/p4_s5b30/log/s21_27_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 lstm none > work/p4_s5b30/log/s21_27_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 gru none > work/p4_s5b30/log/s21_27_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 peep none > work/p4_s5b30/log/s21_27_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 mog none > work/p4_s5b30/log/s21_27_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 tfm none > work/p4_s5b30/log/s21_27_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 memae none > work/p4_s5b30/log/s21_27_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 memfast none > work/p4_s5b30/log/s21_27_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 fastw none > work/p4_s5b30/log/s21_27_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 ae16 prio > work/p4_s5b30/log/s21_27_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 lstm prio > work/p4_s5b30/log/s21_27_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 gru prio > work/p4_s5b30/log/s21_27_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 peep prio > work/p4_s5b30/log/s21_27_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 mog prio > work/p4_s5b30/log/s21_27_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 tfm prio > work/p4_s5b30/log/s21_27_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 memae prio > work/p4_s5b30/log/s21_27_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 memfast prio > work/p4_s5b30/log/s21_27_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 fastw prio > work/p4_s5b30/log/s21_27_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 ae16 res > work/p4_s5b30/log/s21_27_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 lstm res > work/p4_s5b30/log/s21_27_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 gru res > work/p4_s5b30/log/s21_27_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 peep res > work/p4_s5b30/log/s21_27_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 mog res > work/p4_s5b30/log/s21_27_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 tfm res > work/p4_s5b30/log/s21_27_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 memae res > work/p4_s5b30/log/s21_27_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 memfast res > work/p4_s5b30/log/s21_27_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 fastw res > work/p4_s5b30/log/s21_27_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 ae16 fifo > work/p4_s5b30/log/s21_27_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 lstm fifo > work/p4_s5b30/log/s21_27_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 gru fifo > work/p4_s5b30/log/s21_27_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 peep fifo > work/p4_s5b30/log/s21_27_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 mog fifo > work/p4_s5b30/log/s21_27_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 tfm fifo > work/p4_s5b30/log/s21_27_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 memae fifo > work/p4_s5b30/log/s21_27_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 memfast fifo > work/p4_s5b30/log/s21_27_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 27 fastw fifo > work/p4_s5b30/log/s21_27_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s28_fly_r0.json 28 fly_r0 > work/p4_s5b30/log/ret_28_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s28_fly_r1e-5.json 28 fly_r1e-5 > work/p4_s5b30/log/ret_28_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s28_fly_r3e-5.json 28 fly_r3e-5 > work/p4_s5b30/log/ret_28_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s28_fly_r1e-4.json 28 fly_r1e-4 > work/p4_s5b30/log/ret_28_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s28_fly_r3e-4.json 28 fly_r3e-4 > work/p4_s5b30/log/ret_28_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s28_fly_r1e-3.json 28 fly_r1e-3 > work/p4_s5b30/log/ret_28_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s28_knn_budget.json 28 knn_budget > work/p4_s5b30/log/ret_28_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s28_zscore.json 28 zscore > work/p4_s5b30/log/ret_28_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 28 ae16 > work/p4_s5b30/log/s19_28_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 28 ae46 > work/p4_s5b30/log/s19_28_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 28 lstmae16 > work/p4_s5b30/log/s19_28_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 28 ae16 > work/p4_s5b30/log/s19_28_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 28 ae16 > work/p4_s5b30/log/s19_28_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 ae16 none > work/p4_s5b30/log/s21_28_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 lstm none > work/p4_s5b30/log/s21_28_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 gru none > work/p4_s5b30/log/s21_28_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 peep none > work/p4_s5b30/log/s21_28_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 mog none > work/p4_s5b30/log/s21_28_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 tfm none > work/p4_s5b30/log/s21_28_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 memae none > work/p4_s5b30/log/s21_28_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 memfast none > work/p4_s5b30/log/s21_28_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 fastw none > work/p4_s5b30/log/s21_28_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 ae16 prio > work/p4_s5b30/log/s21_28_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 lstm prio > work/p4_s5b30/log/s21_28_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 gru prio > work/p4_s5b30/log/s21_28_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 peep prio > work/p4_s5b30/log/s21_28_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 mog prio > work/p4_s5b30/log/s21_28_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 tfm prio > work/p4_s5b30/log/s21_28_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 memae prio > work/p4_s5b30/log/s21_28_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 memfast prio > work/p4_s5b30/log/s21_28_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 fastw prio > work/p4_s5b30/log/s21_28_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 ae16 res > work/p4_s5b30/log/s21_28_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 lstm res > work/p4_s5b30/log/s21_28_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 gru res > work/p4_s5b30/log/s21_28_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 peep res > work/p4_s5b30/log/s21_28_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 mog res > work/p4_s5b30/log/s21_28_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 tfm res > work/p4_s5b30/log/s21_28_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 memae res > work/p4_s5b30/log/s21_28_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 memfast res > work/p4_s5b30/log/s21_28_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 fastw res > work/p4_s5b30/log/s21_28_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 ae16 fifo > work/p4_s5b30/log/s21_28_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 lstm fifo > work/p4_s5b30/log/s21_28_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 gru fifo > work/p4_s5b30/log/s21_28_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 peep fifo > work/p4_s5b30/log/s21_28_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 mog fifo > work/p4_s5b30/log/s21_28_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 tfm fifo > work/p4_s5b30/log/s21_28_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 memae fifo > work/p4_s5b30/log/s21_28_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 memfast fifo > work/p4_s5b30/log/s21_28_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 28 fastw fifo > work/p4_s5b30/log/s21_28_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s29_fly_r0.json 29 fly_r0 > work/p4_s5b30/log/ret_29_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s29_fly_r1e-5.json 29 fly_r1e-5 > work/p4_s5b30/log/ret_29_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s29_fly_r3e-5.json 29 fly_r3e-5 > work/p4_s5b30/log/ret_29_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s29_fly_r1e-4.json 29 fly_r1e-4 > work/p4_s5b30/log/ret_29_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s29_fly_r3e-4.json 29 fly_r3e-4 > work/p4_s5b30/log/ret_29_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s29_fly_r1e-3.json 29 fly_r1e-3 > work/p4_s5b30/log/ret_29_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s29_knn_budget.json 29 knn_budget > work/p4_s5b30/log/ret_29_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s29_zscore.json 29 zscore > work/p4_s5b30/log/ret_29_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 29 ae16 > work/p4_s5b30/log/s19_29_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 29 ae46 > work/p4_s5b30/log/s19_29_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 29 lstmae16 > work/p4_s5b30/log/s19_29_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 29 ae16 > work/p4_s5b30/log/s19_29_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 29 ae16 > work/p4_s5b30/log/s19_29_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 ae16 none > work/p4_s5b30/log/s21_29_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 lstm none > work/p4_s5b30/log/s21_29_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 gru none > work/p4_s5b30/log/s21_29_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 peep none > work/p4_s5b30/log/s21_29_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 mog none > work/p4_s5b30/log/s21_29_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 tfm none > work/p4_s5b30/log/s21_29_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 memae none > work/p4_s5b30/log/s21_29_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 memfast none > work/p4_s5b30/log/s21_29_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 fastw none > work/p4_s5b30/log/s21_29_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 ae16 prio > work/p4_s5b30/log/s21_29_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 lstm prio > work/p4_s5b30/log/s21_29_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 gru prio > work/p4_s5b30/log/s21_29_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 peep prio > work/p4_s5b30/log/s21_29_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 mog prio > work/p4_s5b30/log/s21_29_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 tfm prio > work/p4_s5b30/log/s21_29_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 memae prio > work/p4_s5b30/log/s21_29_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 memfast prio > work/p4_s5b30/log/s21_29_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 fastw prio > work/p4_s5b30/log/s21_29_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 ae16 res > work/p4_s5b30/log/s21_29_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 lstm res > work/p4_s5b30/log/s21_29_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 gru res > work/p4_s5b30/log/s21_29_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 peep res > work/p4_s5b30/log/s21_29_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 mog res > work/p4_s5b30/log/s21_29_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 tfm res > work/p4_s5b30/log/s21_29_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 memae res > work/p4_s5b30/log/s21_29_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 memfast res > work/p4_s5b30/log/s21_29_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 fastw res > work/p4_s5b30/log/s21_29_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 ae16 fifo > work/p4_s5b30/log/s21_29_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 lstm fifo > work/p4_s5b30/log/s21_29_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 gru fifo > work/p4_s5b30/log/s21_29_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 peep fifo > work/p4_s5b30/log/s21_29_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 mog fifo > work/p4_s5b30/log/s21_29_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 tfm fifo > work/p4_s5b30/log/s21_29_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 memae fifo > work/p4_s5b30/log/s21_29_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 memfast fifo > work/p4_s5b30/log/s21_29_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 29 fastw fifo > work/p4_s5b30/log/s21_29_fastw_fifo.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s30_fly_r0.json 30 fly_r0 > work/p4_s5b30/log/ret_30_fly_r0.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s30_fly_r1e-5.json 30 fly_r1e-5 > work/p4_s5b30/log/ret_30_fly_r1e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s30_fly_r3e-5.json 30 fly_r3e-5 > work/p4_s5b30/log/ret_30_fly_r3e-5.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s30_fly_r1e-4.json 30 fly_r1e-4 > work/p4_s5b30/log/ret_30_fly_r1e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s30_fly_r3e-4.json 30 fly_r3e-4 > work/p4_s5b30/log/ret_30_fly_r3e-4.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s30_fly_r1e-3.json 30 fly_r1e-3 > work/p4_s5b30/log/ret_30_fly_r1e-3.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s30_knn_budget.json 30 knn_budget > work/p4_s5b30/log/ret_30_knn_budget.txt 2>&1
+nice -n 19 python work/p4_s5b30/src/s5b_return.py work/p4_s2s8/wiring_s5.npz work/p4_s5b30/s5b_return/s5b_s30_zscore.json 30 zscore > work/p4_s5b30/log/ret_30_zscore.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 30 ae16 > work/p4_s5b30/log/s19_30_ae16_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=8 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 30 ae46 > work/p4_s5b30/log/s19_30_ae46_0.txt 2>&1
+S19_LR=1e-2 S19_WIN=4 S19_REPLAY=0 S19_TAG=_t_rp0 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 30 lstmae16 > work/p4_s5b30/log/s19_30_lstmae16_0.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=59 S19_TAG=_t_rp59 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 30 ae16 > work/p4_s5b30/log/s19_30_ae16_59.txt 2>&1
+S19_LR=3e-3 S19_WIN=8 S19_REPLAY=500 S19_TAG=_t_rp500 nice -n 19 python work/p4_s5b30/src/s19_online_nets.py s5b work/p4_s5b30/s19 30 ae16 > work/p4_s5b30/log/s19_30_ae16_500.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 ae16 none > work/p4_s5b30/log/s21_30_ae16_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 lstm none > work/p4_s5b30/log/s21_30_lstm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 gru none > work/p4_s5b30/log/s21_30_gru_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 peep none > work/p4_s5b30/log/s21_30_peep_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 mog none > work/p4_s5b30/log/s21_30_mog_none.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 tfm none > work/p4_s5b30/log/s21_30_tfm_none.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 memae none > work/p4_s5b30/log/s21_30_memae_none.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 memfast none > work/p4_s5b30/log/s21_30_memfast_none.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 fastw none > work/p4_s5b30/log/s21_30_fastw_none.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 ae16 prio > work/p4_s5b30/log/s21_30_ae16_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 lstm prio > work/p4_s5b30/log/s21_30_lstm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 gru prio > work/p4_s5b30/log/s21_30_gru_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 peep prio > work/p4_s5b30/log/s21_30_peep_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 mog prio > work/p4_s5b30/log/s21_30_mog_prio.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 tfm prio > work/p4_s5b30/log/s21_30_tfm_prio.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 memae prio > work/p4_s5b30/log/s21_30_memae_prio.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 memfast prio > work/p4_s5b30/log/s21_30_memfast_prio.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 fastw prio > work/p4_s5b30/log/s21_30_fastw_prio.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 ae16 res > work/p4_s5b30/log/s21_30_ae16_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 lstm res > work/p4_s5b30/log/s21_30_lstm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 gru res > work/p4_s5b30/log/s21_30_gru_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 peep res > work/p4_s5b30/log/s21_30_peep_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 mog res > work/p4_s5b30/log/s21_30_mog_res.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 tfm res > work/p4_s5b30/log/s21_30_tfm_res.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 memae res > work/p4_s5b30/log/s21_30_memae_res.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 memfast res > work/p4_s5b30/log/s21_30_memfast_res.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 fastw res > work/p4_s5b30/log/s21_30_fastw_res.txt 2>&1
+env S21_LR=3e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 ae16 fifo > work/p4_s5b30/log/s21_30_ae16_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 lstm fifo > work/p4_s5b30/log/s21_30_lstm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 gru fifo > work/p4_s5b30/log/s21_30_gru_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 peep fifo > work/p4_s5b30/log/s21_30_peep_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 mog fifo > work/p4_s5b30/log/s21_30_mog_fifo.txt 2>&1
+env S21_LR=1e-3 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 tfm fifo > work/p4_s5b30/log/s21_30_tfm_fifo.txt 2>&1
+env S21_LR=1e-2 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 memae fifo > work/p4_s5b30/log/s21_30_memae_fifo.txt 2>&1
+env S21_LR=3e-3 S21_TAU=0.99 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 memfast fifo > work/p4_s5b30/log/s21_30_memfast_fifo.txt 2>&1
+env S21_LR=3e-3 S21_LAM=0.99999 nice -n 19 python work/p4_s5b30/src/s21_memory_nets.py s5b work/p4_s5b30/s21 30 fastw fifo > work/p4_s5b30/log/s21_30_fastw_fifo.txt 2>&1

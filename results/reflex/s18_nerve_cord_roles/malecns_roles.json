@@ -1,0 +1,47 @@
+{
+ "counts": {
+  "other": 155453,
+  "brain_intrinsic": 32164,
+  "VNC_intrinsic": 13161,
+  "VNC_sensory": 6370,
+  "AN": 2391,
+  "DN": 1330,
+  "MN": 708
+ },
+ "mn_input_share": {
+  "VNC_intrinsic": 0.8322659980142053,
+  "DN": 0.08640785690087087,
+  "AN": 0.058331643336900885,
+  "VNC_sensory": 0.02045345046473925,
+  "MN": 0.0021819514633024603,
+  "other": 0.0003290120222243323,
+  "brain_intrinsic": 3.0087797756856988e-05
+ },
+ "reflex": {
+  "mn_cells": 707,
+  "mn_direct_from_vnc_sensory": 0.02045345046473925,
+  "mn_from_intrinsic_with_sensory_input": 0.6689459150344036,
+  "mn_reached_in_2_steps_without_brain": 703
+ },
+ "descending": {
+  "dn_cells": 1330,
+  "brain_intrinsic_cells": 32164,
+  "dn_output_into_vnc": 0.5027835788902634,
+  "mn_input_direct_from_dn": 0.08640785690087087,
+  "mn_reached_le2_median": 268.5,
+  "mn_reached_le2_q90": 537.2000000000003,
+  "dn_reaching_any_mn_le2": 0.9977443609022556
+ },
+ "ascending": {
+  "an_cells": 2391,
+  "vnc_sensory_cells": 6370,
+  "output_share_by_area": {
+   "other brain": 0.5393302264606822,
+   "nerve cord": 0.34874774273272774,
+   "descending": 0.11060416487921866,
+   "central complex": 0.0007933219451717353,
+   "mushroom body": 0.0003159462590458423,
+   "optic lobe": 0.00020859772315381866
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "seed": 20,
+ "arms": {
+  "random": {
+   "fails": 11,
+   "fails_after_start": 11,
+   "gap": 0.008322682836914286,
+   "ms_per_decision": 0.00813099797125216,
+   "candidates_vetoed_total": 0
+  },
+  "gp": {
+   "fails": 8,
+   "fails_after_start": 8,
+   "gap": 0.004484585505203698,
+   "ms_per_decision": 6.112830351210302,
+   "candidates_vetoed_total": 0
+  },
+  "cbo": {
+   "fails": 4,
+   "fails_after_start": 4,
+   "gap": 0.0027325288383737156,
+   "ms_per_decision": 9.501590617690924,
+   "candidates_vetoed_total": 0
+  },
+  "fly": {
+   "fails": 11,
+   "fails_after_start": 11,
+   "gap": 0.008322682836914286,
+   "ms_per_decision": 34.90506595483533,
+   "candidates_vetoed_total": 0
+  },
+  "fly_avoid": {
+   "fails": 11,
+   "fails_after_start": 11,
+   "gap": 0.008322682836914286,
+   "ms_per_decision": 62.78441011629723,
+   "candidates_vetoed_total": 1113
+  },
+  "gp+fly_avoid": {
+   "fails": 5,
+   "fails_after_start": 5,
+   "gap": 0.0027325288383737156,
+   "ms_per_decision": 33.2148606819963,
+   "candidates_vetoed_total": 8429
+  },
+  "gp+fly_avoid_shuf": {
+   "fails": 8,
+   "fails_after_start": 8,
+   "gap": 0.0027325288383737156,
+   "ms_per_decision": 32.65247099032557,
+   "candidates_vetoed_total": 1086
+  },
+  "gp+fly_avoid_rand": {
+   "fails": 11,
+   "fails_after_start": 11,
+   "gap": 0.0027325288383737156,
+   "ms_per_decision": 39.565126135669374,
+   "candidates_vetoed_total": 1218
+  },
+  "fly_avoid_shuf": {
+   "fails": 14,
+   "fails_after_start": 14,
+   "gap": 0.008322682836914286,
+   "ms_per_decision": 66.31774836461301,
+   "candidates_vetoed_total": 1123
+  },
+  "fly_avoid_rand": {
+   "fails": 11,
+   "fails_after_start": 11,
+   "gap": 0.008322682836914286,
+   "ms_per_decision": 63.26692311645106,
+   "candidates_vetoed_total": 2531
+  }
+ }
+}

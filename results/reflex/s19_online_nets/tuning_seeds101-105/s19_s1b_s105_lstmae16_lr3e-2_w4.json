@@ -1,0 +1,25 @@
+{
+ "seed": 105,
+ "G": 56,
+ "det": {
+  "lstmae16": {
+   "auroc": 0.6541365824974773,
+   "recall_at_5fpr": 0.015544041450777202,
+   "recall_by_kind": {
+    "1T'_MoS2": 0.0,
+    "MoTe2": 0.0,
+    "spike": 0.04,
+    "MoS2/WSe2_stack": 0.018518518518518517
+   },
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.6721609046714933,
+    "MoTe2": 0.6372196084022432,
+    "spike": 0.7598289136013687,
+    "MoS2/WSe2_stack": 0.5576254897612183
+   },
+   "false_alarm_after_change": 0.02120141342756184,
+   "ms_per_reading": 0.33565035026923223,
+   "stored_numbers": 5688
+  }
+ }
+}

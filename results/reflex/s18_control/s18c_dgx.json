@@ -1,0 +1,11 @@
+{
+ "cord_stop_ms": 1.2896528439596295,
+ "bands_stop_ms": 0.0004923650994896889,
+ "synapse_entries": 681580,
+ "list_bytes_8bit_32idx": 6134220,
+ "maxrss_mb": 44.5390625,
+ "machine": "aarch64",
+ "node": "dgx-spark",
+ "numpy": "2.5.3",
+ "n": 2000
+}

@@ -1,0 +1,131 @@
+{
+ "seed": 4,
+ "det": {
+  "fly_measured": {
+   "auroc": 0.8756499789780877,
+   "bytes": 372896,
+   "us_per_reading": 309.07243490219116,
+   "n_kc": 5177,
+   "synapse_entries": 27848
+  },
+  "kc_x0.25": {
+   "auroc": 0.8556683422367315,
+   "bytes": 106900,
+   "us_per_reading": 96.2400808930397,
+   "n_kc": 1294,
+   "synapse_entries": 6976
+  },
+  "knn_eq0.25": {
+   "auroc": 0.848538667952713,
+   "bytes": 5152,
+   "us_per_reading": 35.99189221858978,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "kc_x0.5": {
+   "auroc": 0.8538745239155167,
+   "bytes": 196760,
+   "us_per_reading": 144.13613826036453,
+   "n_kc": 2588,
+   "synapse_entries": 14033
+  },
+  "knn_eq0.5": {
+   "auroc": 0.9074773087005985,
+   "bytes": 10304,
+   "us_per_reading": 23.120082914829254,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "kc_x1": {
+   "auroc": 0.8885676349112134,
+   "bytes": 366104,
+   "us_per_reading": 264.3526531755924,
+   "n_kc": 5177,
+   "synapse_entries": 27282
+  },
+  "knn_eq1": {
+   "auroc": 0.9111994237522877,
+   "bytes": 20608,
+   "us_per_reading": 26.351772248744965,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "kc_x2": {
+   "auroc": 0.8899526079537023,
+   "bytes": 722308,
+   "us_per_reading": 480.32053746283054,
+   "n_kc": 10354,
+   "synapse_entries": 55240
+  },
+  "knn_eq2": {
+   "auroc": 0.935893987733096,
+   "bytes": 41216,
+   "us_per_reading": 34.288037568330765,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "kc_x4": {
+   "auroc": 0.8818645817876045,
+   "bytes": 1432208,
+   "us_per_reading": 931.4010385423899,
+   "n_kc": 20708,
+   "synapse_entries": 110947
+  },
+  "knn_eq4": {
+   "auroc": 0.916529096799723,
+   "bytes": 82656,
+   "us_per_reading": 54.12846803665161,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "kc_x8": {
+   "auroc": 0.8807933917000544,
+   "bytes": 2846224,
+   "us_per_reading": 1693.657599389553,
+   "n_kc": 41416,
+   "synapse_entries": 221879
+  },
+  "knn_eq8": {
+   "auroc": 0.9079533931839541,
+   "bytes": 165536,
+   "us_per_reading": 80.99991828203201,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "knn_full": {
+   "auroc": 0.8771593831923629,
+   "bytes": 896000,
+   "us_per_reading": 144.503777846694,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "ae16": {
+   "auroc": 0.8829512291635752,
+   "bytes": 22368,
+   "us_per_reading": 1345.649128779769,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "ae64": {
+   "auroc": 0.7914672676460405,
+   "bytes": 87456,
+   "us_per_reading": 1199.945341795683,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "ae256": {
+   "auroc": 0.8007972869367365,
+   "bytes": 347808,
+   "us_per_reading": 1303.856959566474,
+   "n_kc": null,
+   "synapse_entries": null
+  },
+  "ae1024": {
+   "auroc": 0.7872226962457338,
+   "bytes": 1389216,
+   "us_per_reading": 1708.9215107262135,
+   "n_kc": null,
+   "synapse_entries": null
+  }
+ }
+}

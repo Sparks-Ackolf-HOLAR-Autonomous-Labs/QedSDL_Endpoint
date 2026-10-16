@@ -1,0 +1,384 @@
+{
+ "janus": [
+  {
+   "animal": "fafb",
+   "contrast": "left - right (measured)",
+   "mean": 0.0024126992040164885,
+   "pos": 14,
+   "p_holm": 0.612762451171875
+  },
+  {
+   "animal": "fafb",
+   "contrast": "left_nm - right_nm (multiglomerular PNs silenced)",
+   "mean": 0.0017904057851750588,
+   "pos": 14,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "LL - left_nm (exact left wiring vs its side shuffle)",
+   "mean": -0.003010288269517969,
+   "pos": 6,
+   "p_holm": 0.7209014892578125
+  },
+  {
+   "animal": "fafb",
+   "contrast": "RR - right_nm (exact right wiring vs its side shuffle)",
+   "mean": -0.002063896916752922,
+   "pos": 7,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "LL - RR (side shuffles)",
+   "mean": 0.0008440144324100118,
+   "pos": 11,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "left_gp - right_gp (random band map, same for both sides)",
+   "mean": 0.003667047780889149,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "KC effect: (LL+LR)/2 - (RL+RR)/2",
+   "mean": -0.0003238212782346678,
+   "pos": 11,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "PN effect: (LL+RL)/2 - (LR+RR)/2",
+   "mean": 0.0011678357106446936,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "interaction: (LL-LR) - (RL-RR)",
+   "mean": 0.0008256629445720532,
+   "pos": 13,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "left - right (measured)",
+   "mean": -0.00014565195636723205,
+   "pos": 10,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "left_nm - right_nm (multiglomerular PNs silenced)",
+   "mean": 0.00045338112150866694,
+   "pos": 11,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "LL - left_nm (exact left wiring vs its side shuffle)",
+   "mean": 0.0034890610474664074,
+   "pos": 16,
+   "p_holm": 0.7209014892578125
+  },
+  {
+   "animal": "banc",
+   "contrast": "RR - right_nm (exact right wiring vs its side shuffle)",
+   "mean": 0.00012623934281987825,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "LL - RR (side shuffles)",
+   "mean": 0.003816202826155196,
+   "pos": 13,
+   "p_holm": 0.7246780395507812
+  },
+  {
+   "animal": "banc",
+   "contrast": "left_gp - right_gp (random band map, same for both sides)",
+   "mean": -0.001157588779226898,
+   "pos": 9,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "KC effect: (LL+LR)/2 - (RL+RR)/2",
+   "mean": -8.894995020480024e-05,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "PN effect: (LL+RL)/2 - (LR+RR)/2",
+   "mean": 0.0039051527763599853,
+   "pos": 14,
+   "p_holm": 0.1823902130126953
+  },
+  {
+   "animal": "banc",
+   "contrast": "interaction: (LL-LR) - (RL-RR)",
+   "mean": 0.0005046210071435076,
+   "pos": 10,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "left - right (measured)",
+   "mean": 0.00545396309834798,
+   "pos": 18,
+   "p_holm": 0.022968292236328125
+  },
+  {
+   "animal": "malecns",
+   "contrast": "left_nm - right_nm (multiglomerular PNs silenced)",
+   "mean": 0.005032982520656998,
+   "pos": 18,
+   "p_holm": 0.022968292236328125
+  },
+  {
+   "animal": "malecns",
+   "contrast": "LL - left_nm (exact left wiring vs its side shuffle)",
+   "mean": 0.0008929332501059261,
+   "pos": 8,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "RR - right_nm (exact right wiring vs its side shuffle)",
+   "mean": 0.004365969500641937,
+   "pos": 15,
+   "p_holm": 0.3267974853515625
+  },
+  {
+   "animal": "malecns",
+   "contrast": "LL - RR (side shuffles)",
+   "mean": 0.0015599462701209876,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "left_gp - right_gp (random band map, same for both sides)",
+   "mean": 0.001762866833977489,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "KC effect: (LL+LR)/2 - (RL+RR)/2",
+   "mean": -0.0006204149890238986,
+   "pos": 9,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "PN effect: (LL+RL)/2 - (LR+RR)/2",
+   "mean": 0.002180361259144889,
+   "pos": 11,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "interaction: (LL-LR) - (RL-RR)",
+   "mean": 0.0024030533684863964,
+   "pos": 13,
+   "p_holm": 1.0
+  }
+ ],
+ "multi": [
+  {
+   "animal": "fafb",
+   "contrast": "left - right (measured)",
+   "mean": 0.04231095617416779,
+   "pos": 20,
+   "p_holm": 5.14984130859375e-05
+  },
+  {
+   "animal": "fafb",
+   "contrast": "left_nm - right_nm (multiglomerular PNs silenced)",
+   "mean": 0.03925535865935684,
+   "pos": 20,
+   "p_holm": 5.14984130859375e-05
+  },
+  {
+   "animal": "fafb",
+   "contrast": "LL - left_nm (exact left wiring vs its side shuffle)",
+   "mean": -0.008877850525068754,
+   "pos": 6,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "RR - right_nm (exact right wiring vs its side shuffle)",
+   "mean": 0.03647601788414734,
+   "pos": 20,
+   "p_holm": 5.14984130859375e-05
+  },
+  {
+   "animal": "fafb",
+   "contrast": "LL - RR (side shuffles)",
+   "mean": -0.006098509749859255,
+   "pos": 7,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "left_gp - right_gp (random band map, same for both sides)",
+   "mean": -0.00381762348915094,
+   "pos": 7,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "KC effect: (LL+LR)/2 - (RL+RR)/2",
+   "mean": 0.0036906369674135965,
+   "pos": 11,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "fafb",
+   "contrast": "PN effect: (LL+RL)/2 - (LR+RR)/2",
+   "mean": -0.009789146717272868,
+   "pos": 6,
+   "p_holm": 0.5323562622070312
+  },
+  {
+   "animal": "fafb",
+   "contrast": "interaction: (LL-LR) - (RL-RR)",
+   "mean": 0.0014668562817095221,
+   "pos": 9,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "left - right (measured)",
+   "mean": 0.009400703662288457,
+   "pos": 16,
+   "p_holm": 0.3436279296875
+  },
+  {
+   "animal": "banc",
+   "contrast": "left_nm - right_nm (multiglomerular PNs silenced)",
+   "mean": 0.009801442384974712,
+   "pos": 16,
+   "p_holm": 0.1981487274169922
+  },
+  {
+   "animal": "banc",
+   "contrast": "LL - left_nm (exact left wiring vs its side shuffle)",
+   "mean": -0.0011109576373141915,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "RR - right_nm (exact right wiring vs its side shuffle)",
+   "mean": 0.015069776459015615,
+   "pos": 15,
+   "p_holm": 0.051151275634765625
+  },
+  {
+   "animal": "banc",
+   "contrast": "LL - RR (side shuffles)",
+   "mean": -0.006379291711355095,
+   "pos": 11,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "left_gp - right_gp (random band map, same for both sides)",
+   "mean": -0.009439499847071542,
+   "pos": 5,
+   "p_holm": 0.6159763336181641
+  },
+  {
+   "animal": "banc",
+   "contrast": "KC effect: (LL+LR)/2 - (RL+RR)/2",
+   "mean": -0.008440805818393954,
+   "pos": 5,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "PN effect: (LL+RL)/2 - (LR+RR)/2",
+   "mean": 0.0020615141070388643,
+   "pos": 14,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "banc",
+   "contrast": "interaction: (LL-LR) - (RL-RR)",
+   "mean": 0.0011792049366705637,
+   "pos": 8,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "left - right (measured)",
+   "mean": 0.017812768254314226,
+   "pos": 18,
+   "p_holm": 0.0002193450927734375
+  },
+  {
+   "animal": "malecns",
+   "contrast": "left_nm - right_nm (multiglomerular PNs silenced)",
+   "mean": 0.017467479224164445,
+   "pos": 20,
+   "p_holm": 5.14984130859375e-05
+  },
+  {
+   "animal": "malecns",
+   "contrast": "LL - left_nm (exact left wiring vs its side shuffle)",
+   "mean": -0.016328554210702013,
+   "pos": 6,
+   "p_holm": 0.4550609588623047
+  },
+  {
+   "animal": "malecns",
+   "contrast": "RR - right_nm (exact right wiring vs its side shuffle)",
+   "mean": 0.003447994762557266,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "LL - RR (side shuffles)",
+   "mean": -0.002309069749094833,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "left_gp - right_gp (random band map, same for both sides)",
+   "mean": -0.00404500501637835,
+   "pos": 7,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "KC effect: (LL+LR)/2 - (RL+RR)/2",
+   "mean": -0.0024982340768810647,
+   "pos": 9,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "PN effect: (LL+RL)/2 - (LR+RR)/2",
+   "mean": 0.00018916432778623982,
+   "pos": 12,
+   "p_holm": 1.0
+  },
+  {
+   "animal": "malecns",
+   "contrast": "interaction: (LL-LR) - (RL-RR)",
+   "mean": 0.00427548543911691,
+   "pos": 11,
+   "p_holm": 1.0
+  }
+ ]
+}

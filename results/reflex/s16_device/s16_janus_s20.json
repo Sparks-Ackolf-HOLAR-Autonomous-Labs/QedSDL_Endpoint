@@ -1,0 +1,170 @@
+{
+ "seed": 20,
+ "n_kc": 5177,
+ "occupied": 27848,
+ "mode": "janus",
+ "stream": {
+  "ideal": {
+   "auroc": 0.9522792022792024,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.9755
+  },
+  "w_levels=1": {
+   "auroc": 0.9526780626780625,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.9985
+  },
+  "w_levels=2": {
+   "auroc": 0.9527230469335732,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.9985
+  },
+  "w_levels=4": {
+   "auroc": 0.9527185485080223,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.99925
+  },
+  "w_levels=8": {
+   "auroc": 0.9539091318038685,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.98575
+  },
+  "w_levels=16": {
+   "auroc": 0.9543979607137503,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.975
+  },
+  "o_levels=2": {
+   "auroc": 0.8707909731593942,
+   "writes_per_device_per_reading": 9.860923314661e-05,
+   "max_writes_per_device_per_reading": 0.00025
+  },
+  "o_levels=4": {
+   "auroc": 0.9029202279202279,
+   "writes_per_device_per_reading": 0.00029843538728993623,
+   "max_writes_per_device_per_reading": 0.00075
+  },
+  "o_levels=8": {
+   "auroc": 0.925209926525716,
+   "writes_per_device_per_reading": 0.0004974888931813792,
+   "max_writes_per_device_per_reading": 0.0015
+  },
+  "o_levels=16": {
+   "auroc": 0.9361808367071525,
+   "writes_per_device_per_reading": 0.0006525980297469577,
+   "max_writes_per_device_per_reading": 0.00225
+  },
+  "o_levels=32": {
+   "auroc": 0.9435957414904783,
+   "writes_per_device_per_reading": 0.0007926888159165539,
+   "max_writes_per_device_per_reading": 0.00275
+  },
+  "o_levels=64": {
+   "auroc": 0.945205428100165,
+   "writes_per_device_per_reading": 0.0009235078230635503,
+   "max_writes_per_device_per_reading": 0.00325
+  },
+  "spread=0.05": {
+   "auroc": 0.9553531264057579,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.97775
+  },
+  "spread=0.1": {
+   "auroc": 0.9522357174988753,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.97925
+  },
+  "spread=0.2": {
+   "auroc": 0.9492037786774629,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.98575
+  },
+  "spread=0.3": {
+   "auroc": 0.9460728744939271,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.99475
+  },
+  "spread=0.5": {
+   "auroc": 0.9370100464837307,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.9935
+  },
+  "read=0.02": {
+   "auroc": 0.9541955315639526,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.976
+  },
+  "read=0.05": {
+   "auroc": 0.94956065377118,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.9755
+  },
+  "read=0.1": {
+   "auroc": 0.9561778377567851,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.97575
+  },
+  "read=0.2": {
+   "auroc": 0.9527125506072874,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.967
+  },
+  "retention=1e-05": {
+   "auroc": 0.9650187434397961,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.9755
+  },
+  "retention=0.0001": {
+   "auroc": 0.9855765482081271,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.9755
+  },
+  "retention=0.001": {
+   "auroc": 0.9951656920077973,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.9755
+  },
+  "retention=0.01": {
+   "auroc": 0.9902534113060429,
+   "writes_per_device_per_reading": 0.04983581224647479,
+   "max_writes_per_device_per_reading": 0.9755
+  },
+  "typical_2D_memristor": {
+   "auroc": 0.9556132853501275,
+   "writes_per_device_per_reading": 0.0007461367587405834,
+   "max_writes_per_device_per_reading": 0.004
+  },
+  "poor": {
+   "auroc": 0.9568585994901784,
+   "writes_per_device_per_reading": 0.0005192196252655979,
+   "max_writes_per_device_per_reading": 0.00375
+  },
+  "knn_budget": {
+   "auroc": 0.9222102264207526
+  },
+  "zscore": {
+   "auroc": 0.9857369920527814
+  }
+ },
+ "trained": {
+  "ideal": 0.9832696619137298,
+  "w_levels=1": 0.9699973096583266,
+  "w_levels=2": 0.9700511164917944,
+  "w_levels=4": 0.9696565330463635,
+  "w_levels=8": 0.9808842256299883,
+  "w_levels=16": 0.9830364989687024,
+  "r_levels=3": 0.8203066989507668,
+  "r_levels=5": 0.9063904582548651,
+  "r_levels=9": 0.9805972558514933,
+  "r_levels=17": 0.9858882611424984,
+  "r_levels=33": 0.977063940453771,
+  "spread=0.05": 0.9826562640121962,
+  "spread=0.1": 0.9816482826652317,
+  "spread=0.2": 0.9822545063223029,
+  "spread=0.3": 0.984500044839028,
+  "spread=0.5": 0.9829970406241593,
+  "typical_2D_memristor": 0.9806654111738857,
+  "poor": 0.8235745673033809
+ },
+ "seconds": 5.379083633422852
+}

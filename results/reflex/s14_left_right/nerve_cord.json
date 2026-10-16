@@ -1,0 +1,107 @@
+{
+ "banc": {
+  "KC": {
+   "cells": 4552,
+   "input_synapses": 323015,
+   "from_alpn": 0.6065043419036268,
+   "from_ascending": 0.00029719982044177517,
+   "ascending_cells_in": 5,
+   "cells_with_ascending_input": 13,
+   "top_ascending_types": {
+    "AN09B033": 91,
+    "ANXXX150": 5
+   },
+   "output_synapses": 118080,
+   "to_descending": 0.0002032520325203252,
+   "cells_with_dn_output": 8
+  },
+  "DAN": {
+   "cells": 301,
+   "input_synapses": 31041,
+   "from_alpn": 0.030057021358847975,
+   "from_ascending": 0.0029960374987919205,
+   "ascending_cells_in": 7,
+   "cells_with_ascending_input": 15,
+   "top_ascending_types": {
+    "AN19B019": 57,
+    "ANXXX150": 21,
+    "ANXXX434": 9,
+    "AN19B017": 3,
+    "ANXXX380": 3
+   },
+   "output_synapses": 9018,
+   "to_descending": 0.0028831226436016855,
+   "cells_with_dn_output": 6
+  },
+  "MBON": {
+   "cells": 104,
+   "input_synapses": 85564,
+   "from_alpn": 0.008940675985227431,
+   "from_ascending": 0.0025478004768360527,
+   "ascending_cells_in": 23,
+   "cells_with_ascending_input": 11,
+   "top_ascending_types": {
+    "AN17A026": 49,
+    "AN09B004": 31,
+    "AN09A005": 27,
+    "AN19B019": 23,
+    "AN08B026": 20
+   },
+   "output_synapses": 165687,
+   "to_descending": 0.013585857671392445,
+   "cells_with_dn_output": 27
+  }
+ },
+ "malecns": {
+  "KC": {
+   "cells": 4064,
+   "input_synapses": 1257150,
+   "from_alpn": 0.30917074334804917,
+   "from_ascending": 0.00024261225788489837,
+   "ascending_cells_in": 3,
+   "cells_with_ascending_input": 25,
+   "top_ascending_types": {
+    "AN09B033": 305
+   },
+   "output_synapses": 1382447,
+   "to_descending": 6.510195327560478e-06,
+   "cells_with_dn_output": 3
+  },
+  "DAN": {
+   "cells": 340,
+   "input_synapses": 284101,
+   "from_alpn": 0.01091865216947494,
+   "from_ascending": 0.002530790106335423,
+   "ascending_cells_in": 27,
+   "cells_with_ascending_input": 53,
+   "top_ascending_types": {
+    "AN19B019": 356,
+    "AN05B103": 92,
+    "ANXXX434": 86,
+    "AN05B101": 34,
+    "AN09B059": 30
+   },
+   "output_synapses": 176639,
+   "to_descending": 0.0015342025260559672,
+   "cells_with_dn_output": 14
+  },
+  "MBON": {
+   "cells": 97,
+   "input_synapses": 665838,
+   "from_alpn": 0.0020245164739771536,
+   "from_ascending": 0.0007959894148426494,
+   "ascending_cells_in": 37,
+   "cells_with_ascending_input": 16,
+   "top_ascending_types": {
+    "AN17A026": 113,
+    "AN08B026": 88,
+    "AN05B107": 66,
+    "AN19B019": 56,
+    "AN09B004": 42
+   },
+   "output_synapses": 233707,
+   "to_descending": 0.017427804901008526,
+   "cells_with_dn_output": 34
+  }
+ }
+}

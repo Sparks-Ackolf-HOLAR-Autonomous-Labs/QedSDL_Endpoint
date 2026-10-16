@@ -1,0 +1,105 @@
+{
+ "seed": 7,
+ "det": {
+  "fly_private": {
+   "auroc": 0.8691063510077127,
+   "fa_network_known": 0.19635343618513323,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.66,
+   "mote2_recall_A": 0.3372093023255814,
+   "mote2_recall_B": 0.5641025641025641,
+   "mote2_recall_B_first5": 1.0,
+   "stored_numbers": 15531
+  },
+  "fly_shared": {
+   "auroc": 0.8337848470041822,
+   "fa_network_known": 0.004207573632538569,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.02,
+   "mote2_recall_A": 0.4418604651162791,
+   "mote2_recall_B": 0.15384615384615385,
+   "mote2_recall_B_first5": 0.4,
+   "stored_numbers": 5177
+  },
+  "fly_weighted": {
+   "auroc": 0.8558479393901185,
+   "fa_network_known": 0.021037868162692847,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.04666666666666666,
+   "mote2_recall_A": 0.38372093023255816,
+   "mote2_recall_B": 0.28205128205128205,
+   "mote2_recall_B_first5": 0.4,
+   "stored_numbers": 15531
+  },
+  "fly_best_private": {
+   "auroc": 0.9104098364962276,
+   "fa_network_known": 0.2061711079943899,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.64,
+   "mote2_recall_A": 0.313953488372093,
+   "mote2_recall_B": 0.5641025641025641,
+   "mote2_recall_B_first5": 1.0,
+   "stored_numbers": 15531
+  },
+  "fly_best_shared": {
+   "auroc": 0.9000003940482946,
+   "fa_network_known": 0.014025245441795231,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.0,
+   "mote2_recall_A": 0.43023255813953487,
+   "mote2_recall_B": 0.15384615384615385,
+   "mote2_recall_B_first5": 0.6,
+   "stored_numbers": 5177
+  },
+  "fly_best_weighted": {
+   "auroc": 0.9174291501166384,
+   "fa_network_known": 0.023842917251051893,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.02666666666666667,
+   "mote2_recall_A": 0.37209302325581395,
+   "mote2_recall_B": 0.3333333333333333,
+   "mote2_recall_B_first5": 0.6,
+   "stored_numbers": 15531
+  },
+  "zscore_private": {
+   "auroc": 0.8367884801294581,
+   "fa_network_known": 0.485273492286115,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.8466666666666667,
+   "mote2_recall_A": 0.5,
+   "mote2_recall_B": 0.9230769230769231,
+   "mote2_recall_B_first5": 1.0,
+   "stored_numbers": 336
+  },
+  "zscore_shared": {
+   "auroc": 0.7544934640522876,
+   "fa_network_known": 0.05890603085553997,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.06666666666666667,
+   "mote2_recall_A": 0.686046511627907,
+   "mote2_recall_B": 0.48717948717948717,
+   "mote2_recall_B_first5": 0.4,
+   "stored_numbers": 112
+  },
+  "knn_budget_private": {
+   "auroc": 0.841322005758359,
+   "fa_network_known": 0.36605890603085556,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.8133333333333335,
+   "mote2_recall_A": 0.19767441860465115,
+   "mote2_recall_B": 0.48717948717948717,
+   "mote2_recall_B_first5": 0.8,
+   "stored_numbers": 5040
+  },
+  "knn_budget_shared": {
+   "auroc": 0.89743119916777,
+   "fa_network_known": 0.061711079943899017,
+   "fa_station_normal": 0.050284215128989944,
+   "fa_network_known_first50": 0.04666666666666666,
+   "mote2_recall_A": 0.29069767441860467,
+   "mote2_recall_B": 0.6666666666666666,
+   "mote2_recall_B_first5": 0.4,
+   "stored_numbers": 5152
+  }
+ }
+}

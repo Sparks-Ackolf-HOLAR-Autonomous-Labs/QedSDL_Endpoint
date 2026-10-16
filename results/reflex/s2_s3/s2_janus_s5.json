@@ -1,0 +1,159 @@
+{
+ "seed": 5,
+ "mode": "janus",
+ "params": {
+  "gain": {
+   "beta": 1.0,
+   "alpha": 1.0
+  },
+  "adapt": {
+   "tau": 1000.0
+  },
+  "coinc": {
+   "act_frac": 0.15
+  },
+  "chosen": [
+   "gain7",
+   "adapt2",
+   "coinc0"
+  ],
+  "passed": [
+   "gain"
+  ],
+  "rule": "a mechanism enters fly_best only if its chosen setting keeps AUROC >= plain fly - 0.01 on both tuning streams"
+ },
+ "det": {
+  "fly": {
+   "auroc": 0.9527772675248336,
+   "recall_at_5fpr": 0.7292817679558011,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9547160651700294,
+    "WS2": 0.9152058468314862,
+    "spike": 0.9862773927046139
+   },
+   "false_alarm_after_change": 0.16433566433566432,
+   "ms_per_reading": 4.0801893788817765,
+   "stored_numbers": 5177
+  },
+  "fly_gain": {
+   "auroc": 0.9389392076792283,
+   "recall_at_5fpr": 0.6961325966850829,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9604646206308611,
+    "WS2": 0.9097577436771811,
+    "spike": 0.9510318725263682
+   },
+   "false_alarm_after_change": 0.21328671328671328,
+   "ms_per_reading": 4.093806227996342,
+   "stored_numbers": 5177
+  },
+  "fly_adapt": {
+   "auroc": 0.858129271405896,
+   "recall_at_5fpr": 0.5580110497237569,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.817680212181491,
+    "WS2": 0.7642174623472576,
+    "spike": 0.9733743528917553
+   },
+   "false_alarm_after_change": 0.07342657342657342,
+   "ms_per_reading": 4.053682312243493,
+   "stored_numbers": 5177
+  },
+  "fly_coinc": {
+   "auroc": 0.8353500099695574,
+   "recall_at_5fpr": 0.27071823204419887,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.8610341479587004,
+    "WS2": 0.8456148763853368,
+    "spike": 0.8079617480262427
+   },
+   "false_alarm_after_change": 0.16433566433566432,
+   "ms_per_reading": 8.111867767230079,
+   "stored_numbers": 5177
+  },
+  "fly_gain_coinc": {
+   "auroc": 0.8336960054259513,
+   "recall_at_5fpr": 0.26519337016574585,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.8613538410533295,
+    "WS2": 0.8444781898266552,
+    "spike": 0.804454905255528
+   },
+   "false_alarm_after_change": 0.16783216783216784,
+   "ms_per_reading": 8.082520022635928,
+   "stored_numbers": 5177
+  },
+  "fly_all": {
+   "auroc": 0.7036717801861717,
+   "recall_at_5fpr": 0.14917127071823205,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.6663114521170788,
+    "WS2": 0.745697463768116,
+    "spike": 0.6906812294335924
+   },
+   "false_alarm_after_change": 0.10139860139860139,
+   "ms_per_reading": 8.087398159141475,
+   "stored_numbers": 5177
+  },
+  "fly_best": {
+   "auroc": 0.9389392076792283,
+   "recall_at_5fpr": 0.6961325966850829,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9604646206308611,
+    "WS2": 0.9097577436771811,
+    "spike": 0.9510318725263682
+   },
+   "false_alarm_after_change": 0.21328671328671328,
+   "ms_per_reading": 4.067407692656727,
+   "stored_numbers": 5177
+  },
+  "fly_best_shuf": {
+   "auroc": 0.9427982899461329,
+   "recall_at_5fpr": 0.7016574585635359,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9553317703893152,
+    "WS2": 0.9059569479965899,
+    "spike": 0.9682510265185679
+   },
+   "false_alarm_after_change": 0.2202797202797203,
+   "ms_per_reading": 4.248615682779534,
+   "stored_numbers": 5177
+  },
+  "fly_best_rand": {
+   "auroc": 0.9598328882357652,
+   "recall_at_5fpr": 0.7679558011049724,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9654613052950649,
+    "WS2": 0.92629742114237,
+    "spike": 0.9870228284550535
+   },
+   "false_alarm_after_change": 0.22377622377622378,
+   "ms_per_reading": 4.244573232969521,
+   "stored_numbers": 5177
+  },
+  "zscore": {
+   "auroc": 0.9742361513425932,
+   "recall_at_5fpr": 0.9005524861878453,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.996962915601023,
+    "WS2": 0.9697712418300654,
+    "spike": 0.9625675937251608
+   },
+   "false_alarm_after_change": 0.05244755244755245,
+   "ms_per_reading": 0.036585508669550355,
+   "stored_numbers": 112
+  },
+  "knn_budget": {
+   "auroc": 0.9720491287234727,
+   "recall_at_5fpr": 0.9005524861878453,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9863893625082882,
+    "WS2": 0.951002593066212,
+    "spike": 0.9815947382943935
+   },
+   "false_alarm_after_change": 0.024475524475524476,
+   "ms_per_reading": 0.1093321744151212,
+   "stored_numbers": 5152
+  }
+ }
+}

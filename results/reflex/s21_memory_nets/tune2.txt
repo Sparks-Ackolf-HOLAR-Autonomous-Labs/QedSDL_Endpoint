@@ -1,0 +1,35 @@
+env S21_TAU=0.98 S21_TAG=_lr3e-3_tau0.98 python src/s21_memory_nets.py s1b work/p4_s21/tune 101 memfast none
+env S21_TAU=0.99 S21_TAG=_lr3e-3_tau0.99 python src/s21_memory_nets.py s1b work/p4_s21/tune 101 memfast none
+env S21_LR=1e-2 S21_TAU=0.95 S21_TAG=_lr1e-2_tau0.95 python src/s21_memory_nets.py s1b work/p4_s21/tune 101 memfast none
+env S21_LR=3e-2 S21_TAG=_lr3e-2 python src/s21_memory_nets.py s1b work/p4_s21/tune 101 memae none
+env S21_LR=1e-3 S21_LAM=0.9999 S21_TAG=_lr1e-3_lam0.9999 python src/s21_memory_nets.py s1b work/p4_s21/tune 101 fastw none
+env S21_LAM=0.99999 S21_TAG=_lr3e-3_lam0.99999 python src/s21_memory_nets.py s1b work/p4_s21/tune 101 fastw none
+env S21_LR=3e-4 S21_TAG=_lr3e-4 python src/s21_memory_nets.py s1b work/p4_s21/tune 101 tfm none
+env S21_TAU=0.98 S21_TAG=_lr3e-3_tau0.98 python src/s21_memory_nets.py s1b work/p4_s21/tune 102 memfast none
+env S21_TAU=0.99 S21_TAG=_lr3e-3_tau0.99 python src/s21_memory_nets.py s1b work/p4_s21/tune 102 memfast none
+env S21_LR=1e-2 S21_TAU=0.95 S21_TAG=_lr1e-2_tau0.95 python src/s21_memory_nets.py s1b work/p4_s21/tune 102 memfast none
+env S21_LR=3e-2 S21_TAG=_lr3e-2 python src/s21_memory_nets.py s1b work/p4_s21/tune 102 memae none
+env S21_LR=1e-3 S21_LAM=0.9999 S21_TAG=_lr1e-3_lam0.9999 python src/s21_memory_nets.py s1b work/p4_s21/tune 102 fastw none
+env S21_LAM=0.99999 S21_TAG=_lr3e-3_lam0.99999 python src/s21_memory_nets.py s1b work/p4_s21/tune 102 fastw none
+env S21_LR=3e-4 S21_TAG=_lr3e-4 python src/s21_memory_nets.py s1b work/p4_s21/tune 102 tfm none
+env S21_TAU=0.98 S21_TAG=_lr3e-3_tau0.98 python src/s21_memory_nets.py s1b work/p4_s21/tune 103 memfast none
+env S21_TAU=0.99 S21_TAG=_lr3e-3_tau0.99 python src/s21_memory_nets.py s1b work/p4_s21/tune 103 memfast none
+env S21_LR=1e-2 S21_TAU=0.95 S21_TAG=_lr1e-2_tau0.95 python src/s21_memory_nets.py s1b work/p4_s21/tune 103 memfast none
+env S21_LR=3e-2 S21_TAG=_lr3e-2 python src/s21_memory_nets.py s1b work/p4_s21/tune 103 memae none
+env S21_LR=1e-3 S21_LAM=0.9999 S21_TAG=_lr1e-3_lam0.9999 python src/s21_memory_nets.py s1b work/p4_s21/tune 103 fastw none
+env S21_LAM=0.99999 S21_TAG=_lr3e-3_lam0.99999 python src/s21_memory_nets.py s1b work/p4_s21/tune 103 fastw none
+env S21_LR=3e-4 S21_TAG=_lr3e-4 python src/s21_memory_nets.py s1b work/p4_s21/tune 103 tfm none
+env S21_TAU=0.98 S21_TAG=_lr3e-3_tau0.98 python src/s21_memory_nets.py s1b work/p4_s21/tune 104 memfast none
+env S21_TAU=0.99 S21_TAG=_lr3e-3_tau0.99 python src/s21_memory_nets.py s1b work/p4_s21/tune 104 memfast none
+env S21_LR=1e-2 S21_TAU=0.95 S21_TAG=_lr1e-2_tau0.95 python src/s21_memory_nets.py s1b work/p4_s21/tune 104 memfast none
+env S21_LR=3e-2 S21_TAG=_lr3e-2 python src/s21_memory_nets.py s1b work/p4_s21/tune 104 memae none
+env S21_LR=1e-3 S21_LAM=0.9999 S21_TAG=_lr1e-3_lam0.9999 python src/s21_memory_nets.py s1b work/p4_s21/tune 104 fastw none
+env S21_LAM=0.99999 S21_TAG=_lr3e-3_lam0.99999 python src/s21_memory_nets.py s1b work/p4_s21/tune 104 fastw none
+env S21_LR=3e-4 S21_TAG=_lr3e-4 python src/s21_memory_nets.py s1b work/p4_s21/tune 104 tfm none
+env S21_TAU=0.98 S21_TAG=_lr3e-3_tau0.98 python src/s21_memory_nets.py s1b work/p4_s21/tune 105 memfast none
+env S21_TAU=0.99 S21_TAG=_lr3e-3_tau0.99 python src/s21_memory_nets.py s1b work/p4_s21/tune 105 memfast none
+env S21_LR=1e-2 S21_TAU=0.95 S21_TAG=_lr1e-2_tau0.95 python src/s21_memory_nets.py s1b work/p4_s21/tune 105 memfast none
+env S21_LR=3e-2 S21_TAG=_lr3e-2 python src/s21_memory_nets.py s1b work/p4_s21/tune 105 memae none
+env S21_LR=1e-3 S21_LAM=0.9999 S21_TAG=_lr1e-3_lam0.9999 python src/s21_memory_nets.py s1b work/p4_s21/tune 105 fastw none
+env S21_LAM=0.99999 S21_TAG=_lr3e-3_lam0.99999 python src/s21_memory_nets.py s1b work/p4_s21/tune 105 fastw none
+env S21_LR=3e-4 S21_TAG=_lr3e-4 python src/s21_memory_nets.py s1b work/p4_s21/tune 105 tfm none

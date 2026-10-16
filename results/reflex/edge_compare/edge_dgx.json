@@ -1,0 +1,56 @@
+{
+ "machine": "aarch64",
+ "node": "dgx-spark",
+ "numpy": "2.5.3",
+ "python": "3.12.3",
+ "n_synapse_entries": 27848,
+ "fly_dense_equals_sparse": true,
+ "methods": {
+  "fly_dense": {
+   "us_per_decision": 1873.9779479801655,
+   "model_bytes": 14359128,
+   "mcu_bytes": null
+  },
+  "fly_sparse": {
+   "us_per_decision": 131.2638632953167,
+   "model_bytes": 378900,
+   "mcu_bytes": 151922
+  },
+  "knn_budget": {
+   "us_per_decision": 7.103895768523216,
+   "model_bytes": 20608,
+   "mcu_bytes": 10304
+  },
+  "zscore": {
+   "us_per_decision": 4.287809133529663,
+   "model_bytes": 896,
+   "mcu_bytes": 448
+  },
+  "logreg": {
+   "us_per_decision": 4.575587809085846,
+   "model_bytes": 456,
+   "mcu_bytes": 228
+  },
+  "ridge": {
+   "us_per_decision": 2.800021320581436,
+   "model_bytes": 456,
+   "mcu_bytes": 228
+  },
+  "gp_30": {
+   "us_per_decision": 77.87952199578285,
+   "model_bytes": 27840,
+   "mcu_bytes": 10320
+  },
+  "gp_100": {
+   "us_per_decision": 579.3259479105473,
+   "model_bytes": 204800,
+   "mcu_bytes": 62400
+  },
+  "gp_300": {
+   "us_per_decision": 21673.92335832119,
+   "model_bytes": 1574400,
+   "mcu_bytes": 427200
+  }
+ },
+ "peak_rss_MB": 116.94140625
+}

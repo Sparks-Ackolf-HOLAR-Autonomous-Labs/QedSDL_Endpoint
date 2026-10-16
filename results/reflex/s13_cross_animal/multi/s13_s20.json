@@ -1,0 +1,365 @@
+{
+ "seed": 20,
+ "mode": "multi",
+ "G": 55,
+ "arms": {
+  "fafb_left": {
+   "n_kc": 2580,
+   "n_pn": 341,
+   "pairs": 11661,
+   "synapses": 173362
+  },
+  "fafb_right": {
+   "n_kc": 2597,
+   "n_pn": 344,
+   "pairs": 11368,
+   "synapses": 144602
+  },
+  "fafb_both": {
+   "n_kc": 5177,
+   "n_pn": 685,
+   "pairs": 23516,
+   "synapses": 323907
+  },
+  "fafb_both_nox": {
+   "n_kc": 5177,
+   "n_pn": 685,
+   "pairs": 23029,
+   "synapses": 317964
+  },
+  "fafb_shuf": {
+   "n_kc": 5177,
+   "n_pn": 685,
+   "pairs": 23141,
+   "synapses": 323907
+  },
+  "banc_left": {
+   "n_kc": 2260,
+   "n_pn": 348,
+   "pairs": 8037,
+   "synapses": 90966
+  },
+  "banc_right": {
+   "n_kc": 2245,
+   "n_pn": 340,
+   "pairs": 8215,
+   "synapses": 100003
+  },
+  "banc_both": {
+   "n_kc": 4552,
+   "n_pn": 699,
+   "pairs": 16720,
+   "synapses": 195910
+  },
+  "banc_both_nox": {
+   "n_kc": 4552,
+   "n_pn": 699,
+   "pairs": 16364,
+   "synapses": 192205
+  },
+  "banc_shuf": {
+   "n_kc": 4552,
+   "n_pn": 699,
+   "pairs": 16444,
+   "synapses": 195910
+  },
+  "malecns_left": {
+   "n_kc": 2019,
+   "n_pn": 343,
+   "pairs": 10202,
+   "synapses": 187318
+  },
+  "malecns_right": {
+   "n_kc": 2045,
+   "n_pn": 343,
+   "pairs": 10168,
+   "synapses": 194017
+  },
+  "malecns_both": {
+   "n_kc": 4064,
+   "n_pn": 686,
+   "pairs": 20777,
+   "synapses": 388674
+  },
+  "malecns_both_nox": {
+   "n_kc": 4064,
+   "n_pn": 686,
+   "pairs": 20370,
+   "synapses": 381335
+  },
+  "malecns_shuf": {
+   "n_kc": 4064,
+   "n_pn": 686,
+   "pairs": 20381,
+   "synapses": 388674
+  },
+  "fafb_raw_both": {
+   "n_kc": 5177,
+   "n_pn": 685,
+   "pairs": 27848,
+   "synapses": 329394
+  }
+ },
+ "det": {
+  "fafb_left": {
+   "auroc": 0.9091957980225988,
+   "recall_at_5fpr": 0.625,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9250821179871238,
+    "MoTe2": 0.9547002510985562,
+    "spike": 0.9596986817325801,
+    "MoS2/WSe2_stack": 0.7815874136848713
+   },
+   "false_alarm_after_change": 0.20833333333333334,
+   "ms_per_reading": 0.4180315924758041,
+   "stored_numbers": 2580
+  },
+  "fafb_right": {
+   "auroc": 0.8705217161016948,
+   "recall_at_5fpr": 0.55,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9304230718696624,
+    "MoTe2": 0.9225125549278093,
+    "spike": 0.9560263653483992,
+    "MoS2/WSe2_stack": 0.6401012241054613
+   },
+   "false_alarm_after_change": 0.1875,
+   "ms_per_reading": 0.4103132806768691,
+   "stored_numbers": 2597
+  },
+  "fafb_both": {
+   "auroc": 0.8899117231638419,
+   "recall_at_5fpr": 0.64375,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9174681382209959,
+    "MoTe2": 0.9498038292529818,
+    "spike": 0.9662084118016321,
+    "MoS2/WSe2_stack": 0.701734149403641
+   },
+   "false_alarm_after_change": 0.24305555555555555,
+   "ms_per_reading": 1.5729328633814648,
+   "stored_numbers": 5177
+  },
+  "fafb_both_nox": {
+   "auroc": 0.8862870762711865,
+   "recall_at_5fpr": 0.6125,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.915976875574826,
+    "MoTe2": 0.9472065285624608,
+    "spike": 0.9657501569365977,
+    "MoS2/WSe2_stack": 0.6905759573132454
+   },
+   "false_alarm_after_change": 0.22916666666666666,
+   "ms_per_reading": 1.544526075012982,
+   "stored_numbers": 5177
+  },
+  "fafb_shuf": {
+   "auroc": 0.8926553672316385,
+   "recall_at_5fpr": 0.6375,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9290829063198003,
+    "MoTe2": 0.9448603264281231,
+    "spike": 0.9675266792215946,
+    "MoS2/WSe2_stack": 0.7033505963590709
+   },
+   "false_alarm_after_change": 0.2222222222222222,
+   "ms_per_reading": 1.5359401824959629,
+   "stored_numbers": 5177
+  },
+  "fafb_knn": {
+   "auroc": 0.9170497881355932,
+   "recall_at_5fpr": 0.65,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9263434502693471,
+    "MoTe2": 0.9323995605775266,
+    "spike": 0.9670684243565599,
+    "MoS2/WSe2_stack": 0.8280759573132455
+   },
+   "false_alarm_after_change": 0.027777777777777776,
+   "ms_per_reading": 0.05560662458977989,
+   "stored_numbers": 5170
+  },
+  "banc_left": {
+   "auroc": 0.8454060734463277,
+   "recall_at_5fpr": 0.5125,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9178294573643411,
+    "MoTe2": 0.8844868173258004,
+    "spike": 0.9208568738229757,
+    "MoS2/WSe2_stack": 0.6255061205273069
+   },
+   "false_alarm_after_change": 0.1423611111111111,
+   "ms_per_reading": 0.36762381702460145,
+   "stored_numbers": 2260
+  },
+  "banc_right": {
+   "auroc": 0.8334984110169492,
+   "recall_at_5fpr": 0.46875,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.905524898173696,
+    "MoTe2": 0.8812029190207157,
+    "spike": 0.9502856246076585,
+    "MoS2/WSe2_stack": 0.5537782485875706
+   },
+   "false_alarm_after_change": 0.09027777777777778,
+   "ms_per_reading": 0.35239521892288245,
+   "stored_numbers": 2245
+  },
+  "banc_both": {
+   "auroc": 0.8384816384180791,
+   "recall_at_5fpr": 0.49375,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9054000788332677,
+    "MoTe2": 0.886142498430634,
+    "spike": 0.9417765222849969,
+    "MoS2/WSe2_stack": 0.5817718141870685
+   },
+   "false_alarm_after_change": 0.1388888888888889,
+   "ms_per_reading": 1.3928432654388048,
+   "stored_numbers": 4552
+  },
+  "banc_both_nox": {
+   "auroc": 0.8383421610169492,
+   "recall_at_5fpr": 0.4875,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9013533044278019,
+    "MoTe2": 0.882069993722536,
+    "spike": 0.9409290646578783,
+    "MoS2/WSe2_stack": 0.5911173885750156
+   },
+   "false_alarm_after_change": 0.1597222222222222,
+   "ms_per_reading": 1.3943946644714154,
+   "stored_numbers": 4552
+  },
+  "banc_shuf": {
+   "auroc": 0.8283668785310734,
+   "recall_at_5fpr": 0.51875,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.8987649454736565,
+    "MoTe2": 0.942867231638418,
+    "spike": 0.9309416195856876,
+    "MoS2/WSe2_stack": 0.5015615191462649
+   },
+   "false_alarm_after_change": 0.1527777777777778,
+   "ms_per_reading": 1.390308689300877,
+   "stored_numbers": 4552
+  },
+  "banc_knn": {
+   "auroc": 0.9445533192090396,
+   "recall_at_5fpr": 0.73125,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9359151228485088,
+    "MoTe2": 0.9399089767733836,
+    "spike": 0.9570495919648462,
+    "MoS2/WSe2_stack": 0.9438951663527935
+   },
+   "false_alarm_after_change": 0.027777777777777776,
+   "ms_per_reading": 0.044975087575211715,
+   "stored_numbers": 4510
+  },
+  "malecns_left": {
+   "auroc": 0.9088965395480226,
+   "recall_at_5fpr": 0.6125,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9401064249113126,
+    "MoTe2": 0.9138339610797238,
+    "spike": 0.9632580037664784,
+    "MoS2/WSe2_stack": 0.798728813559322
+   },
+   "false_alarm_after_change": 0.14583333333333334,
+   "ms_per_reading": 0.3243798008692023,
+   "stored_numbers": 2019
+  },
+  "malecns_right": {
+   "auroc": 0.8874664548022597,
+   "recall_at_5fpr": 0.575,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9222506897910918,
+    "MoTe2": 0.9138418079096046,
+    "spike": 0.9564532328939109,
+    "MoS2/WSe2_stack": 0.7333097928436911
+   },
+   "false_alarm_after_change": 0.1840277777777778,
+   "ms_per_reading": 0.33221647432829077,
+   "stored_numbers": 2045
+  },
+  "malecns_both": {
+   "auroc": 0.9013912429378531,
+   "recall_at_5fpr": 0.63125,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9266193667060832,
+    "MoTe2": 0.9183145009416196,
+    "spike": 0.9775455116133082,
+    "MoS2/WSe2_stack": 0.7591415568110484
+   },
+   "false_alarm_after_change": 0.21875,
+   "ms_per_reading": 1.2055053653799601,
+   "stored_numbers": 4064
+  },
+  "malecns_both_nox": {
+   "auroc": 0.8974717514124293,
+   "recall_at_5fpr": 0.6625,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9204309551964261,
+    "MoTe2": 0.917725988700565,
+    "spike": 0.9740866290018833,
+    "MoS2/WSe2_stack": 0.7540254237288136
+   },
+   "false_alarm_after_change": 0.19791666666666666,
+   "ms_per_reading": 1.2065458809956908,
+   "stored_numbers": 4064
+  },
+  "malecns_shuf": {
+   "auroc": 0.894138418079096,
+   "recall_at_5fpr": 0.625,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9169951386151622,
+    "MoTe2": 0.9336942875078468,
+    "spike": 0.9613182674199623,
+    "MoS2/WSe2_stack": 0.7433066541117389
+   },
+   "false_alarm_after_change": 0.1909722222222222,
+   "ms_per_reading": 1.2015615377222766,
+   "stored_numbers": 4064
+  },
+  "malecns_knn": {
+   "auroc": 0.9238382768361583,
+   "recall_at_5fpr": 0.53125,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.8908356326369727,
+    "MoTe2": 0.9225910232266165,
+    "spike": 0.9573509102322662,
+    "MoS2/WSe2_stack": 0.9226145637162586
+   },
+   "false_alarm_after_change": 0.03125,
+   "ms_per_reading": 0.039967935330964426,
+   "stored_numbers": 4015
+  },
+  "fafb_raw_both": {
+   "auroc": 0.8870286016949152,
+   "recall_at_5fpr": 0.6125,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9163119169622914,
+    "MoTe2": 0.9467592592592593,
+    "spike": 0.9661330822347772,
+    "MoS2/WSe2_stack": 0.6934400502197112
+   },
+   "false_alarm_after_change": 0.21180555555555555,
+   "ms_per_reading": 1.5426359044992037,
+   "stored_numbers": 5177
+  },
+  "zscore": {
+   "auroc": 0.85923552259887,
+   "recall_at_5fpr": 0.66875,
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.9896991196951781,
+    "MoTe2": 0.9624607658505964,
+    "spike": 0.9138166980539861,
+    "MoS2/WSe2_stack": 0.5319522912743252
+   },
+   "false_alarm_after_change": 0.034722222222222224,
+   "ms_per_reading": 0.019341837866483507,
+   "stored_numbers": 110
+  }
+ }
+}

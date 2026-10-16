@@ -1,0 +1,36 @@
+{
+ "Qwen3.5-9B": {
+  "weight_bytes": 19306310880,
+  "layers": 32,
+  "full_attention_layers": 8,
+  "linear_attention_layers": 24,
+  "kv_bytes_per_token": 32768,
+  "linear_state_bytes": 51511296,
+  "max_context": 262144,
+  "tokens_per_reading": 299,
+  "context_bytes": {
+   "1024": 85065728,
+   "8192": 319946752,
+   "32768": 1125253120,
+   "131072": 4346478592,
+   "262144": 8641445888
+  }
+ },
+ "Qwen3.6-35B-A3B-FP8": {
+  "weight_bytes": 37463662160,
+  "layers": 40,
+  "full_attention_layers": 10,
+  "linear_attention_layers": 30,
+  "kv_bytes_per_token": 20480,
+  "linear_state_bytes": 64389120,
+  "max_context": 262144,
+  "tokens_per_reading": 299,
+  "context_bytes": {
+   "1024": 85360640,
+   "8192": 232161280,
+   "32768": 735477760,
+   "131072": 2748743680,
+   "262144": 5433098240
+  }
+ }
+}

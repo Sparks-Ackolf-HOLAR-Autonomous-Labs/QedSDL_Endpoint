@@ -1,0 +1,49 @@
+{
+ "seed": 13,
+ "ctx_gain": 2.0,
+ "n_mislabelled": 119,
+ "det": {
+  "module_ctx": {
+   "j1_new_phase": 0.96351217088922,
+   "j2_wrong_sample": 0.9860714777714364,
+   "stack": 0.9292219620088471,
+   "stored_numbers": 5177
+  },
+  "module_best_ctx": {
+   "j1_new_phase": 0.9681623021786957,
+   "j2_wrong_sample": 0.9858500777360124,
+   "stack": 0.9484777517564403,
+   "stored_numbers": 5177
+  },
+  "module_ctx_shuf": {
+   "j1_new_phase": 0.9669381165282804,
+   "j2_wrong_sample": 0.984216637474662,
+   "stack": 0.93788056206089,
+   "stored_numbers": 5177
+  },
+  "module_ctx_rand": {
+   "j1_new_phase": 0.9581559151231281,
+   "j2_wrong_sample": 0.9800174168027866,
+   "stack": 0.932591725214676,
+   "stored_numbers": 5177
+  },
+  "fam4_quarter": {
+   "j1_new_phase": 0.9758675750479029,
+   "j2_wrong_sample": 0.9936384389821502,
+   "stack": 0.961455893832943,
+   "stored_numbers": 5177
+  },
+  "zscore_fam": {
+   "j1_new_phase": 0.9775583705911574,
+   "j2_wrong_sample": 0.9970947395351583,
+   "stack": 0.9683060109289618,
+   "stored_numbers": 448
+  },
+  "centroid": {
+   "j1_new_phase": 0.907520757930594,
+   "j2_wrong_sample": 1.0,
+   "stack": 0.9589383294301328,
+   "stored_numbers": 224
+  }
+ }
+}

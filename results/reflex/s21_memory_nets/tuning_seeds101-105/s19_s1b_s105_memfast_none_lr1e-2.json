@@ -1,0 +1,25 @@
+{
+ "seed": 105,
+ "G": 56,
+ "det": {
+  "memfast": {
+   "auroc": 0.668557777117859,
+   "recall_at_5fpr": 0.010362694300518135,
+   "recall_by_kind": {
+    "1T'_MoS2": 0.0,
+    "MoTe2": 0.0,
+    "spike": 0.04,
+    "MoS2/WSe2_stack": 0.0
+   },
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.6826625494655287,
+    "MoTe2": 0.6353483509172131,
+    "spike": 0.7799372683205019,
+    "MoS2/WSe2_stack": 0.5842389295483108
+   },
+   "false_alarm_after_change": 0.0176678445229682,
+   "ms_per_reading": 0.31359618328310346,
+   "stored_numbers": 5064
+  }
+ }
+}

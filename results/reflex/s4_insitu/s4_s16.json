@@ -1,0 +1,69 @@
+{
+ "seed": 16,
+ "arms": {
+  "gp": {
+   "lost": 7,
+   "saved": 0,
+   "false_stops": 0,
+   "furnace_runs": 30.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 0.000356713792792073
+  },
+  "cbo": {
+   "lost": 5,
+   "saved": 0,
+   "false_stops": 0,
+   "furnace_runs": 30.0,
+   "gap": 0.0,
+   "ms_per_check": 0.0003044907417562273
+  },
+  "gp+fly": {
+   "lost": 4,
+   "saved": 5,
+   "false_stops": 3,
+   "furnace_runs": 24.0,
+   "gap": 0.0,
+   "ms_per_check": 1.4302479448141876
+  },
+  "gp+fly_best": {
+   "lost": 2,
+   "saved": 4,
+   "false_stops": 1,
+   "furnace_runs": 26.25,
+   "gap": 0.004484585505203698,
+   "ms_per_check": 1.450581596819339
+  },
+  "gp+fly_best_shuf": {
+   "lost": 2,
+   "saved": 4,
+   "false_stops": 1,
+   "furnace_runs": 26.25,
+   "gap": 0.004484585505203698,
+   "ms_per_check": 1.4382021812101204
+  },
+  "gp+fly_best_rand": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 4,
+   "furnace_runs": 22.5,
+   "gap": 0.0395781655631845,
+   "ms_per_check": 1.451134871415518
+  },
+  "gp+knn": {
+   "lost": 6,
+   "saved": 6,
+   "false_stops": 4,
+   "furnace_runs": 22.5,
+   "gap": 0.03256491491500357,
+   "ms_per_check": 0.022681550709185778
+  },
+  "gp+logreg": {
+   "lost": 5,
+   "saved": 2,
+   "false_stops": 7,
+   "furnace_runs": 23.25,
+   "gap": 0.0,
+   "ms_per_check": 1.5564329439291247
+  }
+ }
+}

@@ -1,0 +1,2057 @@
+{
+ "s1b": {
+  "fly": 0.8598414719241381,
+  "knn_budget": 0.9188239772913216,
+  "fly_fa": 0.19002708082776945,
+  "ae16|none": {
+   "auroc": 0.855778187233474,
+   "fa": 0.1688212594682597,
+   "stored": 1864,
+   "ms": 0.21343820489867515
+  },
+  "ae16|res": {
+   "auroc": 0.8529719597465464,
+   "fa": 0.27824048719950106,
+   "stored": 5448,
+   "ms": 0.2823457715630128
+  },
+  "ae16|fifo": {
+   "auroc": 0.8374145182317669,
+   "fa": 0.2894323212359555,
+   "stored": 5448,
+   "ms": 0.421104586406334
+  },
+  "ae16|prio": {
+   "auroc": 0.7886724753590436,
+   "fa": 0.2073997206419505,
+   "stored": 5448,
+   "ms": 0.3224171707910058
+  },
+  "lstm|none": {
+   "auroc": 0.8635038123805625,
+   "fa": 0.03205284536633442,
+   "stored": 5688,
+   "ms": 0.3737170198441458
+  },
+  "lstm|res": {
+   "auroc": 0.8846402203021713,
+   "fa": 0.026792146494704905,
+   "stored": 20024,
+   "ms": 0.8953434606712009
+  },
+  "lstm|fifo": {
+   "auroc": 0.8730943352236714,
+   "fa": 0.03030127964528308,
+   "stored": 20024,
+   "ms": 0.7522188981466399
+  },
+  "lstm|prio": {
+   "auroc": 0.8258328188296638,
+   "fa": 0.04170264809527004,
+   "stored": 20024,
+   "ms": 0.6709067857056554
+  },
+  "gru|none": {
+   "auroc": 0.8440830378873233,
+   "fa": 0.030664258321728817,
+   "stored": 4504,
+   "ms": 0.655450574713885
+  },
+  "gru|res": {
+   "auroc": 0.8677032758217449,
+   "fa": 0.027304293768506543,
+   "stored": 18840,
+   "ms": 1.0449688979298681
+  },
+  "gru|fifo": {
+   "auroc": 0.8610455799556096,
+   "fa": 0.03200473706396656,
+   "stored": 18840,
+   "ms": 0.944531361245223
+  },
+  "gru|prio": {
+   "auroc": 0.8101153795542626,
+   "fa": 0.029950522161459138,
+   "stored": 18840,
+   "ms": 1.1876392221531353
+  },
+  "peep|none": {
+   "auroc": 0.8627702113822618,
+   "fa": 0.031320918674949336,
+   "stored": 5672,
+   "ms": 0.5956869078485445
+  },
+  "peep|res": {
+   "auroc": 0.8876861494874213,
+   "fa": 0.031775187470489866,
+   "stored": 20008,
+   "ms": 1.5474748613086304
+  },
+  "peep|fifo": {
+   "auroc": 0.8778405359958743,
+   "fa": 0.02978497970638162,
+   "stored": 20008,
+   "ms": 1.3791245827703056
+  },
+  "peep|prio": {
+   "auroc": 0.8216464748581149,
+   "fa": 0.03810557764467338,
+   "stored": 20008,
+   "ms": 1.191602903053265
+  },
+  "mog|none": {
+   "auroc": 0.8530976716652363,
+   "fa": 0.03042749244703073,
+   "stored": 8072,
+   "ms": 1.576752631572654
+  },
+  "mog|res": {
+   "auroc": 0.856321575912728,
+   "fa": 0.04336497287109004,
+   "stored": 22408,
+   "ms": 3.1392772599639422
+  },
+  "mog|fifo": {
+   "auroc": 0.8433751823689801,
+   "fa": 0.04990132370165008,
+   "stored": 22408,
+   "ms": 3.456765767960885
+  },
+  "mog|prio": {
+   "auroc": 0.765754619893721,
+   "fa": 0.10340798439722701,
+   "stored": 22408,
+   "ms": 3.3075661145125492
+  },
+  "tfm|none": {
+   "auroc": 0.852262241931725,
+   "fa": 0.05972402963217812,
+   "stored": 4216,
+   "ms": 0.6573868436436797
+  },
+  "tfm|res": {
+   "auroc": 0.8584760077078053,
+   "fa": 0.2522589444684342,
+   "stored": 18552,
+   "ms": 1.411542586000586
+  },
+  "tfm|fifo": {
+   "auroc": 0.851535554986814,
+   "fa": 0.29038548890965205,
+   "stored": 18552,
+   "ms": 1.3362978383005168
+  },
+  "tfm|prio": {
+   "auroc": 0.7844121375637757,
+   "fa": 0.26446229163986007,
+   "stored": 18552,
+   "ms": 1.3531427847133395
+  },
+  "memae|none": {
+   "auroc": 0.7376949181900422,
+   "fa": 0.028719826806183364,
+   "stored": 5064,
+   "ms": 0.6318696802356153
+  },
+  "memae|res": {
+   "auroc": 0.8547197981432644,
+   "fa": 0.028421286325114963,
+   "stored": 8648,
+   "ms": 0.7242895211407764
+  },
+  "memae|fifo": {
+   "auroc": 0.8564747574522389,
+   "fa": 0.0293627691638139,
+   "stored": 8648,
+   "ms": 0.8172267114403784
+  },
+  "memae|prio": {
+   "auroc": 0.7880110335161692,
+   "fa": 0.03767350828791277,
+   "stored": 8648,
+   "ms": 0.6809514761537414
+  },
+  "memfast|none": {
+   "auroc": 0.8446558507266138,
+   "fa": 0.028652676096174057,
+   "stored": 5064,
+   "ms": 0.35967801143163564
+  },
+  "memfast|res": {
+   "auroc": 0.8582604114476183,
+   "fa": 0.03350375186551276,
+   "stored": 8648,
+   "ms": 0.6031158136367496
+  },
+  "memfast|fifo": {
+   "auroc": 0.8629617208769188,
+   "fa": 0.031156923908348233,
+   "stored": 8648,
+   "ms": 0.5932586797689263
+  },
+  "memfast|prio": {
+   "auroc": 0.8455544190903563,
+   "fa": 0.042774856293301966,
+   "stored": 8648,
+   "ms": 0.6596595902763609
+  },
+  "fastw|none": {
+   "auroc": 0.855983466332118,
+   "fa": 0.0660795798891122,
+   "stored": 2760,
+   "ms": 0.24689831043518073
+  },
+  "fastw|res": {
+   "auroc": 0.8381370650730489,
+   "fa": 0.17912172338866783,
+   "stored": 6344,
+   "ms": 0.36570645457863604
+  },
+  "fastw|fifo": {
+   "auroc": 0.8274661405496095,
+   "fa": 0.14782640748889667,
+   "stored": 6344,
+   "ms": 0.42834342075385956
+  },
+  "fastw|prio": {
+   "auroc": 0.7752014881580275,
+   "fa": 0.1612406074559261,
+   "stored": 6344,
+   "ms": 0.5202317005526778
+  }
+ },
+ "s1b_tests": [
+  {
+   "det": "autoencoder, no replay",
+   "diff": -0.004063284690664237,
+   "higher": 10,
+   "p_holm": 1.0
+  },
+  {
+   "det": "autoencoder, reservoir",
+   "diff": -0.006869512177591686,
+   "higher": 9,
+   "p_holm": 1.0
+  },
+  {
+   "det": "autoencoder, recent (FIFO)",
+   "diff": -0.022426953692371215,
+   "higher": 5,
+   "p_holm": 0.11719894409179688
+  },
+  {
+   "det": "autoencoder, surprise-prioritised",
+   "diff": -0.07116899656509443,
+   "higher": 0,
+   "p_holm": 6.866455078125e-05
+  },
+  {
+   "det": "LSTM, no replay",
+   "diff": 0.0036623404564243346,
+   "higher": 14,
+   "p_holm": 1.0
+  },
+  {
+   "det": "LSTM, reservoir",
+   "diff": 0.02479874837803318,
+   "higher": 16,
+   "p_holm": 0.026432037353515625
+  },
+  {
+   "det": "LSTM, recent (FIFO)",
+   "diff": 0.013252863299533357,
+   "higher": 11,
+   "p_holm": 1.0
+  },
+  {
+   "det": "LSTM, surprise-prioritised",
+   "diff": -0.03400865309447441,
+   "higher": 2,
+   "p_holm": 0.00469970703125
+  },
+  {
+   "det": "GRU, no replay",
+   "diff": -0.015758434036814723,
+   "higher": 5,
+   "p_holm": 0.11177825927734375
+  },
+  {
+   "det": "GRU, reservoir",
+   "diff": 0.007861803897606785,
+   "higher": 14,
+   "p_holm": 1.0
+  },
+  {
+   "det": "GRU, recent (FIFO)",
+   "diff": 0.001204108031471668,
+   "higher": 13,
+   "p_holm": 1.0
+  },
+  {
+   "det": "GRU, surprise-prioritised",
+   "diff": -0.04972609236987556,
+   "higher": 1,
+   "p_holm": 0.000118255615234375
+  },
+  {
+   "det": "peephole LSTM, no replay",
+   "diff": 0.002928739458123786,
+   "higher": 9,
+   "p_holm": 1.0
+  },
+  {
+   "det": "peephole LSTM, reservoir",
+   "diff": 0.027844677563283238,
+   "higher": 17,
+   "p_holm": 0.008703231811523438
+  },
+  {
+   "det": "peephole LSTM, recent (FIFO)",
+   "diff": 0.017999064071736424,
+   "higher": 16,
+   "p_holm": 0.11719894409179688
+  },
+  {
+   "det": "peephole LSTM, surprise-prioritised",
+   "diff": -0.03819499706602323,
+   "higher": 2,
+   "p_holm": 0.0018253326416015625
+  },
+  {
+   "det": "Mogrifier LSTM, no replay",
+   "diff": -0.006743800258901728,
+   "higher": 8,
+   "p_holm": 1.0
+  },
+  {
+   "det": "Mogrifier LSTM, reservoir",
+   "diff": -0.0035198960114100953,
+   "higher": 9,
+   "p_holm": 1.0
+  },
+  {
+   "det": "Mogrifier LSTM, recent (FIFO)",
+   "diff": -0.016466289555157755,
+   "higher": 5,
+   "p_holm": 0.11177825927734375
+  },
+  {
+   "det": "Mogrifier LSTM, surprise-prioritised",
+   "diff": -0.09408685203041704,
+   "higher": 0,
+   "p_holm": 6.866455078125e-05
+  },
+  {
+   "det": "transformer, no replay",
+   "diff": -0.007579229992413022,
+   "higher": 7,
+   "p_holm": 0.7489185333251953
+  },
+  {
+   "det": "transformer, reservoir",
+   "diff": -0.0013654642163325292,
+   "higher": 9,
+   "p_holm": 1.0
+  },
+  {
+   "det": "transformer, recent (FIFO)",
+   "diff": -0.008305916937324026,
+   "higher": 7,
+   "p_holm": 1.0
+  },
+  {
+   "det": "transformer, surprise-prioritised",
+   "diff": -0.07542933436036234,
+   "higher": 0,
+   "p_holm": 6.866455078125e-05
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), no replay",
+   "diff": -0.12214655373409589,
+   "higher": 0,
+   "p_holm": 6.866455078125e-05
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), reservoir",
+   "diff": -0.005121673780873614,
+   "higher": 14,
+   "p_holm": 1.0
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), recent (FIFO)",
+   "diff": -0.003366714471899157,
+   "higher": 12,
+   "p_holm": 1.0
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), surprise-prioritised",
+   "diff": -0.07183043840796872,
+   "higher": 1,
+   "p_holm": 0.000171661376953125
+  },
+  {
+   "det": "fast slot memory written in one shot, no replay",
+   "diff": -0.015185621197524202,
+   "higher": 7,
+   "p_holm": 0.36544036865234375
+  },
+  {
+   "det": "fast slot memory written in one shot, reservoir",
+   "diff": -0.001581060476519791,
+   "higher": 10,
+   "p_holm": 1.0
+  },
+  {
+   "det": "fast slot memory written in one shot, recent (FIFO)",
+   "diff": 0.0031202489527808407,
+   "higher": 12,
+   "p_holm": 1.0
+  },
+  {
+   "det": "fast slot memory written in one shot, surprise-prioritised",
+   "diff": -0.01428705283378171,
+   "higher": 8,
+   "p_holm": 0.7198104858398438
+  },
+  {
+   "det": "fast weights (delta rule), no replay",
+   "diff": -0.0038580055920199364,
+   "higher": 11,
+   "p_holm": 1.0
+  },
+  {
+   "det": "fast weights (delta rule), reservoir",
+   "diff": -0.021704406851089188,
+   "higher": 3,
+   "p_holm": 0.026432037353515625
+  },
+  {
+   "det": "fast weights (delta rule), recent (FIFO)",
+   "diff": -0.03237533137452847,
+   "higher": 5,
+   "p_holm": 0.0756683349609375
+  },
+  {
+   "det": "fast weights (delta rule), surprise-prioritised",
+   "diff": -0.08463998376611062,
+   "higher": 0,
+   "p_holm": 6.866455078125e-05
+  }
+ ],
+ "s5b": {
+  "fly_r0": {
+   "auroc_first": 0.8747310328500912,
+   "auroc_last": 0.836941287285675,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.22899936283159772,
+    "GaSe": 2.523926208320463,
+    "SnS2": 22.92605631262086
+   },
+   "recall_first": 0.7566666666666666,
+   "n": 30
+  },
+  "fly_r1e-5": {
+   "auroc_first": 0.8901178861457159,
+   "auroc_last": 0.8714160819080632,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.181436909996237,
+    "GaSe": 0.3772858422837601,
+    "SnS2": 0.39461320114656007
+   },
+   "recall_first": 0.7833333333333333,
+   "n": 30
+  },
+  "fly_r1e-4": {
+   "auroc_first": 0.9006239440470637,
+   "auroc_last": 0.871628973675449,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.36555419596816585,
+    "GaSe": 0.8845445493854093,
+    "SnS2": 0.7636366309629207
+   },
+   "recall_first": 0.7883333333333333,
+   "n": 30
+  },
+  "ae16|none": {
+   "auroc_first": 0.8128412081560534,
+   "auroc_last": 0.7554772665288781,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8473061460082475,
+    "GaSe": 0.9092329736763698,
+    "SnS2": 0.42002276176940795
+   },
+   "recall_first": 0.6900000000000001,
+   "n": 30
+  },
+  "ae16|res": {
+   "auroc_first": 0.8124828162903128,
+   "auroc_last": 0.7405372981696053,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8703097387734944,
+    "GaSe": 0.9112074162557556,
+    "SnS2": 0.31089749453519183
+   },
+   "recall_first": 0.8927777777777777,
+   "n": 30
+  },
+  "ae16|fifo": {
+   "auroc_first": 0.789583764709602,
+   "auroc_last": 0.6967626385974539,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.7975321747041747,
+    "GaSe": 0.8801138337151613,
+    "SnS2": 0.3678308874297139
+   },
+   "recall_first": 0.7488888888888889,
+   "n": 30
+  },
+  "ae16|prio": {
+   "auroc_first": 0.7736555540632201,
+   "auroc_last": 0.7316570806544871,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.33761983304533444,
+    "GaSe": 1.1583929877523265,
+    "SnS2": 0.9066913218542177
+   },
+   "recall_first": 0.6616666666666666,
+   "n": 30
+  },
+  "lstm|none": {
+   "auroc_first": 0.8921138091330915,
+   "auroc_last": 0.908056540644312,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8936434306103631,
+    "GaSe": 1.0227502873805179,
+    "SnS2": 0.753226587352186
+   },
+   "recall_first": 0.39222222222222214,
+   "n": 30
+  },
+  "lstm|res": {
+   "auroc_first": 0.9042194230671419,
+   "auroc_last": 0.8763802810753418,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8680563599143273,
+    "GaSe": 0.9672955372285575,
+    "SnS2": 0.6092659621409546
+   },
+   "recall_first": 0.6855555555555556,
+   "n": 30
+  },
+  "lstm|fifo": {
+   "auroc_first": 0.8905741793237988,
+   "auroc_last": 0.798991995573562,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8261262474136359,
+    "GaSe": 0.9656612674556586,
+    "SnS2": 0.601195644988901
+   },
+   "recall_first": 0.57,
+   "n": 30
+  },
+  "lstm|prio": {
+   "auroc_first": 0.8105839024544916,
+   "auroc_last": 0.7650366395732474,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.36653201592572277,
+    "GaSe": 1.031749233908778,
+    "SnS2": 0.8078350336081866
+   },
+   "recall_first": 0.44277777777777777,
+   "n": 30
+  },
+  "gru|none": {
+   "auroc_first": 0.8652938054629149,
+   "auroc_last": 0.8941764273805378,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.9162800788975696,
+    "GaSe": 1.0332712421211885,
+    "SnS2": 0.954599131246663
+   },
+   "recall_first": 0.20166666666666666,
+   "n": 30
+  },
+  "gru|res": {
+   "auroc_first": 0.8839498646291487,
+   "auroc_last": 0.8930006985449005,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.9377372962436489,
+    "GaSe": 0.9349211682633805,
+    "SnS2": 0.7538507798609249
+   },
+   "recall_first": 0.41555555555555557,
+   "n": 30
+  },
+  "gru|fifo": {
+   "auroc_first": 0.8781548159865994,
+   "auroc_last": 0.8850192541700194,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.9169493859990829,
+    "GaSe": 0.9796668261205006,
+    "SnS2": 0.725025890045282
+   },
+   "recall_first": 0.36333333333333334,
+   "n": 30
+  },
+  "gru|prio": {
+   "auroc_first": 0.8137164759008991,
+   "auroc_last": 0.8157119952430167,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.6083904235044595,
+    "GaSe": 0.9785553946966634,
+    "SnS2": 0.855037403346423
+   },
+   "recall_first": 0.315,
+   "n": 30
+  },
+  "peep|none": {
+   "auroc_first": 0.890340076929847,
+   "auroc_last": 0.9046310289924002,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8610460567439577,
+    "GaSe": 1.0388837080846594,
+    "SnS2": 0.7731330174779438
+   },
+   "recall_first": 0.3811111111111112,
+   "n": 30
+  },
+  "peep|res": {
+   "auroc_first": 0.9007712531722238,
+   "auroc_last": 0.8571232323821092,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8736219149797353,
+    "GaSe": 0.9665297245395607,
+    "SnS2": 0.6003364724184319
+   },
+   "recall_first": 0.6655555555555556,
+   "n": 30
+  },
+  "peep|fifo": {
+   "auroc_first": 0.8865118668817015,
+   "auroc_last": 0.808020395649802,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8570164019905163,
+    "GaSe": 0.9603074598666785,
+    "SnS2": 0.5819498805516577
+   },
+   "recall_first": 0.5683333333333334,
+   "n": 30
+  },
+  "peep|prio": {
+   "auroc_first": 0.8094663361283049,
+   "auroc_last": 0.7663756118819279,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.3754991852643756,
+    "GaSe": 1.0274898587222259,
+    "SnS2": 0.7989173406002191
+   },
+   "recall_first": 0.44722222222222224,
+   "n": 30
+  },
+  "mog|none": {
+   "auroc_first": 0.8658554072164072,
+   "auroc_last": 0.7460593508328682,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8432033999287635,
+    "GaSe": 1.118976489028961,
+    "SnS2": 0.5884227101520839
+   },
+   "recall_first": 0.4066666666666667,
+   "n": 30
+  },
+  "mog|res": {
+   "auroc_first": 0.8262710265514245,
+   "auroc_last": 0.6831062141547604,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8006745999224925,
+    "GaSe": 0.9249286238215271,
+    "SnS2": 0.3699271935703708
+   },
+   "recall_first": 0.7344444444444446,
+   "n": 30
+  },
+  "mog|fifo": {
+   "auroc_first": 0.7824207684570222,
+   "auroc_last": 0.6414842659043687,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.6720894060853588,
+    "GaSe": 0.681076087759379,
+    "SnS2": 0.19563459346692594
+   },
+   "recall_first": 0.6444444444444445,
+   "n": 30
+  },
+  "mog|prio": {
+   "auroc_first": 0.7622540042351199,
+   "auroc_last": 0.7381940546355954,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.20689760167595883,
+    "GaSe": 1.057735310278313,
+    "SnS2": 0.8535057050257264
+   },
+   "recall_first": 0.49777777777777776,
+   "n": 30
+  },
+  "tfm|none": {
+   "auroc_first": 0.7842776089067311,
+   "auroc_last": 0.6300728719424052,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8090678641749017,
+    "GaSe": 0.5120381410394158,
+    "SnS2": 0.21207118781316925
+   },
+   "recall_first": 0.5044444444444445,
+   "n": 30
+  },
+  "tfm|res": {
+   "auroc_first": 0.7733972268270022,
+   "auroc_last": 0.6536509890935065,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.6829289126677842,
+    "GaSe": 0.651400770451914,
+    "SnS2": 0.2632492693250782
+   },
+   "recall_first": 0.7527777777777777,
+   "n": 30
+  },
+  "tfm|fifo": {
+   "auroc_first": 0.739374075489511,
+   "auroc_last": 0.6398578070532024,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.5774807643881991,
+    "GaSe": 0.46745547835806095,
+    "SnS2": 0.3025464556228585
+   },
+   "recall_first": 0.5683333333333334,
+   "n": 30
+  },
+  "tfm|prio": {
+   "auroc_first": 0.7703532938904037,
+   "auroc_last": 0.7297806685950675,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.23394687157583577,
+    "GaSe": 1.1291548651310777,
+    "SnS2": 1.3410799905812063
+   },
+   "recall_first": 0.5277777777777779,
+   "n": 30
+  },
+  "memae|none": {
+   "auroc_first": 0.7744124157448351,
+   "auroc_last": 0.738909213888183,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.9491764873091276,
+    "GaSe": 0.9036768461567959,
+    "SnS2": 0.8587614329558129
+   },
+   "recall_first": 0.1238888888888889,
+   "n": 30
+  },
+  "memae|res": {
+   "auroc_first": 0.8863251832776484,
+   "auroc_last": 0.8956093857466852,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8563811583316601,
+    "GaSe": 0.9480060800090819,
+    "SnS2": 0.773566014182646
+   },
+   "recall_first": 0.3877777777777778,
+   "n": 30
+  },
+  "memae|fifo": {
+   "auroc_first": 0.8824951184277058,
+   "auroc_last": 0.8881459576083549,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.7730923099095341,
+    "GaSe": 0.9735578068794547,
+    "SnS2": 0.6857202761204627
+   },
+   "recall_first": 0.3477777777777778,
+   "n": 30
+  },
+  "memae|prio": {
+   "auroc_first": 0.8098482741811844,
+   "auroc_last": 0.8278391906289186,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.4983599278690876,
+    "GaSe": 1.0568734047571113,
+    "SnS2": 0.7349418654888141
+   },
+   "recall_first": 0.3383333333333333,
+   "n": 30
+  },
+  "memfast|none": {
+   "auroc_first": 0.8776302165006203,
+   "auroc_last": 0.8720944669044808,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.9391232190131328,
+    "GaSe": 1.0700249229689962,
+    "SnS2": 0.5188498767433204
+   },
+   "recall_first": 0.36166666666666664,
+   "n": 30
+  },
+  "memfast|res": {
+   "auroc_first": 0.88841718543732,
+   "auroc_last": 0.8589285056095701,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.9054794733648625,
+    "GaSe": 1.0171328621803521,
+    "SnS2": 0.5708603423500972
+   },
+   "recall_first": 0.5444444444444444,
+   "n": 30
+  },
+  "memfast|fifo": {
+   "auroc_first": 0.8894527413504039,
+   "auroc_last": 0.8525253896566987,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.9081814973087305,
+    "GaSe": 1.1012320176706123,
+    "SnS2": 0.5590846073615787
+   },
+   "recall_first": 0.5111111111111111,
+   "n": 30
+  },
+  "memfast|prio": {
+   "auroc_first": 0.8298184046812592,
+   "auroc_last": 0.7627659590868769,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.5670561327221754,
+    "GaSe": 0.979047423412143,
+    "SnS2": 0.7075593497096585
+   },
+   "recall_first": 0.5544444444444444,
+   "n": 30
+  },
+  "fastw|none": {
+   "auroc_first": 0.8293998060734962,
+   "auroc_last": 0.7176158262663821,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.8971520218105399,
+    "GaSe": 0.9966755114477734,
+    "SnS2": 0.4626758242054798
+   },
+   "recall_first": 0.46333333333333326,
+   "n": 30
+  },
+  "fastw|res": {
+   "auroc_first": 0.8063365893594512,
+   "auroc_last": 0.7808300280335263,
+   "contrast_ratio": {
+    "alpha-MoO3": 1.0317297335187048,
+    "GaSe": 1.116860459214806,
+    "SnS2": 0.5149839910020962
+   },
+   "recall_first": 0.7638888888888891,
+   "n": 30
+  },
+  "fastw|fifo": {
+   "auroc_first": 0.7863699551862309,
+   "auroc_last": 0.691827272828828,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.7654207337000355,
+    "GaSe": 1.0833142568643226,
+    "SnS2": 0.441622227370773
+   },
+   "recall_first": 0.5005555555555555,
+   "n": 30
+  },
+  "fastw|prio": {
+   "auroc_first": 0.7805376499820326,
+   "auroc_last": 0.7473808082684521,
+   "contrast_ratio": {
+    "alpha-MoO3": 0.4974360839216072,
+    "GaSe": 0.9754279303176219,
+    "SnS2": 0.8299220819083625
+   },
+   "recall_first": 0.5383333333333333,
+   "n": 30
+  }
+ },
+ "s5b_tests": [
+  {
+   "det": "autoencoder, no replay",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.48175195004008164,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "autoencoder, no replay",
+   "measure": "recall at first sighting",
+   "diff": -0.09833333333333334,
+   "lower": 26,
+   "higher": 1,
+   "n": 30,
+   "p": 6.223330448238662e-06,
+   "p_holm": 0.00017425325255068254
+  },
+  {
+   "det": "autoencoder, no replay",
+   "measure": "AUROC last block",
+   "diff": -0.11615170714657079,
+   "lower": 29,
+   "higher": 1,
+   "n": 30,
+   "p": 3.725290298461914e-09,
+   "p_holm": 2.682209014892578e-07
+  },
+  {
+   "det": "autoencoder, reservoir",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5047555428053285,
+   "lower": 1,
+   "higher": 29,
+   "n": 30,
+   "p": 3.725290298461914e-09,
+   "p_holm": 2.682209014892578e-07
+  },
+  {
+   "det": "autoencoder, reservoir",
+   "measure": "recall at first sighting",
+   "diff": 0.10444444444444442,
+   "lower": 1,
+   "higher": 28,
+   "n": 30,
+   "p": 9.723279008614276e-06,
+   "p_holm": 0.00026252853323258546
+  },
+  {
+   "det": "autoencoder, reservoir",
+   "measure": "AUROC last block",
+   "diff": -0.13109167550584364,
+   "lower": 26,
+   "higher": 4,
+   "n": 30,
+   "p": 8.009374141693115e-08,
+   "p_holm": 4.8857182264328e-06
+  },
+  {
+   "det": "autoencoder, recent (FIFO)",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.43197797873600885,
+   "lower": 3,
+   "higher": 27,
+   "n": 30,
+   "p": 2.0489096641540527e-07,
+   "p_holm": 1.1883676052093506e-05
+  },
+  {
+   "det": "autoencoder, recent (FIFO)",
+   "measure": "recall at first sighting",
+   "diff": -0.039444444444444456,
+   "lower": 18,
+   "higher": 12,
+   "n": 30,
+   "p": 0.03860979159849131,
+   "p_holm": 0.4247077075834044
+  },
+  {
+   "det": "autoencoder, recent (FIFO)",
+   "measure": "AUROC last block",
+   "diff": -0.1748663350779952,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "autoencoder, surprise-prioritised",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": -0.027934362922831375,
+   "lower": 18,
+   "higher": 12,
+   "n": 30,
+   "p": 0.22855282202363014,
+   "p_holm": 1.0
+  },
+  {
+   "det": "autoencoder, surprise-prioritised",
+   "measure": "recall at first sighting",
+   "diff": -0.12666666666666668,
+   "lower": 26,
+   "higher": 3,
+   "n": 30,
+   "p": 4.770302451313643e-06,
+   "p_holm": 0.00013833877108809564
+  },
+  {
+   "det": "autoencoder, surprise-prioritised",
+   "measure": "AUROC last block",
+   "diff": -0.13997189302096186,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "LSTM, no replay",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5280892346421974,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "LSTM, no replay",
+   "measure": "recall at first sighting",
+   "diff": -0.39611111111111114,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7278603148724105e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "LSTM, no replay",
+   "measure": "AUROC last block",
+   "diff": 0.036427566968862984,
+   "lower": 1,
+   "higher": 29,
+   "n": 30,
+   "p": 1.30385160446167e-08,
+   "p_holm": 8.475035429000854e-07
+  },
+  {
+   "det": "LSTM, reservoir",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5025021639461614,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "LSTM, reservoir",
+   "measure": "recall at first sighting",
+   "diff": -0.1027777777777778,
+   "lower": 26,
+   "higher": 4,
+   "n": 30,
+   "p": 5.034921350180961e-05,
+   "p_holm": 0.0009566350565343826
+  },
+  {
+   "det": "LSTM, reservoir",
+   "measure": "AUROC last block",
+   "diff": 0.004751307399892835,
+   "lower": 12,
+   "higher": 18,
+   "n": 30,
+   "p": 0.4898460879921913,
+   "p_holm": 1.0
+  },
+  {
+   "det": "LSTM, recent (FIFO)",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.46057205144547014,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "LSTM, recent (FIFO)",
+   "measure": "recall at first sighting",
+   "diff": -0.21833333333333335,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7213435893906393e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "LSTM, recent (FIFO)",
+   "measure": "AUROC last block",
+   "diff": -0.07263697810188713,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "LSTM, surprise-prioritised",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.0009778199575569988,
+   "lower": 18,
+   "higher": 12,
+   "n": 30,
+   "p": 0.583757072687149,
+   "p_holm": 1.0
+  },
+  {
+   "det": "LSTM, surprise-prioritised",
+   "measure": "recall at first sighting",
+   "diff": -0.3455555555555555,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7256857880058038e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "LSTM, surprise-prioritised",
+   "measure": "AUROC last block",
+   "diff": -0.10659233410220167,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "GRU, no replay",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5507258829294039,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "GRU, no replay",
+   "measure": "recall at first sighting",
+   "diff": -0.5866666666666667,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.724599381815356e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "GRU, no replay",
+   "measure": "AUROC last block",
+   "diff": 0.022547453705088944,
+   "lower": 5,
+   "higher": 25,
+   "n": 30,
+   "p": 7.056817412376404e-05,
+   "p_holm": 0.0012702271342277527
+  },
+  {
+   "det": "GRU, reservoir",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5721831002754829,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "GRU, reservoir",
+   "measure": "recall at first sighting",
+   "diff": -0.37277777777777776,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7148474010332507e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "GRU, reservoir",
+   "measure": "AUROC last block",
+   "diff": 0.02137172486945153,
+   "lower": 7,
+   "higher": 23,
+   "n": 30,
+   "p": 0.001340603455901146,
+   "p_holm": 0.02010905183851719
+  },
+  {
+   "det": "GRU, recent (FIFO)",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5513951900309172,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "GRU, recent (FIFO)",
+   "measure": "recall at first sighting",
+   "diff": -0.42499999999999993,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.726772765612998e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "GRU, recent (FIFO)",
+   "measure": "AUROC last block",
+   "diff": 0.01339028049457028,
+   "lower": 8,
+   "higher": 22,
+   "n": 30,
+   "p": 0.010598260909318924,
+   "p_holm": 0.137777391821146
+  },
+  {
+   "det": "GRU, surprise-prioritised",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.24283622753629366,
+   "lower": 1,
+   "higher": 29,
+   "n": 30,
+   "p": 1.862645149230957e-08,
+   "p_holm": 1.173466444015503e-06
+  },
+  {
+   "det": "GRU, surprise-prioritised",
+   "measure": "recall at first sighting",
+   "diff": -0.4733333333333334,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7224282827430737e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "GRU, surprise-prioritised",
+   "measure": "AUROC last block",
+   "diff": -0.05591697843243227,
+   "lower": 29,
+   "higher": 1,
+   "n": 30,
+   "p": 3.725290298461914e-09,
+   "p_holm": 2.682209014892578e-07
+  },
+  {
+   "det": "peephole LSTM, no replay",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.4954918607757921,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "peephole LSTM, no replay",
+   "measure": "recall at first sighting",
+   "diff": -0.4072222222222222,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7278603148724105e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "peephole LSTM, no replay",
+   "measure": "AUROC last block",
+   "diff": 0.03300205531695115,
+   "lower": 3,
+   "higher": 27,
+   "n": 30,
+   "p": 2.551823854446411e-07,
+   "p_holm": 1.4545395970344543e-05
+  },
+  {
+   "det": "peephole LSTM, reservoir",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5080677190115696,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "peephole LSTM, reservoir",
+   "measure": "recall at first sighting",
+   "diff": -0.12277777777777782,
+   "lower": 28,
+   "higher": 2,
+   "n": 30,
+   "p": 1.4201460055955966e-05,
+   "p_holm": 0.00035503650139889916
+  },
+  {
+   "det": "peephole LSTM, reservoir",
+   "measure": "AUROC last block",
+   "diff": -0.01450574129333979,
+   "lower": 18,
+   "higher": 12,
+   "n": 30,
+   "p": 0.0803273618221283,
+   "p_holm": 0.7229462563991547
+  },
+  {
+   "det": "peephole LSTM, recent (FIFO)",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.49146220602235036,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "peephole LSTM, recent (FIFO)",
+   "measure": "recall at first sighting",
+   "diff": -0.22,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7256857880058038e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "peephole LSTM, recent (FIFO)",
+   "measure": "AUROC last block",
+   "diff": -0.0636085780256471,
+   "lower": 25,
+   "higher": 5,
+   "n": 30,
+   "p": 1.4193356037139893e-06,
+   "p_holm": 7.94827938079834e-05
+  },
+  {
+   "det": "peephole LSTM, surprise-prioritised",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.009944989296209659,
+   "lower": 12,
+   "higher": 18,
+   "n": 30,
+   "p": 0.42795460671186447,
+   "p_holm": 1.0
+  },
+  {
+   "det": "peephole LSTM, surprise-prioritised",
+   "measure": "recall at first sighting",
+   "diff": -0.34111111111111114,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7202594665136763e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "peephole LSTM, surprise-prioritised",
+   "measure": "AUROC last block",
+   "diff": -0.10525336179352116,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "Mogrifier LSTM, no replay",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.47764920396059785,
+   "lower": 1,
+   "higher": 29,
+   "n": 30,
+   "p": 3.725290298461914e-09,
+   "p_holm": 2.682209014892578e-07
+  },
+  {
+   "det": "Mogrifier LSTM, no replay",
+   "measure": "recall at first sighting",
+   "diff": -0.38166666666666665,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7278603148724105e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "Mogrifier LSTM, no replay",
+   "measure": "AUROC last block",
+   "diff": -0.12556962284258064,
+   "lower": 21,
+   "higher": 9,
+   "n": 30,
+   "p": 3.904104232788086e-05,
+   "p_holm": 0.0007808208465576172
+  },
+  {
+   "det": "Mogrifier LSTM, reservoir",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.4351204039543265,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "Mogrifier LSTM, reservoir",
+   "measure": "recall at first sighting",
+   "diff": -0.05388888888888892,
+   "lower": 16,
+   "higher": 12,
+   "n": 30,
+   "p": 0.0601685656069126,
+   "p_holm": 0.6016856560691259
+  },
+  {
+   "det": "Mogrifier LSTM, reservoir",
+   "measure": "AUROC last block",
+   "diff": -0.18852275952068856,
+   "lower": 29,
+   "higher": 1,
+   "n": 30,
+   "p": 3.725290298461914e-09,
+   "p_holm": 2.682209014892578e-07
+  },
+  {
+   "det": "Mogrifier LSTM, recent (FIFO)",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.3065352101171929,
+   "lower": 1,
+   "higher": 29,
+   "n": 30,
+   "p": 5.587935447692871e-09,
+   "p_holm": 3.7439167499542236e-07
+  },
+  {
+   "det": "Mogrifier LSTM, recent (FIFO)",
+   "measure": "recall at first sighting",
+   "diff": -0.1438888888888889,
+   "lower": 29,
+   "higher": 1,
+   "n": 30,
+   "p": 2.2084742068886027e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "Mogrifier LSTM, recent (FIFO)",
+   "measure": "AUROC last block",
+   "diff": -0.23014470777108034,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "Mogrifier LSTM, surprise-prioritised",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": -0.15865659429220705,
+   "lower": 28,
+   "higher": 2,
+   "n": 30,
+   "p": 9.313225746154785e-09,
+   "p_holm": 6.146728992462158e-07
+  },
+  {
+   "det": "Mogrifier LSTM, surprise-prioritised",
+   "measure": "recall at first sighting",
+   "diff": -0.2905555555555556,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7311263949197288e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "Mogrifier LSTM, surprise-prioritised",
+   "measure": "AUROC last block",
+   "diff": -0.1334349190398534,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "transformer, no replay",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.44351366820673593,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "transformer, no replay",
+   "measure": "recall at first sighting",
+   "diff": -0.28388888888888897,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7278603148724105e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "transformer, no replay",
+   "measure": "AUROC last block",
+   "diff": -0.2415561017330436,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "transformer, reservoir",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.31737471669961853,
+   "lower": 1,
+   "higher": 29,
+   "n": 30,
+   "p": 1.30385160446167e-08,
+   "p_holm": 8.475035429000854e-07
+  },
+  {
+   "det": "transformer, reservoir",
+   "measure": "recall at first sighting",
+   "diff": -0.03555555555555558,
+   "lower": 23,
+   "higher": 6,
+   "n": 30,
+   "p": 0.00037124721771328285,
+   "p_holm": 0.006311202701125809
+  },
+  {
+   "det": "transformer, reservoir",
+   "measure": "AUROC last block",
+   "diff": -0.2179779845819425,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "transformer, recent (FIFO)",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.21192656842003335,
+   "lower": 3,
+   "higher": 27,
+   "n": 30,
+   "p": 1.6391277313232422e-07,
+   "p_holm": 9.670853614807129e-06
+  },
+  {
+   "det": "transformer, recent (FIFO)",
+   "measure": "recall at first sighting",
+   "diff": -0.22000000000000003,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.726772765612998e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "transformer, recent (FIFO)",
+   "measure": "AUROC last block",
+   "diff": -0.2317711666222466,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "transformer, surprise-prioritised",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": -0.13160732439233008,
+   "lower": 28,
+   "higher": 2,
+   "n": 30,
+   "p": 2.366676926612854e-05,
+   "p_holm": 0.0005206689238548279
+  },
+  {
+   "det": "transformer, surprise-prioritised",
+   "measure": "recall at first sighting",
+   "diff": -0.26055555555555554,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7235135468062217e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "transformer, surprise-prioritised",
+   "measure": "AUROC last block",
+   "diff": -0.14184830508038146,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), no replay",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5836222913409619,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), no replay",
+   "measure": "recall at first sighting",
+   "diff": -0.6644444444444445,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7105279932400781e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), no replay",
+   "measure": "AUROC last block",
+   "diff": -0.1327197597872661,
+   "lower": 24,
+   "higher": 6,
+   "n": 30,
+   "p": 1.597777009010315e-05,
+   "p_holm": 0.0003834664821624756
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), reservoir",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.49082696236349405,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), reservoir",
+   "measure": "recall at first sighting",
+   "diff": -0.4005555555555556,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7311263949197288e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), reservoir",
+   "measure": "AUROC last block",
+   "diff": 0.023980412071236357,
+   "lower": 8,
+   "higher": 22,
+   "n": 30,
+   "p": 0.0007978975772857666,
+   "p_holm": 0.012766361236572266
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), recent (FIFO)",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.4075381139413681,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), recent (FIFO)",
+   "measure": "recall at first sighting",
+   "diff": -0.4405555555555555,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7300371292901247e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), recent (FIFO)",
+   "measure": "AUROC last block",
+   "diff": 0.016516983932905942,
+   "lower": 4,
+   "higher": 26,
+   "n": 30,
+   "p": 1.8244609236717224e-05,
+   "p_holm": 0.00041962601244449615
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), surprise-prioritised",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.1328057319009218,
+   "lower": 7,
+   "higher": 23,
+   "n": 30,
+   "p": 0.0027663204818964005,
+   "p_holm": 0.038728486746549606
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), surprise-prioritised",
+   "measure": "recall at first sighting",
+   "diff": -0.45,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7322162331441138e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "memory slots learned by gradient (MemAE), surprise-prioritised",
+   "measure": "AUROC last block",
+   "diff": -0.043789783046530466,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "fast slot memory written in one shot, no replay",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5735690230449669,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "fast slot memory written in one shot, no replay",
+   "measure": "recall at first sighting",
+   "diff": -0.4266666666666667,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7278603148724105e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "fast slot memory written in one shot, no replay",
+   "measure": "AUROC last block",
+   "diff": 0.0004654932290317659,
+   "lower": 13,
+   "higher": 17,
+   "n": 30,
+   "p": 0.5291051845997572,
+   "p_holm": 1.0
+  },
+  {
+   "det": "fast slot memory written in one shot, reservoir",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5399252773966966,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "fast slot memory written in one shot, reservoir",
+   "measure": "recall at first sighting",
+   "diff": -0.24388888888888888,
+   "lower": 24,
+   "higher": 5,
+   "n": 30,
+   "p": 1.3158230193416576e-05,
+   "p_holm": 0.00034211398502883097
+  },
+  {
+   "det": "fast slot memory written in one shot, reservoir",
+   "measure": "AUROC last block",
+   "diff": -0.01270046806587877,
+   "lower": 14,
+   "higher": 16,
+   "n": 30,
+   "p": 0.5978077705949545,
+   "p_holm": 1.0
+  },
+  {
+   "det": "fast slot memory written in one shot, recent (FIFO)",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5426273013405648,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "fast slot memory written in one shot, recent (FIFO)",
+   "measure": "recall at first sighting",
+   "diff": -0.2772222222222222,
+   "lower": 29,
+   "higher": 1,
+   "n": 30,
+   "p": 2.1148196406154903e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "fast slot memory written in one shot, recent (FIFO)",
+   "measure": "AUROC last block",
+   "diff": -0.01910358401875025,
+   "lower": 13,
+   "higher": 17,
+   "n": 30,
+   "p": 0.5425279382616282,
+   "p_holm": 1.0
+  },
+  {
+   "det": "fast slot memory written in one shot, surprise-prioritised",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.20150193675400938,
+   "lower": 6,
+   "higher": 24,
+   "n": 30,
+   "p": 2.366676926612854e-05,
+   "p_holm": 0.0005206689238548279
+  },
+  {
+   "det": "fast slot memory written in one shot, surprise-prioritised",
+   "measure": "recall at first sighting",
+   "diff": -0.23388888888888892,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7213435893906393e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "fast slot memory written in one shot, surprise-prioritised",
+   "measure": "AUROC last block",
+   "diff": -0.10886301458857207,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "fast weights (delta rule), no replay",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.5315978258423739,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "fast weights (delta rule), no replay",
+   "measure": "recall at first sighting",
+   "diff": -0.32500000000000007,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7083716990437346e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "fast weights (delta rule), no replay",
+   "measure": "AUROC last block",
+   "diff": -0.15401314740906694,
+   "lower": 28,
+   "higher": 2,
+   "n": 30,
+   "p": 1.862645149230957e-08,
+   "p_holm": 1.173466444015503e-06
+  },
+  {
+   "det": "fast weights (delta rule), reservoir",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.6661755375505387,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "fast weights (delta rule), reservoir",
+   "measure": "recall at first sighting",
+   "diff": -0.024444444444444473,
+   "lower": 18,
+   "higher": 11,
+   "n": 30,
+   "p": 0.2561171588271822,
+   "p_holm": 1.0
+  },
+  {
+   "det": "fast weights (delta rule), reservoir",
+   "measure": "AUROC last block",
+   "diff": -0.09079894564192242,
+   "lower": 27,
+   "higher": 3,
+   "n": 30,
+   "p": 8.009374141693115e-08,
+   "p_holm": 4.8857182264328e-06
+  },
+  {
+   "det": "fast weights (delta rule), recent (FIFO)",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.39986653773186975,
+   "lower": 0,
+   "higher": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "fast weights (delta rule), recent (FIFO)",
+   "measure": "recall at first sighting",
+   "diff": -0.2877777777777778,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.718092931245674e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "fast weights (delta rule), recent (FIFO)",
+   "measure": "AUROC last block",
+   "diff": -0.17980170084662098,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  },
+  {
+   "det": "fast weights (delta rule), surprise-prioritised",
+   "measure": "alpha-MoO3 contrast ratio",
+   "diff": 0.13188188795344144,
+   "lower": 8,
+   "higher": 22,
+   "n": 30,
+   "p": 0.012047622352838516,
+   "p_holm": 0.1445714682340622
+  },
+  {
+   "det": "fast weights (delta rule), surprise-prioritised",
+   "measure": "recall at first sighting",
+   "diff": -0.25,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.7148474010332507e-06,
+   "p_holm": 9.39604434474054e-05
+  },
+  {
+   "det": "fast weights (delta rule), surprise-prioritised",
+   "measure": "AUROC last block",
+   "diff": -0.1242481654069968,
+   "lower": 30,
+   "higher": 0,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 2.0116567611694336e-07
+  }
+ ],
+ "s5b_replay": {
+  "none": {
+   "alpha-MoO3 contrast ratio": 0.8839998560551783,
+   "recall at first sighting": 0.39166666666666666,
+   "AUROC last block": 0.7963436659311608
+  },
+  "res": {
+   "alpha-MoO3 contrast ratio": 0.869657687524079,
+   "recall at first sighting": 0.6491975308641975,
+   "AUROC last block": 0.8043518480900006
+  },
+  "fifo": {
+   "alpha-MoO3 contrast ratio": 0.7882098801665853,
+   "recall at first sighting": 0.5358641975308642,
+   "AUROC last block": 0.7669594418935877
+  },
+  "prio": {
+   "alpha-MoO3 contrast ratio": 0.41019311950050635,
+   "recall at first sighting": 0.48037037037037034,
+   "AUROC last block": 0.7649713342852877
+  }
+ },
+ "s20_lr": {
+  "net_gru": "1e-2",
+  "net_peep": "3e-3",
+  "net_mog": "3e-3",
+  "net_tfm": "1e-2",
+  "net_memnet": "3e-3"
+ },
+ "s20": {
+  "cal3|snap_kc": {
+   "lost": 2.45,
+   "err": 0.032707773237102424
+  },
+  "cal3|seq_kc": {
+   "lost": 2.35,
+   "err": 0.026866301767449287
+  },
+  "cal3|snap_mlp": {
+   "lost": 3.0,
+   "err": 0.04926313101840825
+  },
+  "cal3|lstm_tuned": {
+   "lost": 4.15,
+   "err": 0.042557331735665956
+  },
+  "cal3|net_gru": {
+   "lost": 6.5,
+   "err": 0.047379237996079196
+  },
+  "cal3|net_peep": {
+   "lost": 4.0,
+   "err": 0.038649943033604264
+  },
+  "cal3|net_mog": {
+   "lost": 4.15,
+   "err": 0.03613767080909998
+  },
+  "cal3|net_tfm": {
+   "lost": 3.6,
+   "err": 0.03783399672194626
+  },
+  "cal3|net_memnet": {
+   "lost": 4.75,
+   "err": 0.027889103024693336
+  },
+  "cal10|snap_kc": {
+   "lost": 1.9,
+   "err": 0.03397226227592398
+  },
+  "cal10|seq_kc": {
+   "lost": 1.0,
+   "err": 0.025006510892636953
+  },
+  "cal10|snap_mlp": {
+   "lost": 2.1,
+   "err": 0.03841177189575853
+  },
+  "cal10|lstm_tuned": {
+   "lost": 2.9,
+   "err": 0.0377740425347768
+  },
+  "cal10|net_gru": {
+   "lost": 4.4,
+   "err": 0.039321484784411845
+  },
+  "cal10|net_peep": {
+   "lost": 2.7,
+   "err": 0.035895841025937625
+  },
+  "cal10|net_mog": {
+   "lost": 2.7,
+   "err": 0.033034794672031256
+  },
+  "cal10|net_tfm": {
+   "lost": 1.5,
+   "err": 0.032027085766066596
+  },
+  "cal10|net_memnet": {
+   "lost": 4.35,
+   "err": 0.031239933203255948
+  }
+ }
+}

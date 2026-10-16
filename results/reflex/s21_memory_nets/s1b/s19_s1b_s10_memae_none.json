@@ -1,0 +1,25 @@
+{
+ "seed": 10,
+ "G": 56,
+ "det": {
+  "memae": {
+   "auroc": 0.7235142857142858,
+   "recall_at_5fpr": 0.055,
+   "recall_by_kind": {
+    "1T'_MoS2": 0.0,
+    "MoTe2": 0.0,
+    "spike": 0.16981132075471697,
+    "MoS2/WSe2_stack": 0.03508771929824561
+   },
+   "auroc_by_kind": {
+    "1T'_MoS2": 0.7424983388704318,
+    "MoTe2": 0.6847598784194528,
+    "spike": 0.7739299191374663,
+    "MoS2/WSe2_stack": 0.6942706766917294
+   },
+   "false_alarm_after_change": 0.014492753623188406,
+   "ms_per_reading": 0.33811779189351443,
+   "stored_numbers": 5064
+  }
+ }
+}

@@ -1,0 +1,936 @@
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 1 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 2 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 3 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 4 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 5 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 6 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 7 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 8 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 9 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 10 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 11 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 12 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 13 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 14 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 15 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 16 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 17 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 18 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 19 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 ae16 none
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 ae16 res
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 ae16 fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 mog none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 mog res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 mog fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 tfm none
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 tfm res
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 tfm fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 memae none
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 memae res
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 memae fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 memfast none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 memfast res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 memfast fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 fastw none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 fastw res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 fastw fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s1b work/p4_s21/s1b 20 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 ae16 none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 mog none
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 tfm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 memae none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 memfast none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 fastw none
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 ae16 none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 mog none
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 tfm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 memae none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 memfast none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 fastw none
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 ae16 none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 mog none
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 tfm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 memae none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 memfast none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 fastw none
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 ae16 none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 mog none
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 tfm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 memae none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 memfast none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 fastw none
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 ae16 none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 mog none
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 tfm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 memae none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 memfast none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 fastw none
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 ae16 none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 lstm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 gru none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 peep none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 mog none
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 tfm none
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 memae none
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 memfast none
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 fastw none
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 ae16 prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 lstm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 gru prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 peep prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 mog prio
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 tfm prio
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 memae prio
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 memfast prio
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 fastw prio
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 ae16 res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 mog res
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 tfm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 memae res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 memfast res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 fastw res
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 ae16 res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 mog res
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 tfm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 memae res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 memfast res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 fastw res
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 ae16 res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 mog res
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 tfm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 memae res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 memfast res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 fastw res
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 ae16 res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 mog res
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 tfm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 memae res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 memfast res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 fastw res
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 ae16 res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 mog res
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 tfm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 memae res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 memfast res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 fastw res
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 ae16 res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 lstm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 gru res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 peep res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 mog res
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 tfm res
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 memae res
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 memfast res
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 fastw res
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 ae16 fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 mog fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 tfm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 memae fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 memfast fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 1 fastw fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 ae16 fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 mog fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 tfm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 memae fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 memfast fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 2 fastw fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 ae16 fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 mog fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 tfm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 memae fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 memfast fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 3 fastw fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 ae16 fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 mog fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 tfm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 memae fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 memfast fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 4 fastw fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 ae16 fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 mog fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 tfm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 memae fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 memfast fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 5 fastw fifo
+env S21_LR=3e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 ae16 fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 lstm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 gru fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 peep fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 mog fifo
+env S21_LR=1e-3 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 tfm fifo
+env S21_LR=1e-2 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 memae fifo
+env S21_LR=3e-3 S21_TAU=0.99 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 memfast fifo
+env S21_LR=3e-3 S21_LAM=0.99999 python src/s21_memory_nets.py s5b work/p4_s21/s5b 6 fastw fifo

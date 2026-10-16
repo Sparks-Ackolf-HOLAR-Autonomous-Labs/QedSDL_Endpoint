@@ -1,0 +1,65 @@
+{
+ "seed": 1,
+ "arms": {
+  "none": {
+   "fault": "se_empty",
+   "faulty_shared": 9,
+   "runs_on_faulty": 9,
+   "repeats": 0,
+   "out_of_service_round": null,
+   "rounds": 12,
+   "gap": 0.00949976661977281,
+   "n_shared": 36
+  },
+  "fly": {
+   "fault": "se_empty",
+   "faulty_shared": 9,
+   "runs_on_faulty": 9,
+   "repeats": 0,
+   "out_of_service_round": null,
+   "rounds": 12,
+   "gap": 0.00949976661977281,
+   "n_shared": 36
+  },
+  "fly_shuf": {
+   "fault": "se_empty",
+   "faulty_shared": 9,
+   "runs_on_faulty": 9,
+   "repeats": 0,
+   "out_of_service_round": null,
+   "rounds": 12,
+   "gap": 0.00949976661977281,
+   "n_shared": 36
+  },
+  "fly_rand": {
+   "fault": "se_empty",
+   "faulty_shared": 9,
+   "runs_on_faulty": 9,
+   "repeats": 0,
+   "out_of_service_round": null,
+   "rounds": 12,
+   "gap": 0.00949976661977281,
+   "n_shared": 36
+  },
+  "gp_resid": {
+   "fault": "se_empty",
+   "faulty_shared": 6,
+   "runs_on_faulty": 8,
+   "repeats": 4,
+   "out_of_service_round": 11,
+   "rounds": 13,
+   "gap": 0.020920335804421097,
+   "n_shared": 34
+  },
+  "oracle": {
+   "fault": "se_empty",
+   "faulty_shared": 0,
+   "runs_on_faulty": 0,
+   "repeats": 0,
+   "out_of_service_round": 4,
+   "rounds": 17,
+   "gap": 0.004585546100927762,
+   "n_shared": 36
+  }
+ }
+}

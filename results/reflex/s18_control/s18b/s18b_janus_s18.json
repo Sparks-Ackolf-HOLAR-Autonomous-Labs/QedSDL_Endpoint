@@ -1,0 +1,57 @@
+{
+ "seed": 18,
+ "mode": "janus",
+ "det": {
+  "t_bit": 2000,
+  "fly": {
+   "auroc": 0.9554503826361234,
+   "false_alarm": 0.06206896551724138,
+   "recall": 0.9
+  },
+  "fly_gate": {
+   "auroc": 0.9554503826361234,
+   "false_alarm": 0.027586206896551724,
+   "recall": 0.6
+  },
+  "fly_ctx_gate": {
+   "auroc": 0.94541784103405,
+   "false_alarm": 0.0,
+   "recall": 0.0
+  },
+  "fly_shuf_ctx_gate": {
+   "auroc": 0.9439332516684845,
+   "false_alarm": 0.0,
+   "recall": 0.0
+  },
+  "zscore": {
+   "auroc": 0.9777610005087889,
+   "false_alarm": 0.020689655172413793,
+   "recall": 0.9
+  },
+  "zscore_gate": {
+   "auroc": 0.9777610005087889,
+   "false_alarm": 0.013793103448275862,
+   "recall": 0.8
+  },
+  "zscore_reset_gate": {
+   "auroc": 0.9763152044331779,
+   "false_alarm": 0.010344827586206896,
+   "recall": 0.9
+  },
+  "knn": {
+   "auroc": 0.9597773265156614,
+   "false_alarm": 0.010344827586206896,
+   "recall": 0.7
+  },
+  "knn_gate": {
+   "auroc": 0.9597773265156614,
+   "false_alarm": 0.034482758620689655,
+   "recall": 0.8
+  },
+  "knn_reset_gate": {
+   "auroc": 0.9609291888173865,
+   "false_alarm": 0.0034482758620689655,
+   "recall": 0.2
+  }
+ }
+}

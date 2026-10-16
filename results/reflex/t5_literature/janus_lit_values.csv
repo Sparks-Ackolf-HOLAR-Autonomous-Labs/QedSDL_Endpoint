@@ -1,0 +1,110 @@
+material,quantity,value,unit,method,source_doi_or_url,first_author,year,where_found
+MoSSe,raman_A1_cm-1,288,cm-1,exp,https://doi.org/10.1038/nnano.2017.100,Lu,2017,A1 peak shifts to 288 cm-1 from the original 406 cm-1
+MoSSe,raman_E_cm-1,355,cm-1,exp,https://doi.org/10.1038/nnano.2017.100,Lu,2017,E' peak shifts to 355 cm-1 from 387 cm-1 in MoS2
+MoSSe,pl_eV,1.68,eV,"exp (optical gap, RT)",https://doi.org/10.1038/nnano.2017.100,Lu,2017,The optical gap for the Janus MoSSe monolayer is at 1.68 eV
+MoSSe,raman_A1_cm-1,290,cm-1,exp,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"Table S1: SMoSe experiment A1g 290, E12g 350.8 (cm-1)"
+MoSSe,raman_E_cm-1,350.8,cm-1,exp,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,in-plane S-Mo-Se vibration mode at 350.8 cm-1 appeared
+MoSSe,pl_eV,1.68,eV,"exp (PL map energy, RT)",https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,The PL intensity mapping of the Janus SMoSe triangular flake at 1.68 eV is shown in Figure 2d
+MoSSe,raman_A1_cm-1,283.1,cm-1,DFT,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"Table S1: SMoSe computation A1g 283.1, E12g 341.5 (cm-1)"
+MoSSe,raman_E_cm-1,341.5,cm-1,DFT,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"Table S1: SMoSe computation A1g 283.1, E12g 341.5 (cm-1)"
+MoSSe,gap_eV,1.558,eV,PBE (indirect),https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"slightly larger than its indirect band gap energy (1.558 eV, Gamma point - K point)"
+MoSSe,a_A,3.252,A,PBE,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"in-plane lattice parameters of MoSe2, SMoSe, and MoS2 monolayers are calculated to be 3.322 A, 3.252 A, and 3.185 A"
+MoSSe,a_A,3.263,A,BEEF-vdW,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"lattice parameters of MoSe2, SMoSe, and MoS2 monolayers obtained by the BEEF-vdw functional are 3.335 A, 3.263 A, and 3.185 A"
+MoSSe,raman_A1_cm-1,289,cm-1,exp,https://arxiv.org/abs/2112.11211,Schmeink,2021,perfect Janus MoSSe monolayer with its A1g-mode at 289 cm-1 and its E2g1-mode at 352 cm-1
+MoSSe,raman_E_cm-1,352,cm-1,exp,https://arxiv.org/abs/2112.11211,Schmeink,2021,perfect Janus MoSSe monolayer with its A1g-mode at 289 cm-1 and its E2g1-mode at 352 cm-1
+MoSSe,pl_eV,1.75,eV,exp (77 K),https://arxiv.org/abs/2112.11211,Schmeink,2021,with an A-exciton transition energy of 1.75 eV and a B-exciton of 1.93 eV at 77 K
+MoSSe,raman_A1_cm-1,290,cm-1,exp,https://doi.org/10.1038/s41699-024-00504-6,Schmeink,2024,"Prominent peaks observed at 290 cm-1, at 352 cm-1 and at 442 cm-1 correspond to ... pristine Janus MoSSe"
+MoSSe,raman_E_cm-1,352,cm-1,exp,https://doi.org/10.1038/s41699-024-00504-6,Schmeink,2024,"Prominent peaks observed at 290 cm-1, at 352 cm-1 and at 442 cm-1 correspond to ... pristine Janus MoSSe"
+MoSSe,pl_eV,1.702,eV,exp (RT),https://doi.org/10.1038/s41699-024-00504-6,Schmeink,2024,"ideal Janus MoSSe monolayer sample, shows a PL emission shift from 1.702 eV at RT up to 1.756 eV at 77 K"
+MoSSe,pl_eV,1.756,eV,exp (77 K),https://doi.org/10.1038/s41699-024-00504-6,Schmeink,2024,"ideal Janus MoSSe monolayer sample, shows a PL emission shift from 1.702 eV at RT up to 1.756 eV at 77 K"
+MoSSe,raman_A1_cm-1,290,cm-1,exp,https://doi.org/10.1038/s41467-024-55623-x,Liu,2025,MoSSe exhibits a shifted out-of-plane A1g mode located at ~290 cm-1 and an in-plane E2g mode located at ~356 cm-1
+MoSSe,raman_E_cm-1,356,cm-1,exp,https://doi.org/10.1038/s41467-024-55623-x,Liu,2025,MoSSe exhibits a shifted out-of-plane A1g mode located at ~290 cm-1 and an in-plane E2g mode located at ~356 cm-1
+MoSSe,raman_A1_cm-1,290,cm-1,exp,https://doi.org/10.1080/14686996.2026.2713989,Ogawa,2026,Janus MoSSe shows the characteristic A1 mode at ~290 cm-1 and an E mode at ~352 cm-1
+MoSSe,raman_E_cm-1,352,cm-1,exp,https://doi.org/10.1080/14686996.2026.2713989,Ogawa,2026,Janus MoSSe shows the characteristic A1 mode at ~290 cm-1 and an E mode at ~352 cm-1
+MoSSe,raman_A1_cm-1,288,cm-1,exp,https://doi.org/10.1073/pnas.2106124118,Guo,2020,"MoS2 A1g (404 cm-1) and E2g (383 cm-1) modes shift to 288 cm-1 and 355 cm-1, respectively, in Janus MoSSe"
+MoSSe,raman_E_cm-1,355,cm-1,exp,https://doi.org/10.1073/pnas.2106124118,Guo,2020,"MoS2 A1g (404 cm-1) and E2g (383 cm-1) modes shift to 288 cm-1 and 355 cm-1, respectively, in Janus MoSSe"
+MoSSe,raman_A1_cm-1,288,cm-1,exp,https://arxiv.org/abs/2304.00750,Shi,2023,"For Janus 2H MoSSe, the positions of the A1g mode (~288 cm-1) and E2g mode (~355 cm-1)"
+MoSSe,raman_E_cm-1,355,cm-1,exp,https://arxiv.org/abs/2304.00750,Shi,2023,"For Janus 2H MoSSe, the positions of the A1g mode (~288 cm-1) and E2g mode (~355 cm-1)"
+MoSSe,raman_A1_cm-1,290,cm-1,exp (MoSSe/MoS2 sample),https://arxiv.org/abs/2607.23103,Xu,2026,The MoSSe/MoS2 sample shows new peaks corresponding to the A1 and E modes near 290 and 353 cm-1
+MoSSe,raman_E_cm-1,353,cm-1,exp (MoSSe/MoS2 sample),https://arxiv.org/abs/2607.23103,Xu,2026,The MoSSe/MoS2 sample shows new peaks corresponding to the A1 and E modes near 290 and 353 cm-1
+MoSSe,pl_eV,1.75,eV,exp (PL map energy),https://arxiv.org/abs/2607.23103,Xu,2026,"PL intensity maps of the same region at ~1.75 eV, which are uniformly detected in both the monolayer and bilayer regions"
+MoSSe,raman_A1_cm-1,290,cm-1,exp (bilayer region),https://doi.org/10.1002/sstr.202300514,Zhang,2024,"in the bilayer region, the A'1 mode of MoSSe at 290 cm-1 had comparable intensity to the A'1 mode of MoSe2 at 240 cm-1"
+MoSSe,pl_eV,1.69,eV,exp (PL map energy),https://doi.org/10.1002/sstr.202300514,Zhang,2024,the bilayer region shows weak PL intensity at 1.69 eV compared to the monolayer region
+MoSSe,pl_eV,1.708,eV,exp (converted from 726 nm),https://doi.org/10.1038/s41427-022-00363-x,Jang,2022,"These spectra have peaks at 726 and 809 nm, which are consistent with those of MoSSe and MoSe2 (1239.84/726 = 1.708 eV)"
+MoSSe,pl_eV,1.785,eV,"exp (PLD study, cited in review)",https://doi.org/10.1007/s12598-025-03413-9,Coskun,2025,MoSSe had a PL peak at 1.785 eV and an FWHM of about 90 meV
+MoSSe,raman_A1_cm-1,294.9,cm-1,DFT,https://doi.org/10.1016/j.isci.2023.106731,Yan,2023,"phonon frequencies ... 209.5 cm-1 (E1), 294.9 cm-1 (A1 1), 361.1 cm-1 (E2), and 447.7 cm-1 (A2 1)"
+MoSSe,raman_E_cm-1,361.1,cm-1,DFT,https://doi.org/10.1016/j.isci.2023.106731,Yan,2023,"phonon frequencies ... 209.5 cm-1 (E1), 294.9 cm-1 (A1 1), 361.1 cm-1 (E2), and 447.7 cm-1 (A2 1)"
+MoSSe,a_A,3.251,A,PBE (C2DB),https://c2db.fysik.dtu.dk/material/1MoSSe-1,Haastrup (C2DB),2018,C2DB 1MoSSe-1: lattice constant a = 3.251 A
+MoSSe,gap_eV,1.453,eV,PBE (C2DB),https://c2db.fysik.dtu.dk/material/1MoSSe-1,Haastrup (C2DB),2018,C2DB 1MoSSe-1: PBE band gap 1.453 eV
+MoSSe,gap_eV,1.949,eV,HSE06 (C2DB),https://c2db.fysik.dtu.dk/material/1MoSSe-1,Haastrup (C2DB),2018,C2DB 1MoSSe-1: HSE band gap 1.949 eV
+MoSSe,gap_eV,2.328,eV,G0W0 (C2DB),https://c2db.fysik.dtu.dk/material/1MoSSe-1,Haastrup (C2DB),2018,C2DB 1MoSSe-1: G0W0 gap 2.328 eV
+MoSSe,dipole_D,0.183,D,PBE (C2DB; converted from -0.038 e*A),https://c2db.fysik.dtu.dk/material/1MoSSe-1,Haastrup (C2DB),2018,C2DB 1MoSSe-1: out-of-plane dipole -0.038 e A/unit cell (magnitude x 4.803 D per e A = 0.183 D)
+MoSSe,gap_eV,1.665,eV,PBE,https://doi.org/10.1088/1402-4896/ad3ca0,Pritu,2024,"According to PBE calculation, the Janus MoSSe monolayer has a band gap of 1.665 eV"
+MoSSe,gap_eV,2.52,eV,GW+BSE,https://doi.org/10.1088/1402-4896/ad3ca0,Pritu,2024,the GW+BSE calculation shows the band gap of 2.52 eV
+MoSSe,a_A,3.22,A,PBE,https://doi.org/10.1088/1402-4896/ad3ca0,Pritu,2024,"The unit cell's associated lattice parameter, measured as a = b = 3.22 A"
+MoSSe,a_A,3.25,A,DFT,https://doi.org/10.1007/s00339-022-06354-7,Xuan,2023,the geometrically optimized MoSSe has lattice constant of a = b=3.25 A and a direct band gap of 1.56 eV
+MoSSe,gap_eV,1.56,eV,DFT,https://doi.org/10.1007/s00339-022-06354-7,Xuan,2023,the geometrically optimized MoSSe has lattice constant of a = b=3.25 A and a direct band gap of 1.56 eV
+MoSSe,gap_eV,1.45,eV,DFT,https://doi.org/10.1103/PhysRevB.106.035125,Patel,2022,"Among them, MoSSe ML has the largest band-gap of 1.45 eV"
+MoSSe,a_A,3.25,A,DFT,https://doi.org/10.1088/1367-2630/ab54a6,Guo,2019,The relaxed lattice parameter is a=b=3.25 A in conjunction with a 2.43 A S-Mo bond length
+MoSSe,a_A,3.23,A,DFT,https://doi.org/10.1016/j.rinp.2020.103284,Barakat,2020,equilibrium lattice parameters a0 and c0 for the janus 2H-MoSSe monolayer are computed to be around 3.23 A
+MoSSe,gap_eV,1.85,eV,DFT (3x3 supercell),https://doi.org/10.1016/j.rinp.2020.103284,Barakat,2020,pure janus 2H-MoSSe monolayer with a 3 x 3 supercell has ... a direct band gap transition of 1.85 eV
+MoSSe,gap_eV,1.58,eV,DFT,https://doi.org/10.1088/1361-6463/ac8601,Xiao,2022,"Janus MoSSe, WSSe, MoSTe, and WSTe monolayers are typical semiconductors with corresponding bandgaps of 1.58 eV"
+MoSSe,a_A,3.228,A,DFT,https://doi.org/10.1002/advs.76843,Ren,2026,"the optimized lattice constants are calculated as 3.228 and 3.269 A, respectively"
+MoSSe,gap_eV,2.106,eV,HSE06,https://doi.org/10.1002/advs.76843,Ren,2026,"the direct bandgap is obtained as 2.106 and 2.075 eV for MoSSe and WSSe monolayers, respectively, at the HSE06 level"
+MoSSe,gap_eV,1.64,eV,PBE,https://doi.org/10.1039/d2ra06337a,Zhang,2022,For the MoSSe monolayer ... the value of the direct Eg was 1.64 eV (2.08 eV) [PBE (HSE06)]
+MoSSe,gap_eV,2.08,eV,HSE06,https://doi.org/10.1039/d2ra06337a,Zhang,2022,For the MoSSe monolayer ... the value of the direct Eg was 1.64 eV (2.08 eV) [PBE (HSE06)]
+MoSSe,gap_eV,1.52,eV,DFT,https://doi.org/10.1038/s41598-023-49028-x,Babariya,2023,The direct band gap of 1.52 eV for pristine MoSSe monolayer
+MoSSe,a_A,3.25,A,DFT,https://doi.org/10.1088/1367-2630/ad3c65,Pei,2024,"the lattice parameters are 4.78 A and 3.25 A for C3N4 and MoSSe, respectively"
+MoSSe,a_A,3.25,A,DFT,https://doi.org/10.3389/fchem.2022.861838,Yuan,2022,The optimized lattice parameters of the MoSSe and InS monolayers are a = b = 3.25 A and a = b = 3.94 A
+MoSSe,a_A,3.19,A,DFT,https://doi.org/10.1088/1361-648X/acdbab,Zhang,2023,The optimized lattice parameter of MoSSe monolayer ... is calculated to be a = b = 3.19 A
+MoSSe,a_A,3.25,A,exp (STM),https://doi.org/10.1021/acsnano.5c14446,Yang,2025,A height profile measured across the atomic lattice (Figure 2b) yields a lattice constant of 3.25 A
+MoSSe,dipole_D,2.99,D,DFT,https://doi.org/10.1039/d1ra05764b,Yeh,2021,"NO molecule possesses a small dipole moment value of 0.16 D, while the dipole moment value of the MoSSe monolayer is 2.99 D"
+MoSSe,dipole_D,0.18,D,DFT (converted from 37.4 me*A),https://doi.org/10.1038/s41598-025-16548-7,Yang,2025,The dipole moment of MoSSe (WSSe) monolayer is obtained as 37.4 meA (36.4 meA) (0.0374 e A x 4.803 = 0.180 D)
+MoSSe,dipole_D,6.16,D per 5x5x1 supercell,DFT,https://doi.org/10.1039/d0nr02084b,Zhao,2020,D0 is the intrinsic dipole moment of MoSSe (6.16 Debye for the 5 x 5 x 1 supercell)
+MoS2,raman_A1_cm-1,406,cm-1,exp,https://doi.org/10.1038/nnano.2017.100,Lu,2017,A1 (406 cm-1) and in-plane E' (387 cm-1) modes for a MoS2 monolayer
+MoS2,raman_E_cm-1,387,cm-1,exp,https://doi.org/10.1038/nnano.2017.100,Lu,2017,A1 (406 cm-1) and in-plane E' (387 cm-1) modes for a MoS2 monolayer
+MoS2,raman_A1_cm-1,404,cm-1,exp,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"Table S1: MoS2 experiment A1g 404, E12g 383 (cm-1)"
+MoS2,raman_E_cm-1,383,cm-1,exp,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"Table S1: MoS2 experiment A1g 404, E12g 383 (cm-1)"
+MoS2,a_A,3.185,A,PBE,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"in-plane lattice parameters of MoSe2, SMoSe, and MoS2 monolayers are calculated to be 3.322 A, 3.252 A, and 3.185 A"
+MoS2,raman_A1_cm-1,406,cm-1,exp,https://doi.org/10.1038/s41467-024-55623-x,Liu,2025,MoS2 monolayer (with A1g at ~406 cm-1 and E2g at ~386 cm-1)
+MoS2,raman_E_cm-1,386,cm-1,exp,https://doi.org/10.1038/s41467-024-55623-x,Liu,2025,MoS2 monolayer (with A1g at ~406 cm-1 and E2g at ~386 cm-1)
+MoS2,raman_A1_cm-1,404.4,cm-1,exp,https://doi.org/10.1021/nn503988x,Kim,2014,The two peaks appear at ~383.8 and 404.4 cm-1
+MoS2,raman_E_cm-1,383.8,cm-1,exp,https://doi.org/10.1021/nn503988x,Kim,2014,The two peaks appear at ~383.8 and 404.4 cm-1
+MoS2,pl_eV,1.83,eV,exp,https://doi.org/10.1021/nn503988x,Kim,2014,A strong luminescence band located at 678 nm ... indicative of a monolayer MoS2 flake with a direct 1.83 eV band gap
+MoS2,pl_eV,1.84,eV,exp,https://doi.org/10.1002/smll.202003357,Feng,2020,sharp and narrow peak located around 1.84 eV (A exciton)
+MoS2,raman_E_cm-1,385,cm-1,exp,https://doi.org/10.1002/smll.202003357,Feng,2020,in-plane E' phonon mode located at 385 cm-1 and out-of-plane A1' mode at 404 cm-1
+MoS2,raman_A1_cm-1,404,cm-1,exp,https://doi.org/10.1002/smll.202003357,Feng,2020,in-plane E' phonon mode located at 385 cm-1 and out-of-plane A1' mode at 404 cm-1
+MoS2,pl_eV,1.82,eV,exp,https://doi.org/10.1002/sstr.202500657,Verma,2026,"PL spectrum, showing a pronounced A-excitonic peak at 1.82 eV"
+MoS2,raman_E_cm-1,382.5,cm-1,exp,https://doi.org/10.1002/sstr.202500657,Verma,2026,The peaks E12g and A1g were observed at 382.5 and 403.3 cm-1
+MoS2,raman_A1_cm-1,403.3,cm-1,exp,https://doi.org/10.1002/sstr.202500657,Verma,2026,The peaks E12g and A1g were observed at 382.5 and 403.3 cm-1
+MoS2,pl_eV,1.82,eV,exp,https://doi.org/10.3390/molecules25081857,Han,2020,"strongest PL spectrum peak position of monolayer MoS2 on SiO2/Si substrate is at 681.2 nm, and the electron volt is 1.82 eV"
+MoS2,pl_eV,1.84,eV,exp,https://doi.org/10.1103/PhysRevB.101.195407,Lee,2020,The photoluminescence (PL) peak and shoulder at 1.84 eV and 2.01 eV
+MoS2,pl_eV,1.858,eV,"exp (PLD study, cited in review)",https://doi.org/10.1007/s12598-025-03413-9,Coskun,2025,the PL peak position of MoS2 was measured at 1.858 eV and the FWHM was around 53 meV
+MoS2,raman_A1_cm-1,404,cm-1,exp,https://doi.org/10.1073/pnas.2106124118,Guo,2020,MoS2 A1g (404 cm-1) and E2g (383 cm-1) modes shift to 288 cm-1 and 355 cm-1
+MoS2,a_A,3.184,A,PBE (C2DB),https://c2db.fysik.dtu.dk/material/1MoS2-1,Haastrup (C2DB),2018,C2DB 1MoS2-1: a = b = 3.184 A
+MoS2,gap_eV,1.58,eV,PBE (C2DB),https://c2db.fysik.dtu.dk/material/1MoS2-1,Haastrup (C2DB),2018,C2DB 1MoS2-1: PBE band gap 1.580 eV
+MoS2,gap_eV,2.087,eV,HSE06 (C2DB),https://c2db.fysik.dtu.dk/material/1MoS2-1,Haastrup (C2DB),2018,C2DB 1MoS2-1: HSE06 band gap 2.087 eV
+MoS2,dipole_D,0.0,D,PBE (C2DB),https://c2db.fysik.dtu.dk/material/1MoS2-1,Haastrup (C2DB),2018,C2DB 1MoS2-1: out-of-plane dipole 0.000 e A/unit cell
+MoS2,a_A,3.186,A,DFT,https://doi.org/10.3390/nano11020534,Wang,2021,"optimized the MoS2 and WS2 monolayer systems, obtaining the equilibrium lattice constant of 3.186 A for both"
+MoS2,gap_eV,1.71,eV,DFT,https://doi.org/10.3390/nano11020534,Wang,2021,Our calculated direct bandgap of 1.71 eV for MoS2 and 1.82 eV for WS2
+MoSe2,raman_A1_cm-1,240,cm-1,exp,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"Table S1: MoSe2 experiment A1g 240, E12g 287 (cm-1)"
+MoSe2,raman_E_cm-1,287,cm-1,exp,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"Table S1: MoSe2 experiment A1g 240, E12g 287 (cm-1)"
+MoSe2,a_A,3.322,A,PBE,https://doi.org/10.1021/acsnano.7b03186,Zhang,2017,"in-plane lattice parameters of MoSe2, SMoSe, and MoS2 monolayers are calculated to be 3.322 A, 3.252 A, and 3.185 A"
+MoSe2,raman_A1_cm-1,243,cm-1,exp,https://doi.org/10.1038/s41467-024-55623-x,Liu,2025,MoSe2 monolayer (with A1g at ~243 cm-1 and E2g at ~289 cm-1)
+MoSe2,raman_E_cm-1,289,cm-1,exp,https://doi.org/10.1038/s41467-024-55623-x,Liu,2025,MoSe2 monolayer (with A1g at ~243 cm-1 and E2g at ~289 cm-1)
+MoSe2,raman_A1_cm-1,240,cm-1,exp,https://doi.org/10.1080/14686996.2026.2713989,Ogawa,2026,MoSe2 exhibits an A1' mode at ~240 cm-1 and an E' mode at ~286 cm-1
+MoSe2,raman_E_cm-1,286,cm-1,exp,https://doi.org/10.1080/14686996.2026.2713989,Ogawa,2026,MoSe2 exhibits an A1' mode at ~240 cm-1 and an E' mode at ~286 cm-1
+MoSe2,raman_A1_cm-1,240.3,cm-1,exp,https://doi.org/10.1103/PhysRevB.105.085419,Kumar,2022,"strong peak at ~240.3 cm-1, and a very weak peak at ~286.1 cm-1 corresponds to ... (A1g) and (E12g)"
+MoSe2,raman_E_cm-1,286.1,cm-1,exp,https://doi.org/10.1103/PhysRevB.105.085419,Kumar,2022,"strong peak at ~240.3 cm-1, and a very weak peak at ~286.1 cm-1 corresponds to ... (A1g) and (E12g)"
+MoSe2,pl_eV,1.54,eV,exp,https://doi.org/10.3390/nano10010075,Wang,2019,direct bandgap of monolayer MoSe2 at 1.54 eV (A-exciton peak at ~807 nm)
+MoSe2,raman_A1_cm-1,240,cm-1,exp,https://doi.org/10.3390/nano10010075,Wang,2019,Raman intensity maps ~240 cm-1 (A1g mode) of the monolayer MoSe2 films
+MoSe2,pl_eV,1.533,eV,exp (converted from 809 nm),https://doi.org/10.1038/s41427-022-00363-x,Jang,2022,"These spectra have peaks at 726 and 809 nm, which are consistent with those of MoSSe and MoSe2 (1239.84/809 = 1.533 eV)"
+MoSe2,pl_eV,1.59,eV,exp (77 K),https://arxiv.org/abs/2112.11211,Schmeink,2021,for MoSe2 at 77 K we find 1.59 eV and 1.80 eV for A- and B-excitons
+MoSe2,pl_eV,1.65,eV,"exp (5 K, neutral exciton)",https://doi.org/10.1021/acs.nanolett.1c01538,Kumar,2021,"neutral (X) and charged (T) exciton peaks, at 1.65 eV and 1.62 eV for MoSe2"
+MoSe2,raman_A1_cm-1,240,cm-1,exp,https://arxiv.org/abs/2502.20107,Kumar,2025,The A1g mode at 240 cm-1 indicates the monolayer nature of MoSe2
+MoSe2,raman_E_cm-1,287,cm-1,exp,https://arxiv.org/abs/2502.20107,Kumar,2025,its position redshifts from 287 cm-1 (1L) to 284 cm-1
+MoSe2,a_A,3.32,A,PBE (C2DB),https://c2db.fysik.dtu.dk/material/1MoSe2-1,Haastrup (C2DB),2018,C2DB 1MoSe2-1: lattice constant a = 3.320 A
+MoSe2,gap_eV,1.321,eV,PBE (C2DB),https://c2db.fysik.dtu.dk/material/1MoSe2-1,Haastrup (C2DB),2018,C2DB 1MoSe2-1: PBE band gap 1.321 eV
+MoSe2,gap_eV,1.804,eV,HSE06 (C2DB),https://c2db.fysik.dtu.dk/material/1MoSe2-1,Haastrup (C2DB),2018,C2DB 1MoSe2-1: HSE band gap 1.804 eV
+MoSe2,dipole_D,0.0,D,PBE (C2DB),https://c2db.fysik.dtu.dk/material/1MoSe2-1,Haastrup (C2DB),2018,C2DB 1MoSe2-1: out-of-plane dipole -0.000 e A/unit cell
+MoSe2,a_A,3.319,A,DFT,https://doi.org/10.1038/srep31122,Hu,2016,optimized values of lattice constants are found to be 3.316 A (WSe2) and 3.319 A (MoSe2)

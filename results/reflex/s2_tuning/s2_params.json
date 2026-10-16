@@ -1,0 +1,21 @@
+{
+ "gain": {
+  "beta": 1.0,
+  "alpha": 1.0
+ },
+ "adapt": {
+  "tau": 1000.0
+ },
+ "coinc": {
+  "act_frac": 0.15
+ },
+ "chosen": [
+  "gain7",
+  "adapt2",
+  "coinc0"
+ ],
+ "passed": [
+  "gain"
+ ],
+ "rule": "a mechanism enters fly_best only if its chosen setting keeps AUROC >= plain fly - 0.01 on both tuning streams"
+}

@@ -1,0 +1,162 @@
+{
+ "machine": "aarch64",
+ "node": "dgx-spark",
+ "numpy": "2.5.3",
+ "cpu_affinity": [
+  17
+ ],
+ "G_us_per_spectrum": 221.72799981490243,
+ "P_us_per_spectrum": 395.1680000682245,
+ "E_us_per_spectrum_s24": 9.23200002489466,
+ "G_us_per_spectrum_s24": 233.5130000119534,
+ "fit": {
+  "G": {
+   "bytes": {
+    "wiring": 146745,
+    "ctx_mask": 1294,
+    "novelty": 5177,
+    "compartments": 1294,
+    "dose_codes": 63960,
+    "furnace": 41424
+   },
+   "packed_total": 259894,
+   "all_in_ram": 283342,
+   "ram_with_flash": 29919,
+   "flash": 253423,
+   "pico_ram": false,
+   "pico2_ram": true,
+   "pico_flash": true,
+   "pico2_flash": true
+  },
+  "P": {
+   "bytes": {
+    "wiring": 146745,
+    "ctx_mask": 1294,
+    "novelty": 5177,
+    "compartments": 1294,
+    "dose_codes": 127674,
+    "furnace": 41424
+   },
+   "packed_total": 323608,
+   "all_in_ram": 370504,
+   "ram_with_flash": 53367,
+   "flash": 317137,
+   "pico_ram": false,
+   "pico2_ram": true,
+   "pico_flash": true,
+   "pico2_flash": true
+  },
+  "P4": {
+   "bytes": {
+    "wiring": 586980,
+    "ctx_mask": 1294,
+    "novelty": 5177,
+    "compartments": 1294,
+    "dose_codes": 127674,
+    "furnace": 41424
+   },
+   "packed_total": 763843,
+   "all_in_ram": 810739,
+   "ram_with_flash": 53367,
+   "flash": 757372,
+   "pico_ram": false,
+   "pico2_ram": false,
+   "pico_flash": true,
+   "pico2_flash": true
+  },
+  "E": {
+   "bytes": {
+    "i_zscore_fam": 1792,
+    "ii_logreg_weights": 228,
+    "ii_logreg_training_probes": 6720,
+    "iii_ridge": 228,
+    "iv_ridge": 456
+   },
+   "packed_total": 9424,
+   "all_in_ram": 9648,
+   "ram_with_flash": 8736,
+   "flash": 912,
+   "pico_ram": true,
+   "pico2_ram": true,
+   "pico_flash": true,
+   "pico2_flash": true
+  }
+ },
+ "generic_job_subsets": {
+  "flag": {
+   "all_in_ram": 176664,
+   "pico": true,
+   "pico2": true
+  },
+  "stop": {
+   "all_in_ram": 171487,
+   "pico": true,
+   "pico2": true
+  },
+  "dose": {
+   "all_in_ram": 234153,
+   "pico": true,
+   "pico2": true
+  },
+  "furnace": {
+   "all_in_ram": 211617,
+   "pico": true,
+   "pico2": true
+  },
+  "flag+stop": {
+   "all_in_ram": 177958,
+   "pico": true,
+   "pico2": true
+  },
+  "flag+dose": {
+   "all_in_ram": 240624,
+   "pico": true,
+   "pico2": true
+  },
+  "flag+furnace": {
+   "all_in_ram": 218088,
+   "pico": true,
+   "pico2": true
+  },
+  "stop+dose": {
+   "all_in_ram": 235447,
+   "pico": true,
+   "pico2": true
+  },
+  "stop+furnace": {
+   "all_in_ram": 212911,
+   "pico": true,
+   "pico2": true
+  },
+  "dose+furnace": {
+   "all_in_ram": 275577,
+   "pico": false,
+   "pico2": true
+  },
+  "flag+stop+dose": {
+   "all_in_ram": 241918,
+   "pico": true,
+   "pico2": true
+  },
+  "flag+stop+furnace": {
+   "all_in_ram": 219382,
+   "pico": true,
+   "pico2": true
+  },
+  "flag+dose+furnace": {
+   "all_in_ram": 282048,
+   "pico": false,
+   "pico2": true
+  },
+  "stop+dose+furnace": {
+   "all_in_ram": 276871,
+   "pico": false,
+   "pico2": true
+  },
+  "flag+stop+dose+furnace": {
+   "all_in_ram": 283342,
+   "pico": false,
+   "pico2": true
+  }
+ }
+}

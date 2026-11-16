@@ -1,0 +1,8 @@
+2026-10-22T22:11:42 START s21_tune_lr3e-3 shift_scale=1 workers=4 args=s20 <repo>/results/shift1x/s21/s20_tune 101,102,103,104,105 10 4 S20_ARMS=net_gru,net_peep,net_mog,net_tfm,net_memnet S20_TAG=_s21_lr3e-3 S20_LSTM=3e-3,600,16 load=11.84
+10 101 {'net_gru': 4.0, 'net_peep': 2.0, 'net_mog': 4.0, 'net_tfm': 4.0, 'net_memnet': 4.0} {'net_gru': 0.041, 'net_peep': 0.039, 'net_mog': 0.032, 'net_tfm': 0.036, 'net_memnet': 0.029} 67.3
+10 102 {'net_gru': 5.0, 'net_peep': 2.0, 'net_mog': 2.0, 'net_tfm': 2.0, 'net_memnet': 3.0} {'net_gru': 0.03, 'net_peep': 0.031, 'net_mog': 0.029, 'net_tfm': 0.035, 'net_memnet': 0.027} 83.9
+10 103 {'net_gru': 4.0, 'net_peep': 1.0, 'net_mog': 0.0, 'net_tfm': 1.0, 'net_memnet': 2.0} {'net_gru': 0.057, 'net_peep': 0.052, 'net_mog': 0.047, 'net_tfm': 0.046, 'net_memnet': 0.039} 97.7
+10 104 {'net_gru': 5.0, 'net_peep': 3.0, 'net_mog': 1.0, 'net_tfm': 2.0, 'net_memnet': 2.0} {'net_gru': 0.043, 'net_peep': 0.035, 'net_mog': 0.039, 'net_tfm': 0.032, 'net_memnet': 0.028} 115.5
+10 105 {'net_gru': 6.0, 'net_peep': 4.0, 'net_mog': 5.0, 'net_tfm': 1.0, 'net_memnet': 8.0} {'net_gru': 0.038, 'net_peep': 0.033, 'net_mog': 0.029, 'net_tfm': 0.033, 'net_memnet': 0.033} 63.0
+2026-10-22T22:14:28 END s21_tune_lr3e-3 wall_s=166
+rc=0

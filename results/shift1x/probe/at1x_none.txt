@@ -1,0 +1,1 @@
+Probe result 2026-10-22: no S20 variant was published at 1x (cal3 base = 5x; cal3_lstmtuned and cal10_lstmtuned = 10x). Nothing skipped; at1x.json intentionally absent.

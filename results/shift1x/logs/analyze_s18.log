@@ -1,0 +1,32 @@
+# S18a-c results
+
+## S18a: selenization stop at the instrument (20 seeds x 30 flakes)
+
+| Arm | flakes lost of 30 (mean) | under-converted | over-selenized | Se valve open (s) | messages up per run | x_t estimate error |
+|---|---|---|---|---|---|---|
+| open_loop | 8.60 | 3.65 | 4.95 | 144 | 1 |  |
+| planner_D2 | 0.10 | 0.10 | 0.00 | 148 | 73 | 0.051 |
+| planner_D10 | 0.25 | 0.05 | 0.20 | 156 | 73 | 0.051 |
+| planner_D60 | 11.00 | 0.05 | 10.95 | 206 | 73 | 0.051 |
+| local_ridge_bands | 0.10 | 0.10 | 0.00 | 146 | 1 | 0.051 |
+| cord_fly | 0.10 | 0.10 | 0.00 | 145 | 1 | 0.052 |
+| cord_shuf | 0.10 | 0.10 | 0.00 | 145 | 1 | 0.052 |
+| cord_rand | 0.10 | 0.10 | 0.00 | 145 | 1 | 0.052 |
+
+Paired tests on flakes lost (Holm over the 7 comparisons):
+
+- local_ridge_bands - open_loop: -8.50 flakes, p = 8.1e-05, Holm 0.00056
+- local_ridge_bands - planner_D2: +0.00 flakes, p = 1, Holm 1
+- local_ridge_bands - planner_D10: -0.15 flakes, p = 0.18, Holm 0.9
+- local_ridge_bands - planner_D60: -10.90 flakes, p = 8.7e-05, Holm 0.00056
+- cord_fly - local_ridge_bands: +0.00 flakes, p = 1, Holm 1
+- cord_fly - cord_shuf: +0.00 flakes, p = 1, Holm 1
+- cord_fly - cord_rand: +0.00 flakes, p = 1, Holm 1
+
+Nerve-cord features on the DGX: 1.15 ms per reading (one thread).
+
+## S18c: the local stop on the Raspberry Pi 5 (monsterpi, nice 19) and a DGX Grace core
+
+| Machine | nerve-cord stop (ms per reading) | ridge on bands (ms) | synapse entries | list at 8-bit weights, 32-bit indices | peak memory |
+|---|---|---|---|---|---|
+analyze_s18 rc=0

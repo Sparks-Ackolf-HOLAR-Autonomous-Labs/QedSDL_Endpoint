@@ -1,0 +1,23 @@
+2026-10-22T22:17:22 START s21_cal10_lr1e-2 shift_scale=1 workers=4 args=s20 <repo>/results/shift1x/s21/s20 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 10 4 S20_ARMS=net_gru,net_peep,net_mog,net_tfm,net_memnet S20_TAG=_s21_lr1e-2 S20_LSTM=1e-2,600,16 load=13.97
+10 1 {'net_gru': 4.0, 'net_peep': 2.0, 'net_mog': 4.0, 'net_tfm': 2.0, 'net_memnet': 6.0} {'net_gru': 0.094, 'net_peep': 0.075, 'net_mog': 0.09, 'net_tfm': 0.065, 'net_memnet': 0.086} 61.4
+10 2 {'net_gru': 7.0, 'net_peep': 7.0, 'net_mog': 5.0, 'net_tfm': 4.0, 'net_memnet': 10.0} {'net_gru': 0.029, 'net_peep': 0.03, 'net_mog': 0.028, 'net_tfm': 0.027, 'net_memnet': 0.026} 75.1
+10 3 {'net_gru': 3.0, 'net_peep': 1.0, 'net_mog': 1.0, 'net_tfm': 1.0, 'net_memnet': 2.0} {'net_gru': 0.046, 'net_peep': 0.034, 'net_mog': 0.03, 'net_tfm': 0.032, 'net_memnet': 0.035} 73.8
+10 4 {'net_gru': 4.0, 'net_peep': 5.0, 'net_mog': 2.0, 'net_tfm': 3.0, 'net_memnet': 5.0} {'net_gru': 0.038, 'net_peep': 0.031, 'net_mog': 0.027, 'net_tfm': 0.029, 'net_memnet': 0.025} 65.2
+10 5 {'net_gru': 2.0, 'net_peep': 1.0, 'net_mog': 0.0, 'net_tfm': 1.0, 'net_memnet': 1.0} {'net_gru': 0.041, 'net_peep': 0.035, 'net_mog': 0.032, 'net_tfm': 0.039, 'net_memnet': 0.032} 70.0
+10 6 {'net_gru': 6.0, 'net_peep': 3.0, 'net_mog': 3.0, 'net_tfm': 2.0, 'net_memnet': 3.0} {'net_gru': 0.025, 'net_peep': 0.021, 'net_mog': 0.017, 'net_tfm': 0.021, 'net_memnet': 0.012} 97.7
+10 7 {'net_gru': 5.0, 'net_peep': 3.0, 'net_mog': 4.0, 'net_tfm': 2.0, 'net_memnet': 4.0} {'net_gru': 0.039, 'net_peep': 0.04, 'net_mog': 0.04, 'net_tfm': 0.036, 'net_memnet': 0.043} 66.8
+10 8 {'net_gru': 5.0, 'net_peep': 2.0, 'net_mog': 4.0, 'net_tfm': 1.0, 'net_memnet': 4.0} {'net_gru': 0.043, 'net_peep': 0.034, 'net_mog': 0.028, 'net_tfm': 0.038, 'net_memnet': 0.027} 57.5
+10 9 {'net_gru': 1.0, 'net_peep': 2.0, 'net_mog': 0.0, 'net_tfm': 0.0, 'net_memnet': 1.0} {'net_gru': 0.034, 'net_peep': 0.026, 'net_mog': 0.024, 'net_tfm': 0.03, 'net_memnet': 0.031} 67.9
+10 10 {'net_gru': 4.0, 'net_peep': 3.0, 'net_mog': 3.0, 'net_tfm': 2.0, 'net_memnet': 3.0} {'net_gru': 0.04, 'net_peep': 0.033, 'net_mog': 0.04, 'net_tfm': 0.034, 'net_memnet': 0.034} 56.2
+10 11 {'net_gru': 1.0, 'net_peep': 2.0, 'net_mog': 2.0, 'net_tfm': 1.0, 'net_memnet': 1.0} {'net_gru': 0.035, 'net_peep': 0.033, 'net_mog': 0.03, 'net_tfm': 0.032, 'net_memnet': 0.03} 64.7
+10 12 {'net_gru': 4.0, 'net_peep': 1.0, 'net_mog': 5.0, 'net_tfm': 0.0, 'net_memnet': 3.0} {'net_gru': 0.044, 'net_peep': 0.039, 'net_mog': 0.036, 'net_tfm': 0.033, 'net_memnet': 0.04} 94.4
+10 13 {'net_gru': 3.0, 'net_peep': 2.0, 'net_mog': 3.0, 'net_tfm': 1.0, 'net_memnet': 4.0} {'net_gru': 0.028, 'net_peep': 0.027, 'net_mog': 0.02, 'net_tfm': 0.029, 'net_memnet': 0.022} 104.1
+10 14 {'net_gru': 1.0, 'net_peep': 0.0, 'net_mog': 0.0, 'net_tfm': 1.0, 'net_memnet': 1.0} {'net_gru': 0.043, 'net_peep': 0.04, 'net_mog': 0.031, 'net_tfm': 0.035, 'net_memnet': 0.034} 79.7
+10 15 {'net_gru': 4.0, 'net_peep': 3.0, 'net_mog': 1.0, 'net_tfm': 0.0, 'net_memnet': 5.0} {'net_gru': 0.042, 'net_peep': 0.032, 'net_mog': 0.031, 'net_tfm': 0.034, 'net_memnet': 0.032} 82.3
+10 16 {'net_gru': 5.0, 'net_peep': 1.0, 'net_mog': 4.0, 'net_tfm': 1.0, 'net_memnet': 5.0} {'net_gru': 0.038, 'net_peep': 0.032, 'net_mog': 0.034, 'net_tfm': 0.027, 'net_memnet': 0.03} 85.3
+10 17 {'net_gru': 4.0, 'net_peep': 2.0, 'net_mog': 0.0, 'net_tfm': 1.0, 'net_memnet': 3.0} {'net_gru': 0.037, 'net_peep': 0.026, 'net_mog': 0.025, 'net_tfm': 0.025, 'net_memnet': 0.025} 71.5
+10 18 {'net_gru': 7.0, 'net_peep': 8.0, 'net_mog': 6.0, 'net_tfm': 4.0, 'net_memnet': 8.0} {'net_gru': 0.032, 'net_peep': 0.026, 'net_mog': 0.022, 'net_tfm': 0.029, 'net_memnet': 0.026} 93.6
+10 19 {'net_gru': 5.0, 'net_peep': 2.0, 'net_mog': 1.0, 'net_tfm': 0.0, 'net_memnet': 8.0} {'net_gru': 0.034, 'net_peep': 0.028, 'net_mog': 0.024, 'net_tfm': 0.021, 'net_memnet': 0.026} 78.3
+10 20 {'net_gru': 9.0, 'net_peep': 8.0, 'net_mog': 11.0, 'net_tfm': 5.0, 'net_memnet': 10.0} {'net_gru': 0.038, 'net_peep': 0.023, 'net_mog': 0.023, 'net_tfm': 0.032, 'net_memnet': 0.018} 71.2
+2026-10-22T22:25:43 END s21_cal10_lr1e-2 wall_s=501
+rc=0

@@ -1,0 +1,1 @@
+PROBE lstmtuned cal3 scale=6.0 match=False new={'lstm': 2.0} pub={'lstm': 2.0} mae_new={'lstm': 0.064215} mae_pub={'lstm': 0.076764}

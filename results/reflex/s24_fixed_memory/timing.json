@@ -1,0 +1,179 @@
+{
+ "machine": "aarch64",
+ "node": "dgx-spark",
+ "numpy": "2.5.3",
+ "cpu_affinity": [
+  17
+ ],
+ "budgets": {
+  "run": 372896,
+  "pack": 151922,
+  "eq": 20708
+ },
+ "detectors": {
+  "fly": {
+   "us_per_decision": 131.56800002889213,
+   "bytes": 372896
+  },
+  "fly_rec": {
+   "us_per_decision": 132.94400002905604,
+   "bytes": 372896
+  },
+  "fly_ctx2": {
+   "us_per_decision": 141.63999998118015,
+   "bytes": 374190
+  },
+  "fly_ctx2_k25": {
+   "us_per_decision": 137.10399997535205,
+   "bytes": 374190
+  },
+  "zscore": {
+   "us_per_decision": 4.224000008434814,
+   "bytes": 448
+  },
+  "zscore_fam": {
+   "us_per_decision": 4.240000066602079,
+   "bytes": 1792
+  },
+  "knn_n23": {
+   "us_per_decision": 4.207999950267549,
+   "bytes": 5152
+  },
+  "knnfam_n23": {
+   "us_per_decision": 3.664000018943625,
+   "bytes": 4480
+  },
+  "knn_n46": {
+   "us_per_decision": 4.735999937111046,
+   "bytes": 10304
+  },
+  "knnfam_n46": {
+   "us_per_decision": 3.92000004012516,
+   "bytes": 9856
+  },
+  "knn_n92": {
+   "us_per_decision": 5.856000029780262,
+   "bytes": 20608
+  },
+  "knnfam_n92": {
+   "us_per_decision": 4.207999950267549,
+   "bytes": 20608
+  },
+  "knn_n184": {
+   "us_per_decision": 8.256000000983477,
+   "bytes": 41216
+  },
+  "knnfam_n184": {
+   "us_per_decision": 4.736000050797884,
+   "bytes": 41216
+  },
+  "knn_n368": {
+   "us_per_decision": 12.624000078176323,
+   "bytes": 82432
+  },
+  "knnfam_n368": {
+   "us_per_decision": 5.856000029780262,
+   "bytes": 82432
+  },
+  "knn_n678": {
+   "us_per_decision": 20.144000018262886,
+   "bytes": 151872
+  },
+  "knnfam_n678": {
+   "us_per_decision": 7.872000082898012,
+   "bytes": 151424
+  },
+  "knn_n1356": {
+   "us_per_decision": 38.85649999801899,
+   "bytes": 303744
+  },
+  "knnfam_n1356": {
+   "us_per_decision": 12.144000038460945,
+   "bytes": 303744
+  },
+  "knn_n1664": {
+   "us_per_decision": 46.544999975139945,
+   "bytes": 372736
+  },
+  "knnfam_n1664": {
+   "us_per_decision": 14.015999909133825,
+   "bytes": 372736
+  },
+  "ae16_b578": {
+   "us_per_decision": 253.0250000063461,
+   "bytes": 151840
+  },
+  "ae16_b1564": {
+   "us_per_decision": 253.24900002487993,
+   "bytes": 372704
+  },
+  "ae64_b287": {
+   "us_per_decision": 271.5289999741799,
+   "bytes": 151744
+  },
+  "ae64_b1274": {
+   "us_per_decision": 271.0329999899841,
+   "bytes": 372832
+  },
+  "ae64_b92": {
+   "us_per_decision": 270.44900002692884,
+   "bytes": 108064
+  },
+  "ae16_b0": {
+   "us_per_decision": 152.73700000761892,
+   "bytes": 22368
+  }
+ },
+ "serve": {
+  "connectome": {
+   "us_per_spectrum": 233.5130000119534
+  },
+  "stack": {
+   "us_per_spectrum": 9.23200002489466
+  },
+  "stack_alt": {
+   "us_per_spectrum": 19.00800009480008
+  },
+  "logreg_refit_us": 1471.8300000140516,
+  "fly_compartment_write_us": 1.4720000081069884,
+  "bytes_packed": {
+   "connectome": {
+    "wiring": 146745,
+    "i_novelty_weights": 5177,
+    "i_context_mask": 1294,
+    "ii_compartments_bits": 1294,
+    "iii_lookup_codes": 63960,
+    "iv_ridge_on_code": 41424,
+    "total": 259894
+   },
+   "stack": {
+    "i_zscore_fam": 1792,
+    "ii_logreg_weights": 228,
+    "ii_logreg_training_probes": 6720,
+    "iii_ridge": 228,
+    "iv_ridge": 456,
+    "total": 9424
+   },
+   "stack_alt": {
+    "i_knn_fam_184": 20608,
+    "ii_logreg_weights": 228,
+    "ii_logreg_training_probes": 6720,
+    "iii_knn_calibration": 14268,
+    "iv_ridge": 456,
+    "total": 42280
+   }
+  },
+  "bytes_as_run_numpy": {
+   "connectome": {
+    "wiring": 352188,
+    "i_novelty_weights": 20708,
+    "i_context_mask": 82832,
+    "ii_compartments": 82832,
+    "iii_lookup_codes": 2548068,
+    "iv_ridge_on_code": 82848,
+    "total": 3169476
+   }
+  },
+  "notes": "connectome iii stores the active-cell indices of each calibration code (uint16); iv weights float32 with the standardisation folded in; stack ii keeps the labelled probes to refit (online SGD would need only the 228 B of weights); stack_alt stores spectra as float16"
+ }
+}

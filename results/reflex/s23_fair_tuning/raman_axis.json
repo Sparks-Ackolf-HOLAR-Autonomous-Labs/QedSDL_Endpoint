@@ -1,0 +1,265 @@
+{
+ "bands": {
+  "closest_other_material": 0.2558139534883721,
+  "by_offset": [
+   {
+    "offset": 0,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 1,
+    "self_overlap": 0.9056847545219637,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 2,
+    "self_overlap": 0.8363479758828596,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 3,
+    "self_overlap": 0.7377260981912144,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 4,
+    "self_overlap": 0.5977605512489234,
+    "identified": 8,
+    "of": 9
+   },
+   {
+    "offset": 5,
+    "self_overlap": 0.458656330749354,
+    "identified": 8,
+    "of": 9
+   },
+   {
+    "offset": 7,
+    "self_overlap": 0.22997416020671835,
+    "identified": 4,
+    "of": 9
+   },
+   {
+    "offset": 10,
+    "self_overlap": 0.1507321274763135,
+    "identified": 4,
+    "of": 9
+   },
+   {
+    "offset": 15,
+    "self_overlap": 0.09646856158484066,
+    "identified": 1,
+    "of": 9
+   }
+  ]
+ },
+ "broad_7": {
+  "closest_other_material": 0.3888888888888889,
+  "by_offset": [
+   {
+    "offset": 0,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 1,
+    "self_overlap": 0.9362618432385875,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 2,
+    "self_overlap": 0.8751076658053402,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 3,
+    "self_overlap": 0.8148148148148148,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 4,
+    "self_overlap": 0.7601205857019812,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 5,
+    "self_overlap": 0.6989664082687339,
+    "identified": 8,
+    "of": 9
+   },
+   {
+    "offset": 7,
+    "self_overlap": 0.5943152454780362,
+    "identified": 7,
+    "of": 9
+   },
+   {
+    "offset": 10,
+    "self_overlap": 0.4784668389319552,
+    "identified": 6,
+    "of": 9
+   },
+   {
+    "offset": 15,
+    "self_overlap": 0.3217054263565891,
+    "identified": 4,
+    "of": 9
+   }
+  ]
+ },
+ "broad_12": {
+  "closest_other_material": 0.46942291128337643,
+  "by_offset": [
+   {
+    "offset": 0,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 1,
+    "self_overlap": 0.9642549526270456,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 2,
+    "self_overlap": 0.9250645994832042,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 3,
+    "self_overlap": 0.8850129198966408,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 4,
+    "self_overlap": 0.8484065460809647,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 5,
+    "self_overlap": 0.8173987941429802,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 7,
+    "self_overlap": 0.7510766580534023,
+    "identified": 8,
+    "of": 9
+   },
+   {
+    "offset": 10,
+    "self_overlap": 0.6571920757967269,
+    "identified": 8,
+    "of": 9
+   },
+   {
+    "offset": 15,
+    "self_overlap": 0.5133505598621878,
+    "identified": 4,
+    "of": 9
+   }
+  ]
+ },
+ "bands_offset_search": {
+  "corrections": 41,
+  "by_offset": [
+   {
+    "offset": 0,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 1,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 2,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 3,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 4,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 5,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 7,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 10,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   },
+   {
+    "offset": 15,
+    "self_overlap": 1.0,
+    "identified": 9,
+    "of": 9
+   }
+  ]
+ },
+ "band_gain_error": [
+  {
+   "gain_sd": 0.05,
+   "self_overlap": 0.9708440999138676,
+   "identified": 180,
+   "of": 180
+  },
+  {
+   "gain_sd": 0.1,
+   "self_overlap": 0.9336778639104222,
+   "identified": 180,
+   "of": 180
+  },
+  {
+   "gain_sd": 0.2,
+   "self_overlap": 0.8745047372954351,
+   "identified": 180,
+   "of": 180
+  },
+  {
+   "gain_sd": 0.3,
+   "self_overlap": 0.8304048234280793,
+   "identified": 179,
+   "of": 180
+  }
+ ],
+ "band_width_cm1": 7.142857142857143
+}

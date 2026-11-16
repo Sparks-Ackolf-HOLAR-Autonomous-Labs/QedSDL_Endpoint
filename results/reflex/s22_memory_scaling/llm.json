@@ -32,5 +32,16 @@
    "131072": 2748743680,
    "262144": 5433098240
   }
+ },
+ "Qwen3-4B-Instruct-2507": {
+  "weight_bytes": 8044982000,
+  "layers": 36,
+  "full_attention_layers": 36,
+  "linear_attention_layers": 0,
+  "kv_bytes_per_token": 147456,
+  "linear_state_bytes": 0,
+  "max_context": 262144,
+  "tokens_per_reading": 299,
+  "note": "added 2026-10-20 from config.json and safetensors sizes; tokens per reading counted with its tokenizer.json"
  }
 }

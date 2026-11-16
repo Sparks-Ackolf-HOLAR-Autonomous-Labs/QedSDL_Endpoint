@@ -1,0 +1,23 @@
+2026-10-22T22:28:57 START s21_cal10_lr3e-3 shift_scale=1 workers=4 args=s20 <repo>/results/shift1x/s21/s20 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 10 4 S20_ARMS=net_gru,net_peep,net_mog,net_tfm,net_memnet S20_TAG=_s21_lr3e-3 S20_LSTM=3e-3,600,16 load=15.63
+10 1 {'net_gru': 5.0, 'net_peep': 2.0, 'net_mog': 3.0, 'net_tfm': 0.0, 'net_memnet': 6.0} {'net_gru': 0.087, 'net_peep': 0.081, 'net_mog': 0.083, 'net_tfm': 0.076, 'net_memnet': 0.083} 63.3
+10 2 {'net_gru': 9.0, 'net_peep': 6.0, 'net_mog': 3.0, 'net_tfm': 4.0, 'net_memnet': 9.0} {'net_gru': 0.034, 'net_peep': 0.029, 'net_mog': 0.029, 'net_tfm': 0.034, 'net_memnet': 0.024} 54.1
+10 3 {'net_gru': 2.0, 'net_peep': 1.0, 'net_mog': 1.0, 'net_tfm': 2.0, 'net_memnet': 2.0} {'net_gru': 0.049, 'net_peep': 0.035, 'net_mog': 0.037, 'net_tfm': 0.035, 'net_memnet': 0.035} 62.5
+10 4 {'net_gru': 3.0, 'net_peep': 6.0, 'net_mog': 3.0, 'net_tfm': 3.0, 'net_memnet': 5.0} {'net_gru': 0.048, 'net_peep': 0.036, 'net_mog': 0.031, 'net_tfm': 0.037, 'net_memnet': 0.028} 66.4
+10 5 {'net_gru': 3.0, 'net_peep': 1.0, 'net_mog': 2.0, 'net_tfm': 3.0, 'net_memnet': 2.0} {'net_gru': 0.053, 'net_peep': 0.042, 'net_mog': 0.034, 'net_tfm': 0.039, 'net_memnet': 0.03} 52.2
+10 6 {'net_gru': 9.0, 'net_peep': 3.0, 'net_mog': 4.0, 'net_tfm': 6.0, 'net_memnet': 6.0} {'net_gru': 0.035, 'net_peep': 0.021, 'net_mog': 0.019, 'net_tfm': 0.024, 'net_memnet': 0.013} 53.1
+10 7 {'net_gru': 7.0, 'net_peep': 4.0, 'net_mog': 4.0, 'net_tfm': 3.0, 'net_memnet': 7.0} {'net_gru': 0.041, 'net_peep': 0.04, 'net_mog': 0.038, 'net_tfm': 0.036, 'net_memnet': 0.044} 56.3
+10 8 {'net_gru': 7.0, 'net_peep': 2.0, 'net_mog': 5.0, 'net_tfm': 0.0, 'net_memnet': 6.0} {'net_gru': 0.055, 'net_peep': 0.04, 'net_mog': 0.039, 'net_tfm': 0.036, 'net_memnet': 0.023} 53.3
+10 9 {'net_gru': 4.0, 'net_peep': 0.0, 'net_mog': 0.0, 'net_tfm': 0.0, 'net_memnet': 3.0} {'net_gru': 0.044, 'net_peep': 0.033, 'net_mog': 0.029, 'net_tfm': 0.038, 'net_memnet': 0.025} 59.0
+10 10 {'net_gru': 4.0, 'net_peep': 3.0, 'net_mog': 3.0, 'net_tfm': 3.0, 'net_memnet': 3.0} {'net_gru': 0.045, 'net_peep': 0.035, 'net_mog': 0.037, 'net_tfm': 0.04, 'net_memnet': 0.032} 57.8
+10 11 {'net_gru': 1.0, 'net_peep': 1.0, 'net_mog': 2.0, 'net_tfm': 1.0, 'net_memnet': 2.0} {'net_gru': 0.036, 'net_peep': 0.035, 'net_mog': 0.03, 'net_tfm': 0.035, 'net_memnet': 0.033} 63.9
+10 12 {'net_gru': 5.0, 'net_peep': 3.0, 'net_mog': 2.0, 'net_tfm': 2.0, 'net_memnet': 4.0} {'net_gru': 0.043, 'net_peep': 0.038, 'net_mog': 0.036, 'net_tfm': 0.037, 'net_memnet': 0.038} 73.3
+10 13 {'net_gru': 7.0, 'net_peep': 4.0, 'net_mog': 5.0, 'net_tfm': 3.0, 'net_memnet': 5.0} {'net_gru': 0.033, 'net_peep': 0.03, 'net_mog': 0.027, 'net_tfm': 0.035, 'net_memnet': 0.022} 64.0
+10 14 {'net_gru': 0.0, 'net_peep': 0.0, 'net_mog': 0.0, 'net_tfm': 0.0, 'net_memnet': 1.0} {'net_gru': 0.047, 'net_peep': 0.042, 'net_mog': 0.036, 'net_tfm': 0.04, 'net_memnet': 0.036} 66.6
+10 15 {'net_gru': 9.0, 'net_peep': 1.0, 'net_mog': 2.0, 'net_tfm': 3.0, 'net_memnet': 7.0} {'net_gru': 0.043, 'net_peep': 0.036, 'net_mog': 0.032, 'net_tfm': 0.039, 'net_memnet': 0.035} 61.5
+10 16 {'net_gru': 8.0, 'net_peep': 2.0, 'net_mog': 4.0, 'net_tfm': 2.0, 'net_memnet': 5.0} {'net_gru': 0.038, 'net_peep': 0.034, 'net_mog': 0.032, 'net_tfm': 0.028, 'net_memnet': 0.026} 58.7
+10 17 {'net_gru': 5.0, 'net_peep': 1.0, 'net_mog': 2.0, 'net_tfm': 0.0, 'net_memnet': 7.0} {'net_gru': 0.041, 'net_peep': 0.029, 'net_mog': 0.023, 'net_tfm': 0.026, 'net_memnet': 0.024} 58.4
+10 18 {'net_gru': 9.0, 'net_peep': 7.0, 'net_mog': 7.0, 'net_tfm': 3.0, 'net_memnet': 8.0} {'net_gru': 0.038, 'net_peep': 0.03, 'net_mog': 0.024, 'net_tfm': 0.03, 'net_memnet': 0.025} 51.8
+10 19 {'net_gru': 7.0, 'net_peep': 1.0, 'net_mog': 4.0, 'net_tfm': 2.0, 'net_memnet': 4.0} {'net_gru': 0.036, 'net_peep': 0.027, 'net_mog': 0.028, 'net_tfm': 0.025, 'net_memnet': 0.025} 62.0
+10 20 {'net_gru': 17.0, 'net_peep': 6.0, 'net_mog': 8.0, 'net_tfm': 7.0, 'net_memnet': 10.0} {'net_gru': 0.041, 'net_peep': 0.026, 'net_mog': 0.024, 'net_tfm': 0.034, 'net_memnet': 0.019} 58.5
+2026-10-22T22:35:28 END s21_cal10_lr3e-3 wall_s=391
+rc=0

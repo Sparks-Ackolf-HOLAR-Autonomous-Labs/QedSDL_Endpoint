@@ -1,0 +1,302 @@
+{
+ "mode": "stop",
+ "seed": 14,
+ "det": {
+  "fly|frozen3": {
+   "lost": 8,
+   "saved": 0,
+   "false_stops": 0,
+   "furnace_runs": 30.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.0597482962313935
+  },
+  "fly|frozen6": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.0797636667592558
+  },
+  "fly|frozen10": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.092317740653083
+  },
+  "fly|frozen15": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.0715194813976134
+  },
+  "fly|reset10": {
+   "lost": 6,
+   "saved": 4,
+   "false_stops": 0,
+   "furnace_runs": 27.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.0584292223467384
+  },
+  "fly|online": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.0762508147847796
+  },
+  "fly_best|frozen3": {
+   "lost": 8,
+   "saved": 0,
+   "false_stops": 0,
+   "furnace_runs": 30.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.1019445185714478
+  },
+  "fly_best|frozen6": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.0997778889658447
+  },
+  "fly_best|frozen10": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.0732291480895515
+  },
+  "fly_best|frozen15": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.0789369630570205
+  },
+  "fly_best|reset10": {
+   "lost": 6,
+   "saved": 4,
+   "false_stops": 0,
+   "furnace_runs": 27.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.1106762220623312
+  },
+  "fly_best|online": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.1147698518538232
+  },
+  "logreg_C1|frozen3": {
+   "lost": 8,
+   "saved": 0,
+   "false_stops": 0,
+   "furnace_runs": 30.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 0.0026459258690549716
+  },
+  "logreg_C1|frozen6": {
+   "lost": 3,
+   "saved": 7,
+   "false_stops": 0,
+   "furnace_runs": 24.75,
+   "gap": 0.004484585505203698,
+   "ms_per_check": 1.3910673704029048
+  },
+  "logreg_C1|frozen10": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.507409925950385
+  },
+  "logreg_C1|frozen15": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.5823783703833922
+  },
+  "logreg_C1|reset10": {
+   "lost": 5,
+   "saved": 5,
+   "false_stops": 0,
+   "furnace_runs": 26.25,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 0.9228000369519038
+  },
+  "logreg_C1|online": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.4876636295647823
+  },
+  "logreg_C10|frozen3": {
+   "lost": 8,
+   "saved": 0,
+   "false_stops": 0,
+   "furnace_runs": 30.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 0.002091851894403118
+  },
+  "logreg_C10|frozen6": {
+   "lost": 3,
+   "saved": 7,
+   "false_stops": 0,
+   "furnace_runs": 24.75,
+   "gap": 0.004484585505203698,
+   "ms_per_check": 1.3568937776182322
+  },
+  "logreg_C10|frozen10": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.596415074076234
+  },
+  "logreg_C10|frozen15": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.6108328147513222
+  },
+  "logreg_C10|reset10": {
+   "lost": 5,
+   "saved": 5,
+   "false_stops": 0,
+   "furnace_runs": 26.25,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 0.9844078148388589
+  },
+  "logreg_C10|online": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 1.6432018518807363
+  },
+  "knn|frozen3": {
+   "lost": 8,
+   "saved": 0,
+   "false_stops": 0,
+   "furnace_runs": 30.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 0.002405333361821249
+  },
+  "knn|frozen6": {
+   "lost": 6,
+   "saved": 3,
+   "false_stops": 6,
+   "furnace_runs": 23.25,
+   "gap": 0.012142832613843635,
+   "ms_per_check": 0.01669748147563681
+  },
+  "knn|frozen10": {
+   "lost": 6,
+   "saved": 3,
+   "false_stops": 6,
+   "furnace_runs": 23.25,
+   "gap": 0.012142832613843635,
+   "ms_per_check": 0.01972325932271175
+  },
+  "knn|frozen15": {
+   "lost": 6,
+   "saved": 4,
+   "false_stops": 3,
+   "furnace_runs": 24.75,
+   "gap": 0.011991729019590225,
+   "ms_per_check": 0.023304889004470572
+  },
+  "knn|reset10": {
+   "lost": 6,
+   "saved": 3,
+   "false_stops": 1,
+   "furnace_runs": 27.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 0.01164325924576217
+  },
+  "knn|online": {
+   "lost": 6,
+   "saved": 5,
+   "false_stops": 4,
+   "furnace_runs": 23.25,
+   "gap": 0.011991729019590225,
+   "ms_per_check": 0.02337540728250234
+  },
+  "mlp|frozen3": {
+   "lost": 8,
+   "saved": 0,
+   "false_stops": 0,
+   "furnace_runs": 30.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 0.0023845925372572513
+  },
+  "mlp|frozen6": {
+   "lost": 5,
+   "saved": 5,
+   "false_stops": 2,
+   "furnace_runs": 24.75,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 11.314727333296172
+  },
+  "mlp|frozen10": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 14.534998148081756
+  },
+  "mlp|frozen15": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 15.498450185246098
+  },
+  "mlp|reset10": {
+   "lost": 8,
+   "saved": 3,
+   "false_stops": 1,
+   "furnace_runs": 27.0,
+   "gap": 0.004484585505203698,
+   "ms_per_check": 9.920481185165247
+  },
+  "mlp|online": {
+   "lost": 4,
+   "saved": 6,
+   "false_stops": 0,
+   "furnace_runs": 25.5,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 15.59374766670603
+  },
+  "gp_alone": {
+   "lost": 8,
+   "saved": 0,
+   "false_stops": 0,
+   "furnace_runs": 30.0,
+   "gap": 0.0027332782892381946,
+   "ms_per_check": 0.00019792595493426133
+  }
+ }
+}

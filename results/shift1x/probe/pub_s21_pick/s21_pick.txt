@@ -1,0 +1,5 @@
+net_gru 1e-2
+net_peep 3e-3
+net_mog 3e-3
+net_tfm 1e-2
+net_memnet 3e-3

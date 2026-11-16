@@ -1,0 +1,7 @@
+net_gru lr1e-2 lost 18 mae 0.0385 lr3e-3 lost 24 mae 0.0417 -> 1e-2
+net_peep lr1e-2 lost 9 mae 0.0362 lr3e-3 lost 12 mae 0.0377 -> 1e-2
+net_mog lr1e-2 lost 12 mae 0.0336 lr3e-3 lost 12 mae 0.0352 -> 1e-2
+net_tfm lr1e-2 lost 6 mae 0.0324 lr3e-3 lost 10 mae 0.0362 -> 1e-2
+net_memnet lr1e-2 lost 16 mae 0.0315 lr3e-3 lost 19 mae 0.0314 -> 1e-2
+PICK net_gru=1e-2 net_peep=1e-2 net_mog=1e-2 net_tfm=1e-2 net_memnet=1e-2
+rc=0

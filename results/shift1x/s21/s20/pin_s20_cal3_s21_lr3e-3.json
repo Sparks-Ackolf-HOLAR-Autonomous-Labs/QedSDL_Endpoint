@@ -1,0 +1,19 @@
+{
+ "kind": "s20",
+ "script": "<repo>/src/reflex/s20_timecourse.py",
+ "argv": [
+  "s20_timecourse.py",
+  "<repo>/results/shift1x/s21/s20",
+  "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+  "3",
+  "4"
+ ],
+ "workers": 4,
+ "shift_scale": 1.0,
+ "p4_head": "975ff83f8",
+ "python": "3.13.15",
+ "start_method": "fork",
+ "s20_arms": "net_gru,net_peep,net_mog,net_tfm,net_memnet",
+ "s20_tag": "_s21_lr3e-3",
+ "s20_lstm": "3e-3,600,16"
+}
